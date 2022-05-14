@@ -13,6 +13,6 @@ public class TranslatorController {
     }
     
     private void juhu(){
-        //was geht ab
+        String s = "auf der welt";
     }
 }
