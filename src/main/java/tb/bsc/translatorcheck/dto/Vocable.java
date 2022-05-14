@@ -2,43 +2,22 @@ package tb.bsc.translatorcheck.dto;
 
 import java.util.List;
 
+/**
+ *
+ */
 public class Vocable {
-    private int id;
 
-    private int checkCounter;
-    private List<Eval> evals;
-    private int correctnesCounter;
+    private List<Vocable> vocables;
 
-
-    public int getCheckCounter() {
-        return checkCounter;
+    public Vocable(List<Vocable> vocables) {
+        this.vocables = vocables;
     }
 
-    public void setCheckCounter(int checkCounter) {
-        this.checkCounter = checkCounter;
+    public List<Vocable> getVocables() {
+        return vocables;
     }
 
-    public int getCorrectnesCounter() {
-        return correctnesCounter;
-    }
-
-    public void setCorrectnesCounter(int correctnesCounter) {
-        this.correctnesCounter = correctnesCounter;
-    }
-
-    public List<Eval> getEvals() {
-        return evals;
-    }
-
-    public void setEvals(List<Eval> evals) {
-        this.evals = evals;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+    public void setVocables(List<Vocable> vocables) {
+        this.vocables = vocables;
     }
 }
