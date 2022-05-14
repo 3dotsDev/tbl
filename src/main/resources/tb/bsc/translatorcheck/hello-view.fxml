@@ -19,12 +19,12 @@
       <Button layoutX="503.0" layoutY="180.0" mnemonicParsing="false" text="Change" />
       <ImageView fitHeight="45.0" fitWidth="74.0" layoutX="415.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../Users/dalmaso/Downloads/flag-EN.png" />
+            <Image url="@flag-EN.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="45.0" fitWidth="74.0" layoutX="415.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../Users/dalmaso/Downloads/flag-DE.png" />
+            <Image url="@flag-DE.png" />
          </image>
       </ImageView>
       <Label layoutX="517.0" layoutY="14.0" text="12   OK" textFill="#11cd43" />
