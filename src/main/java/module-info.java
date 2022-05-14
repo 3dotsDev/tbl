@@ -9,6 +9,7 @@ module tb.bsc.translatorcheck {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
+    requires com.google.gson;
 
     opens tb.bsc.translatorcheck to javafx.fxml;
     exports tb.bsc.translatorcheck;

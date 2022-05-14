@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vocabulary>
+    <vocable id="1">
+        <eval lang="de">Blau</eval>
+        <eval lang="en" >Blue</eval>
+        <checkcounter>10</checkcounter>
+        <correctnesCounter>5</correctnesCounter>
+    </vocable>
+    <vocable id="2">
+        <eval lang="de" >Auto</eval>
+        <eval lang="en" >Car</eval>
+        <checkcounter>8</checkcounter>
+        <correctnesCounter>2</correctnesCounter>
+    </vocable>
+    <vocable id="3">
+        <eval lang="de">Lastkraftwagen</eval>
+        <eval lang="de" >Lastwagen</eval>
+        <eval lang="de" >LKW</eval>
+        <eval lang="en" >Truck</eval>
+        <checkcounter>8</checkcounter>
+        <correctnesCounter>2</correctnesCounter>
+    </vocable>
+    <vocable id="4">
+        <eval lang="de" >Vokabel</eval>
+        <eval lang="en" >Vocab</eval>
+        <eval lang="en" >Vocabulary</eval>
+        <eval lang="en" >Vocable</eval>
+        <checkcounter>2</checkcounter>
+        <correctnesCounter>2</correctnesCounter>
+    </vocable>
+</vocabulary>

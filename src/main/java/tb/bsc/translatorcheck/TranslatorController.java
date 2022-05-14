@@ -3,7 +3,7 @@ package tb.bsc.translatorcheck;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class TranslatorController {
     @FXML
     private Label welcomeText;
 
