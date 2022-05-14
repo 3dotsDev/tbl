@@ -11,4 +11,8 @@ public class TranslatorController {
     protected void onHelloButtonClick() {
         welcomeText.setText("Welcome to JavaFX Application!");
     }
+    
+    private void juhu(){
+        //was geht ab
+    }
 }
