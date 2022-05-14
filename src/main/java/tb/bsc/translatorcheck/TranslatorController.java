@@ -13,6 +13,12 @@ public class TranslatorController {
     }
     
     private void juhu(){
+        //was geht ab
+        int leckMichNochmal = 1;
+    }
+
+    private void juhu2(){
+        //was geht ab
         String s = "auf der welt";
     }
 }
