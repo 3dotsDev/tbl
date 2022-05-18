@@ -1,82 +1,80 @@
 {
-  "vocabulary": {
-    "vocable": [
-      {
-        "id": 1,
-        "eval": [
-          {
-            "lang": "de",
-            "text": "Blau"
-          },
-          {
-            "lang": "en",
-            "text": "Blue"
-          }
-        ],
-        "checkcounter": 10,
-        "correctnesCounter": 5
-      },
-      {
-        "id": 2,
-        "eval": [
-          {
-            "lang": "de",
-            "text": "Auto"
-          },
-          {
-            "lang": "en",
-            "text": "Car"
-          }
-        ],
-        "checkcounter": 8,
-        "correctnesCounter": 2
-      },
-      {
-        "id": 3,
-        "eval": [
-          {
-            "lang": "de",
-            "text": "Lastkraftwagen"
-          },
-          {
-            "lang": "de",
-            "text": "Lastwagen"
-          },
-          {
-            "lang": "de",
-            "text": "LKW"
-          },
-          {
-            "lang": "en",
-            "text": "Truck"
-          }
-        ],
-        "checkcounter": 8,
-        "correctnesCounter": 2
-      },
-      {
-        "id": 4,
-        "eval": [
-          {
-            "lang": "de",
-            "text": "Vokabel"
-          },
-          {
-            "lang": "en",
-            "text": "Vocab"
-          },
-          {
-            "lang": "en",
-            "text": "Vocabulary"
-          },
-          {
-            "lang": "en",
-            "text": "Vocable"
-          }
-        ],
-        "checkcounter": 2,
-        "correctnesCounter": 2
-      }
-    ]
-  }
+  "vocable": [
+    {
+      "id": 1,
+      "eval": [
+        {
+          "lang": "de",
+          "text": "Blau"
+        },
+        {
+          "lang": "en",
+          "text": "Blue"
+        }
+      ],
+      "checkcounter": 10,
+      "correctnesCounter": 5
+    },
+    {
+      "id": 2,
+      "eval": [
+        {
+          "lang": "de",
+          "text": "Auto"
+        },
+        {
+          "lang": "en",
+          "text": "Car"
+        }
+      ],
+      "checkcounter": 8,
+      "correctnesCounter": 2
+    },
+    {
+      "id": 3,
+      "eval": [
+        {
+          "lang": "de",
+          "text": "Lastkraftwagen"
+        },
+        {
+          "lang": "de",
+          "text": "Lastwagen"
+        },
+        {
+          "lang": "de",
+          "text": "LKW"
+        },
+        {
+          "lang": "en",
+          "text": "Truck"
+        }
+      ],
+      "checkcounter": 8,
+      "correctnesCounter": 2
+    },
+    {
+      "id": 4,
+      "eval": [
+        {
+          "lang": "de",
+          "text": "Vokabel"
+        },
+        {
+          "lang": "en",
+          "text": "Vocab"
+        },
+        {
+          "lang": "en",
+          "text": "Vocabulary"
+        },
+        {
+          "lang": "en",
+          "text": "Vocable"
+        }
+      ],
+      "checkcounter": 2,
+      "correctnesCounter": 2
+    }
+  ]
 }
