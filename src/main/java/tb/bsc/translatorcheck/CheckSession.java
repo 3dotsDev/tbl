@@ -3,6 +3,7 @@ package tb.bsc.translatorcheck;
 import tb.bsc.translatorcheck.logic.ValueLoader;
 import tb.bsc.translatorcheck.logic.dto.Vocab;
 
+import java.nio.file.Path;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.List;
@@ -13,8 +14,8 @@ public class CheckSession {
     private List<Vocab> vocabulary;
     private Instant end = null;
 
-    public CheckSession() {
-        vocabulary = new ValueLoader().loadData();
+    public CheckSession(Path dataFilePath) {
+        vocabulary = new ValueLoader().loadData(dataFilePath);
         start = java.time.Instant.now(); // beim initialisieren der session wird automatisch der timer gestartet
     }
 

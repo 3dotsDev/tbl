@@ -9,16 +9,14 @@ import tb.bsc.translatorcheck.logic.dto.Vocabulary;
 import java.io.File;
 import java.net.URL;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.List;
 
 public class ValueLoader {
 
-    public List<Vocab> loadData() {
+    public List<Vocab> loadData(Path dataFilePath) {
         try {
-
-            URL url = TranslatorApplication.class.getResource("data.json");
-            File file = new File(url.toURI());
-            byte[] jsonData = Files.readAllBytes(file.toPath());
+            byte[] jsonData = Files.readAllBytes(dataFilePath);
             ObjectMapper objectMapper = new ObjectMapper();
             objectMapper.configure(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY,true);
             Vocabulary vocable = objectMapper.readValue(jsonData, Vocabulary.class);

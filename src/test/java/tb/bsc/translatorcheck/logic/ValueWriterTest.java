@@ -1,17 +1,21 @@
 package tb.bsc.translatorcheck.logic;
 
 import org.junit.jupiter.api.Test;
+import tb.bsc.translatorcheck.TranslatorApplication;
 import tb.bsc.translatorcheck.logic.dto.Suggestions;
 import tb.bsc.translatorcheck.logic.dto.Vocab;
 import tb.bsc.translatorcheck.logic.dto.Vocabulary;
 
+import java.io.File;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
 class ValueWriterTest {
 
     @Test
-    void writeData() {
+    void loadData() throws URISyntaxException {
         ValueWriter vloader = new ValueWriter();
 
         Vocabulary v = new Vocabulary();
@@ -58,6 +62,9 @@ class ValueWriterTest {
 
         v.setData(vList);
 
-        vloader.writeData(v);
+        URL url = TranslatorApplication.class.getResource("data.json");
+        File file = new File(url.toURI());
+
+        vloader.writeData(v, file.toPath());
     }
 }
