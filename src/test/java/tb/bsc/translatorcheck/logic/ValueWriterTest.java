@@ -11,7 +11,7 @@ import java.util.List;
 class ValueWriterTest {
 
     @Test
-    void loadData() {
+    void writeData() {
         ValueWriter vloader = new ValueWriter();
 
         Vocabulary v = new Vocabulary();
