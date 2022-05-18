@@ -29,7 +29,7 @@
       </ImageView>
       <Label layoutX="517.0" layoutY="14.0" text="12   OK" textFill="#11cd43" />
       <Label layoutX="517.0" layoutY="32.0" text="44   FEHLER" textAlignment="RIGHT" textFill="#cc1212" />
-      <Button layoutX="74.0" layoutY="331.0" mnemonicParsing="false" text="Administration" />
+      <Button fx:id="btnAdmin" layoutX="74.0" layoutY="331.0" mnemonicParsing="false" onAction="#btnAdminOnClick" text="Administration" />
       <TextField layoutX="71.0" layoutY="143.0" prefHeight="37.0" prefWidth="329.0" promptText="en" text="en">
          <font>
             <Font size="14.0" />

@@ -14,7 +14,7 @@ import java.util.List;
 
 public class CheckSession {
 
-    private Instant start;
+    private final Instant start;
     private List<Vocab> vocabulary;
     private Instant end = null;
 
