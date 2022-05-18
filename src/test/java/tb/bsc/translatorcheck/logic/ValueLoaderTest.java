@@ -6,6 +6,7 @@ import tb.bsc.translatorcheck.TranslatorApplication;
 import tb.bsc.translatorcheck.logic.dto.Vocab;
 
 import java.io.File;
+import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.List;
@@ -13,7 +14,7 @@ import java.util.List;
 class ValueLoaderTest {
 
     @Test
-    void loadData() throws URISyntaxException {
+    void loadData() throws URISyntaxException, IOException {
         ValueLoader vloader = new ValueLoader();
 
         URL url = TranslatorApplication.class.getResource("data.json");

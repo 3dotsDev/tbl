@@ -3,6 +3,7 @@ package tb.bsc.translatorcheck;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import tb.bsc.translatorcheck.Exception.TranslatorException;
 
 import java.io.File;
 import java.net.URISyntaxException;
@@ -21,7 +22,7 @@ public class CheckSessionTest {
     }
 
     @Test
-    public void checkSessionStart() throws InterruptedException {
+    public void checkSessionStart() throws InterruptedException, TranslatorException {
         CheckSession session = new CheckSession(testFilePath);
         Thread.sleep(10); // take time to get sure the timelaps expand
 
@@ -29,7 +30,7 @@ public class CheckSessionTest {
     }
 
     @Test
-    public void checkSessionEnd() throws InterruptedException {
+    public void checkSessionEnd() throws InterruptedException, TranslatorException {
         CheckSession session = new CheckSession(testFilePath);
         Thread.sleep(10); // take time to get sure the timelaps expand
         session.stopSession();
@@ -37,10 +38,8 @@ public class CheckSessionTest {
     }
 
     @Test
-    public void checkSessionData() {
+    public void checkSessionData() throws TranslatorException {
         CheckSession session = new CheckSession(testFilePath);
         Assertions.assertEquals(session.getVocabulary().size(), 2);
     }
-
-
 }
