@@ -13,6 +13,8 @@ module tb.bsc.translatorcheck {
     requires com.fasterxml.jackson.databind;
 
 
+
+    opens tb.bsc.translatorcheck.logic.dto to com.fasterxml.jackson.databind;
     opens tb.bsc.translatorcheck to javafx.fxml;
     exports tb.bsc.translatorcheck;
 }

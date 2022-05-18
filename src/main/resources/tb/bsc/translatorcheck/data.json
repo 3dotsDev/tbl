@@ -1,80 +1,38 @@
 {
-  "vocable": [
+  "data": [
     {
-      "id": 1,
-      "eval": [
+      "suggestions": [
         {
+          "id": 1,
+          "lang": "de",
+          "text": "Hallo"
+        },
+        {
+          "id": 2,
+          "lang": "en",
+          "text": "Hello"
+        }
+      ],
+      "checkcounter": 10,
+      "correctnesCounter": 2,
+      "id": 1
+    },
+    {
+      "suggestions": [
+        {
+          "id": 1,
           "lang": "de",
           "text": "Blau"
         },
         {
+          "id": 2,
           "lang": "en",
           "text": "Blue"
         }
       ],
       "checkcounter": 10,
-      "correctnesCounter": 5
-    },
-    {
-      "id": 2,
-      "eval": [
-        {
-          "lang": "de",
-          "text": "Auto"
-        },
-        {
-          "lang": "en",
-          "text": "Car"
-        }
-      ],
-      "checkcounter": 8,
-      "correctnesCounter": 2
-    },
-    {
-      "id": 3,
-      "eval": [
-        {
-          "lang": "de",
-          "text": "Lastkraftwagen"
-        },
-        {
-          "lang": "de",
-          "text": "Lastwagen"
-        },
-        {
-          "lang": "de",
-          "text": "LKW"
-        },
-        {
-          "lang": "en",
-          "text": "Truck"
-        }
-      ],
-      "checkcounter": 8,
-      "correctnesCounter": 2
-    },
-    {
-      "id": 4,
-      "eval": [
-        {
-          "lang": "de",
-          "text": "Vokabel"
-        },
-        {
-          "lang": "en",
-          "text": "Vocab"
-        },
-        {
-          "lang": "en",
-          "text": "Vocabulary"
-        },
-        {
-          "lang": "en",
-          "text": "Vocable"
-        }
-      ],
-      "checkcounter": 2,
-      "correctnesCounter": 2
+      "correctnesCounter": 2,
+      "id": 2
     }
   ]
 }
