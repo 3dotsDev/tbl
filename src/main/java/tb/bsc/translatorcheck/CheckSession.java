@@ -14,6 +14,7 @@ import java.util.List;
 
 public class CheckSession {
 
+    private SessionState currentState = SessionState.NULL;
     private final Instant start;
     private List<Vocab> vocabulary;
     private Instant end = null;
@@ -42,11 +43,13 @@ public class CheckSession {
             throw new TranslatorException("Das Datenfile kann nicht gelesen werden");
         }
         start = java.time.Instant.now(); // beim initialisieren der session wird automatisch der timer gestartet
+        this.currentState = SessionState.RUNNING;
     }
 
 
     public void stopSession() {
         end = Instant.now();
+        this.currentState = SessionState.STOPPED;
     }
 
     /**
@@ -65,5 +68,9 @@ public class CheckSession {
 
     public List<Vocab> getVocabulary() {
         return vocabulary;
+    }
+
+    public SessionState getCurrentState() {
+        return currentState;
     }
 }

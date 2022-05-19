@@ -14,7 +14,7 @@
       <Pane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <Button fx:id="btnSession" layoutX="14.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnSessionOnClick" text="Stop" />
-            <Label layoutX="72.0" layoutY="29.0" text="01:12:05" textAlignment="RIGHT" />
+            <Label fx:id="lblTimer" layoutX="72.0" layoutY="29.0" text="01:12:05" textAlignment="RIGHT" />
          </children></Pane>
       <Button layoutX="503.0" layoutY="180.0" mnemonicParsing="false" text="Change" />
       <ImageView fitHeight="45.0" fitWidth="74.0" layoutX="415.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
