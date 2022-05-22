@@ -13,29 +13,31 @@
    <children>
       <Pane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Button fx:id="btnSession" layoutX="14.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnSessionOnClick" text="Stop" />
-            <Label fx:id="lblTimer" layoutX="72.0" layoutY="29.0" text="01:12:05" textAlignment="RIGHT" />
+            <Button fx:id="btnSession" layoutX="14.0" layoutY="24.0" minWidth="60.0" mnemonicParsing="false" onAction="#btnSessionOnClick" text="Stop" />
+            <Label fx:id="lblTimer" layoutX="104.0" layoutY="28.0" minWidth="100.0" text="01:12:05" textAlignment="RIGHT" />
+            <Label alignment="CENTER_RIGHT" layoutX="486.0" layoutY="16.0" minWidth="40.0" text="1000" textFill="#11cd43" />
+            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="486.0" layoutY="37.0" minWidth="40.0" text="2000" textAlignment="RIGHT" textFill="#cc1212" />
+            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="512.0" layoutY="37.0" minWidth="60.0" text="FEHLER" textAlignment="RIGHT" textFill="#cc1212" />
          </children></Pane>
-      <Button layoutX="503.0" layoutY="180.0" mnemonicParsing="false" text="Change" />
-      <ImageView fitHeight="45.0" fitWidth="74.0" layoutX="415.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+      <Button fx:id="btnChange" layoutX="503.0" layoutY="180.0" mnemonicParsing="false" onAction="#btnChangeOnKlick" text="Change" />
+      <ImageView fx:id="imgEN" fitHeight="45.0" fitWidth="74.0" layoutX="415.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@flag-EN.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="45.0" fitWidth="74.0" layoutX="415.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgDE" fitHeight="45.0" fitWidth="74.0" layoutX="415.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@flag-DE.png" />
          </image>
       </ImageView>
-      <Label layoutX="517.0" layoutY="14.0" text="12   OK" textFill="#11cd43" />
-      <Label layoutX="517.0" layoutY="32.0" text="44   FEHLER" textAlignment="RIGHT" textFill="#cc1212" />
+      <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="512.0" layoutY="14.0" minWidth="60.0" text="Ok" textAlignment="RIGHT" textFill="#11cd43" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="14.0" />
       <Button fx:id="btnAdmin" layoutX="74.0" layoutY="331.0" mnemonicParsing="false" onAction="#btnAdminOnClick" text="Administration" />
-      <TextField layoutX="71.0" layoutY="143.0" prefHeight="37.0" prefWidth="329.0" promptText="en" text="en">
+      <TextField fx:id="txtEN" layoutX="71.0" layoutY="143.0" onKeyPressed="#txtENKeyPressed" prefHeight="40.0" prefWidth="330.0" promptText="en" text="en">
          <font>
             <Font size="14.0" />
          </font>
       </TextField>
-      <TextField layoutX="74.0" layoutY="211.0" prefHeight="37.0" prefWidth="329.0" promptText="de" text="de">
+      <TextField fx:id="txtDE" layoutX="71.0" layoutY="211.0" onKeyPressed="#txtDEKeyPressed" prefHeight="40.0" prefWidth="330.0" promptText="de" text="de">
          <font>
             <Font size="14.0" />
          </font>

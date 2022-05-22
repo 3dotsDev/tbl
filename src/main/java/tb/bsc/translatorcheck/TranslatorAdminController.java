@@ -9,5 +9,9 @@ public class TranslatorAdminController {
 
     @FXML
     private TableView<?> tblData;
+
+    public void initialize() {
+
+    }
 }
 
