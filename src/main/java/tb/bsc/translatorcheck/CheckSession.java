@@ -70,13 +70,16 @@ public class CheckSession {
     }
 
     private void getRandomVocab() {
-        if (hardeningCount % 4 != 0) { // modulo -> nur beim 3 durchlauf wird nicht auf die lottery zugegriffen sondern auf die werte welche am schlechtesten bewertet sind
+        if (hardeningCount % 3 != 0) { // modulo -> nur beim 3 durchlauf wird nicht auf die lottery zugegriffen sondern auf die werte welche am schlechtesten bewertet sind
             doHardening();
         } else {
+            System.out.println("Hardening % 5");
             currentVocabIndex = ValueHelper.getLottery(vocabulary.size(), currentVocabIndex);
             hardeningCount = hardeningCount + 1;
         }
+        System.out.println("Current Vocab Index" + currentVocabIndex );
         currentVocab = vocabulary.get(currentVocabIndex);
+        System.out.println("Current Vocab ID Value" + currentVocab.getId() );
     }
 
     /**
@@ -84,9 +87,11 @@ public class CheckSession {
      */
     private void doHardening() {
         if (hardeningCount % 2 == 0) {
+            System.out.println("hardening % 2");
             Optional<Vocab> vocab = vocabulary.stream().max(Comparator.comparing(c -> c.getCheckcounter() - c.getCorrectnesCounter())); // anzahl pruefungen - anzahl korrekte Antworten = falsche Antworten sortiert
             getIndexAndCheckLastUse(vocab);
         } else {
+            System.out.println("hardening NOT % 2");
             Optional<Vocab> vocab = vocabulary.stream().min(Comparator.comparing(Vocab::getCheckcounter)); // anzahl pruefungen --> sonst gehen die neuen sachen unter
             getIndexAndCheckLastUse(vocab);
         }
@@ -94,13 +99,17 @@ public class CheckSession {
 
     private void getIndexAndCheckLastUse(Optional<Vocab> vocab) {
         if (vocab.isPresent()) { // wenn etwas gfunden wurde
-            if (vocabulary.indexOf(vocab) == currentVocabIndex) { // wenns das selbe ist wie eben schon geprueft machts keinen sinn -> lottery
+            if (vocabulary.indexOf(vocab.get()) == currentVocabIndex) { // wenns das selbe ist wie eben schon geprueft machts keinen sinn -> lottery
                 currentVocabIndex = ValueHelper.getLottery(vocabulary.size(), currentVocabIndex);
                 //Hardening wird absichtlich nicht hochgezaehlt da der sinn der sache nicht erfuellt wurde
+                System.out.println("Lottery");
             } else {
-                currentVocabIndex = vocabulary.indexOf(vocab); // der schlechteste wird geprueft
+                currentVocabIndex = vocabulary.indexOf(vocab.get()); // der schlechteste wird geprueft
+                System.out.println("Hardening");
                 hardeningCount = hardeningCount + 1;
             }
+        }else{ // im Fehlerfall und vocab NICHT present ist
+            currentVocabIndex = ValueHelper.getLottery(vocabulary.size(), currentVocabIndex);
         }
     }
 
