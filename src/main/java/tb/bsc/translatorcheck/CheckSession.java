@@ -3,6 +3,7 @@ package tb.bsc.translatorcheck;
 import tb.bsc.translatorcheck.Exception.TranslatorException;
 import tb.bsc.translatorcheck.logic.ValueHelper;
 import tb.bsc.translatorcheck.logic.ValueLoader;
+import tb.bsc.translatorcheck.logic.ValueWriter;
 import tb.bsc.translatorcheck.logic.dto.Suggestions;
 import tb.bsc.translatorcheck.logic.dto.Vocab;
 import tb.bsc.translatorcheck.logic.dto.Vocabulary;
@@ -16,9 +17,10 @@ import java.time.Instant;
 import java.util.List;
 import java.util.Random;
 
-public class CheckSession {
+public class CheckSession implements AutoCloseable {
 
     private SessionState currentState = SessionState.STOPPED;
+    private Path dataFilePath;
     private Instant start;
     private List<Vocab> vocabulary;
     private Instant end = null;
@@ -28,7 +30,8 @@ public class CheckSession {
 
 
     public CheckSession(Path dataFilePath) throws TranslatorException {
-        File dataFile = new File(String.valueOf(dataFilePath));
+        this.dataFilePath = dataFilePath;
+        File dataFile = new File(String.valueOf(this.dataFilePath));
         System.out.println(dataFile.getAbsolutePath());
         System.out.println(dataFile.toPath().getFileName());
         if (!dataFile.exists()) {
@@ -102,5 +105,11 @@ public class CheckSession {
 
     public void setNextVocab() {
         getRandomVocab();
+    }
+
+    @Override
+    public void close() throws Exception {
+        ValueWriter valueWriter = new ValueWriter();
+        valueWriter.writeData(vocabulary,this.dataFilePath);
     }
 }

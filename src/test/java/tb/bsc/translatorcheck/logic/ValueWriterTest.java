@@ -18,8 +18,6 @@ class ValueWriterTest {
     void loadData() throws URISyntaxException {
         ValueWriter vloader = new ValueWriter();
 
-        Vocabulary v = new Vocabulary();
-
         List<Vocab> vList = new ArrayList<>();
 //        var v1 = new Vocabulary();
         Vocab v2_1 = new Vocab();
@@ -39,7 +37,6 @@ class ValueWriterTest {
         v2_1.setCorrectnesCounter(2);
         v2_1.setId(1);
         vList.add(v2_1);
-//        v1.setVocable(v2_1);
 
         Vocab v2_2 = new Vocab();
         List<Suggestions> sugesstionsList2 = new ArrayList<>();
@@ -58,13 +55,10 @@ class ValueWriterTest {
         v2_2.setCorrectnesCounter(2);
         v2_2.setId(2);
         vList.add(v2_2);
-//        v1.setVocable(v2_2)
-
-        v.setData(vList);
 
         URL url = TranslatorApplication.class.getResource("data.json");
         File file = new File(url.toURI());
 
-        vloader.writeData(v, file.toPath());
+        vloader.writeData(vList, file.toPath());
     }
 }

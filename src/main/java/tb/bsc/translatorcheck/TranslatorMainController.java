@@ -63,14 +63,7 @@ public class TranslatorMainController {
         txtDE.setDisable(true);
         txtEN.setDisable(true);
         btnChange.setDisable(true);
-        try {
-            session = new CheckSession(Path.of("data.json"));
-            btnSession.setDisable(false);
-        } catch (TranslatorException e) {
-            btnSession.setDisable(true);
-            ControllerHelper.createErrorAlert(e.getMessage()).show();
-        }
-        session.resetSession();
+        btnSession.setDisable(false);
     }
 
     @FXML
@@ -92,7 +85,8 @@ public class TranslatorMainController {
     @FXML
     void btnSessionOnClick(ActionEvent event) throws TranslatorException {
         try {
-            if (session.getCurrentState() == SessionState.STOPPED) {
+            if (session == null || session.getCurrentState() == SessionState.STOPPED) {
+                session = new CheckSession(Path.of("data.json"));
                 session.resetSession();
                 session.startSession();
                 btnSession.setText("Stopp");
@@ -109,13 +103,14 @@ public class TranslatorMainController {
                 txtDE.setDisable(true);
                 txtEN.setDisable(true);
                 session.stopSession();
+                session.close();
                 uiTimeGetter();
                 btnChange.setDisable(true);
                 btnSession.setText("Start");
             } else {
                 throw new TranslatorException("Sessionstate is not recognizable");
             }
-        } catch (TranslatorException e) {
+        } catch (Exception e) {
             ControllerHelper.createErrorAlert(e.getMessage()).show();
         }
     }
