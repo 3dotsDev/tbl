@@ -15,8 +15,8 @@
          <children>
             <Button fx:id="btnSession" layoutX="14.0" layoutY="24.0" minWidth="60.0" mnemonicParsing="false" onAction="#btnSessionOnClick" text="Stop" />
             <Label fx:id="lblTimer" layoutX="104.0" layoutY="28.0" minWidth="100.0" text="01:12:05" textAlignment="RIGHT" />
-            <Label alignment="CENTER_RIGHT" layoutX="486.0" layoutY="16.0" minWidth="40.0" text="1000" textFill="#11cd43" />
-            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="486.0" layoutY="37.0" minWidth="40.0" text="2000" textAlignment="RIGHT" textFill="#cc1212" />
+            <Label fx:id="lblOkCount" alignment="CENTER_RIGHT" layoutX="486.0" layoutY="16.0" minWidth="40.0" text="1000" textFill="#11cd43" />
+            <Label fx:id="lblFailCount" alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="486.0" layoutY="37.0" minWidth="40.0" text="2000" textAlignment="RIGHT" textFill="#cc1212" />
             <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="512.0" layoutY="37.0" minWidth="60.0" text="FEHLER" textAlignment="RIGHT" textFill="#cc1212" />
          </children></Pane>
       <Button fx:id="btnChange" layoutX="503.0" layoutY="180.0" mnemonicParsing="false" onAction="#btnChangeOnKlick" text="Change" />
@@ -32,12 +32,12 @@
       </ImageView>
       <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="512.0" layoutY="14.0" minWidth="60.0" text="Ok" textAlignment="RIGHT" textFill="#11cd43" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="14.0" />
       <Button fx:id="btnAdmin" layoutX="74.0" layoutY="331.0" mnemonicParsing="false" onAction="#btnAdminOnClick" text="Administration" />
-      <TextField fx:id="txtEN" layoutX="71.0" layoutY="143.0" onKeyPressed="#txtENKeyPressed" prefHeight="40.0" prefWidth="330.0" promptText="en" text="en">
+      <TextField fx:id="txtEN" layoutX="71.0" layoutY="143.0" onKeyPressed="#txtENTabKeyPressed" prefHeight="40.0" prefWidth="330.0" promptText="en" text="en">
          <font>
             <Font size="14.0" />
          </font>
       </TextField>
-      <TextField fx:id="txtDE" layoutX="71.0" layoutY="211.0" onKeyPressed="#txtDEKeyPressed" prefHeight="40.0" prefWidth="330.0" promptText="de" text="de">
+      <TextField fx:id="txtDE" layoutX="71.0" layoutY="211.0" onKeyPressed="#txtDETabKeyPressed" prefHeight="40.0" prefWidth="330.0" promptText="de" text="de">
          <font>
             <Font size="14.0" />
          </font>

@@ -1,6 +1,7 @@
 package tb.bsc.translatorcheck;
 
 import tb.bsc.translatorcheck.Exception.TranslatorException;
+import tb.bsc.translatorcheck.logic.ValueHelper;
 import tb.bsc.translatorcheck.logic.ValueLoader;
 import tb.bsc.translatorcheck.logic.dto.Suggestions;
 import tb.bsc.translatorcheck.logic.dto.Vocab;
@@ -23,7 +24,7 @@ public class CheckSession {
     private Instant end = null;
 
     private Vocab currentVocab;
-
+    private int currentVocabIndex;
 
 
     public CheckSession(Path dataFilePath) throws TranslatorException {
@@ -51,17 +52,21 @@ public class CheckSession {
         }
     }
 
-    public void resetSession(){
+    public void resetSession() {
         start = null;
         end = null;
         this.currentState = SessionState.STOPPED;
     }
 
-    public void startSession(){
-        Random rand = new Random();
-        currentVocab = vocabulary.get(rand.nextInt(vocabulary.size()));
+    public void startSession() {
+        getRandomVocab();
         start = java.time.Instant.now(); // timer gestartet
         this.currentState = SessionState.RUNNING;
+    }
+
+    private void getRandomVocab() {
+        currentVocabIndex = ValueHelper.getLottery(vocabulary.size(), currentVocabIndex);
+        currentVocab = vocabulary.get(currentVocabIndex);
     }
 
     public void stopSession() {
@@ -93,5 +98,9 @@ public class CheckSession {
 
     public Vocab getCurrentVocab() {
         return currentVocab;
+    }
+
+    public void setNextVocab() {
+        getRandomVocab();
     }
 }

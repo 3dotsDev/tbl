@@ -1,35 +1,27 @@
 package tb.bsc.translatorcheck;
 
-import javafx.animation.KeyFrame;
-import javafx.animation.Timeline;
 import javafx.application.Platform;
-import javafx.beans.property.IntegerProperty;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
+import javafx.beans.property.SimpleIntegerProperty;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
-import javafx.scene.layout.Border;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-import javafx.util.Duration;
 import tb.bsc.translatorcheck.Exception.TranslatorException;
+import tb.bsc.translatorcheck.logic.ValueHelper;
 import tb.bsc.translatorcheck.logic.dto.Suggestions;
 import tb.bsc.translatorcheck.logic.dto.Vocab;
 
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.List;
-import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.concurrent.TimeUnit;
@@ -37,6 +29,9 @@ import java.util.concurrent.TimeUnit;
 public class TranslatorMainController {
 
     private CheckSession session = null;
+    private int currentSuggestionIndex = 0;
+    private SimpleIntegerProperty failCount = new SimpleIntegerProperty(0);
+    private SimpleIntegerProperty okCount = new SimpleIntegerProperty(0);
 
     Timer tm = new java.util.Timer();
 
@@ -55,9 +50,16 @@ public class TranslatorMainController {
     @FXML
     private Label lblTimer;
 
+    @FXML
+    private Label lblOkCount;
+    @FXML
+    private Label lblFailCount;
+
     public void initialize() {
+        lblFailCount.textProperty().bind(failCount.asString());
+        lblOkCount.textProperty().bind(okCount.asString());
         btnSession.setText("Start");
-        lblTimer.setText(getTimme(0));
+        lblTimer.setText("Minutes: " + 0 + " : " + 0);
         txtDE.setDisable(true);
         txtEN.setDisable(true);
         btnChange.setDisable(true);
@@ -94,16 +96,21 @@ public class TranslatorMainController {
                 session.resetSession();
                 session.startSession();
                 btnSession.setText("Stopp");
-                txtDE.setDisable(false);
-                txtDE.setText(getSuggestionRand());
-                btnChange.setDisable(!btnChange.isDisable());
-                tm.schedule(new subtimer(), 1000, 1000);
+                txtDE.setDisable(true);
+                txtDE.setText(getSuggestionRand("de"));
+                txtEN.setDisable(false);
+                txtEN.setText("");
+                btnChange.setDisable(false);
+                failCount.setValue(0);
+                okCount.setValue(0);
+                tm.schedule(new UiTimer(), 1000, 1000);
             } else if (session.getCurrentState() == SessionState.RUNNING) {
                 btnChange.setDisable(!btnChange.isDisable());
                 txtDE.setDisable(true);
                 txtEN.setDisable(true);
                 session.stopSession();
-                lblTimer.setText(getTimme(session.getTimeElapsed()));
+                uiTimeGetter();
+                btnChange.setDisable(true);
                 btnSession.setText("Start");
             } else {
                 throw new TranslatorException("Sessionstate is not recognizable");
@@ -113,65 +120,89 @@ public class TranslatorMainController {
         }
     }
 
-    private String getSuggestionRand() {
-        Vocab currentVocab = session.getCurrentVocab();
-        List<Suggestions> currentSuggestions = currentVocab.getSuggestions().stream().filter(c -> c.getLang().equalsIgnoreCase("de")).toList();
-        Random rand = new Random();
-        return currentSuggestions.get(rand.nextInt(currentSuggestions.size())).getText();
+    private void uiTimeGetter() {
+        long currentSessionTime = session.getTimeElapsed();
+        long minutes = TimeUnit.MILLISECONDS.toMinutes(currentSessionTime);
+        long seconds = TimeUnit.MILLISECONDS.toSeconds(currentSessionTime);
+        lblTimer.setText("Minutes: " + minutes + " : " + seconds);
     }
 
-    private class subtimer extends TimerTask {
-        // run method
-        @Override
-        public void run() {
-            // method
-            Platform.runLater(() -> {
-                lblTimer.setText(getTimme(session.getTimeElapsed()));
-            });
-        }
+    private String getSuggestionRand(String lang) {
+        Vocab currentVocab = session.getCurrentVocab();
+        List<Suggestions> currentSuggestions = currentVocab.getSuggestions().stream().filter(c -> c.getLang().equalsIgnoreCase(lang)).toList();
+        currentSuggestionIndex = ValueHelper.getLottery(currentSuggestions.size(), currentSuggestionIndex);
+        Suggestions suggestion = currentSuggestions.get(currentSuggestionIndex);
+        return suggestion.getText();
     }
 
     @FXML
     void btnChangeOnKlick(ActionEvent event) {
-        txtEN.setDisable(!txtEN.isDisable());
-        txtDE.setDisable(!txtDE.isDisable());
+        session.setNextVocab();
+        if (txtEN.isDisable()) {
+            txtEN.setText("");
+            txtEN.setDisable(false);
+            txtDE.setText(getSuggestionRand("de"));
+            txtDE.setDisable(true);
+        } else {
+            txtEN.setText(getSuggestionRand("en"));
+            txtEN.setDisable(true);
+            txtDE.setText("");
+            txtDE.setDisable(false);
+        }
     }
 
     @FXML
-    void txtDEKeyPressed(KeyEvent event) {
+    void txtDETabKeyPressed(KeyEvent event) {
         if (event.getCode() == KeyCode.TAB) {
-            if( !validateInput(txtDE.getText())){
-                txtDE.setStyle("-fx-text-box-border: #B22222; -fx-focus-color: #B22222;");
-            }else{
-                txtDE.setStyle("-fx-text-box-border: #54b222; -fx-focus-color: #54b222;");
+            if (!validateCurrentCheckInput(txtDE.getText(), "de")) {
+                txtDE.setStyle("-fx-text-box-border: #B22222; -fx-text-box-background: #B22222; -fx-focus-color: #B22222;");
+            } else {
+                txtDE.setStyle("-fx-text-box-border: #54b222; -fx-text-box-background: #54b222; -fx-focus-color: #54b222;");
             }
+            session.setNextVocab();
+            txtEN.setText(getSuggestionRand("en"));
+            txtDE.setText("");
             txtDE.requestFocus();
         }
     }
 
     @FXML
-    void txtENKeyPressed(KeyEvent event) {
+    void txtENTabKeyPressed(KeyEvent event) {
         if (event.getCode() == KeyCode.TAB) {
-            validateInput(txtEN.getText());
+            if (!validateCurrentCheckInput(txtEN.getText(), "en")) {
+                txtEN.setStyle("-fx-text-box-border: #B22222; -fx-text-box-background: #B22222; -fx-focus-color: #B22222;");
+            } else {
+                txtEN.setStyle("-fx-text-box-border: #54b222; -fx-text-box-background: #54b222; -fx-focus-color: #54b222;");
+            }
+            session.setNextVocab();
+            txtDE.setText(getSuggestionRand("de"));
+            txtEN.setText("");
             txtEN.requestFocus();
         }
     }
 
-    private boolean validateInput(String value) {
+    private boolean validateCurrentCheckInput(String value, String lang) {
         Vocab currentVocab = session.getCurrentVocab();
         currentVocab.setCheckcounter(currentVocab.getCheckcounter() + 1);
-        List<Suggestions> currentSuggestions = currentVocab.getSuggestions().stream().filter(c -> c.getLang().equalsIgnoreCase("en")).toList();
+        List<Suggestions> currentSuggestions = currentVocab.getSuggestions().stream().filter(c -> c.getLang().equalsIgnoreCase(lang)).toList();
         if (currentSuggestions.stream().anyMatch(c -> c.getText().equalsIgnoreCase(value))) {
             currentVocab.setCorrectnesCounter(currentVocab.getCorrectnesCounter() + 1);
+            okCount.set(okCount.getValue() + 1);
             return true;
         }
+        failCount.set(failCount.getValue() + 1);
         return false;
     }
 
-    private String getTimme(long milliseconds) {
-        long minutes = TimeUnit.MILLISECONDS.toMinutes(milliseconds);
-        long seconds = TimeUnit.MILLISECONDS.toSeconds(milliseconds);
-        return minutes + ":" + seconds;
+    private class UiTimer extends TimerTask {
+        // run method
+        @Override
+        public void run() {
+            // method
+            Platform.runLater(() -> {
+                uiTimeGetter();
+            });
+        }
     }
 
 }

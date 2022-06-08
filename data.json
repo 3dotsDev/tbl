@@ -1,0 +1,109 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "checkcounter": "10",
+      "correctnesCounter": "5",
+      "suggestions": [
+        {
+          "id": 1,
+          "lang": "de",
+          "text": "Blau"
+        },
+        {
+          "id": 2,
+          "lang": "en",
+          "text": "Blue"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "checkcounter": "8",
+      "correctnesCounter": "2",
+      "suggestions": [
+        {
+          "id": 1,
+          "lang": "de",
+          "text": "Auto"
+        },
+        {
+          "id": 2,
+          "lang": "en",
+          "text": "Car"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "checkcounter": "8",
+      "correctnesCounter": "2",
+      "suggestions": [
+        {
+          "id": 1,
+          "lang": "de",
+          "text": "Lastkraftwagen"
+        },
+        {
+          "id": 2,
+          "lang": "de",
+          "text": "Lastwagen"
+        },
+        {
+          "id": 3,
+          "lang": "de",
+          "text": "LKW"
+        },
+        {
+          "id": 4,
+          "lang": "en",
+          "text": "Truck"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "checkcounter": "2",
+      "correctnesCounter": "2",
+      "suggestions": [
+        {
+          "id": 1,
+          "lang": "de",
+          "text": "Vokabel"
+        },
+        {
+          "id": 2,
+          "lang": "en",
+          "text": "Vocab"
+        },
+        {
+          "id": 3,
+          "lang": "en",
+          "text": "Vocabulary"
+        },
+        {
+          "id": 4,
+          "lang": "en",
+          "text": "Vocable"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "checkcounter": "2",
+      "correctnesCounter": "2",
+      "suggestions": [
+        {
+          "id": 1,
+          "lang": "de",
+          "text": "Baum"
+        },
+        {
+          "id": 2,
+          "lang": "en",
+          "text": "Tree"
+        }
+      ]
+    }
+  ]
+}
