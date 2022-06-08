@@ -3,12 +3,12 @@ package tb.bsc.translatorcheck.logic.dto;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Vocabulary {
+public class Vocabulary2 {
     private List<Vocab> data = new ArrayList<>();
 
-    public Vocabulary(){}
+    public Vocabulary2(){}
 
-    public Vocabulary(List<Vocab> data) {
+    public Vocabulary2(List<Vocab> data) {
         this.data = data;
     }
 

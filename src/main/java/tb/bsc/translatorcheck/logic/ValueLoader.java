@@ -3,7 +3,6 @@ package tb.bsc.translatorcheck.logic;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import tb.bsc.translatorcheck.logic.dto.Vocab;
-import tb.bsc.translatorcheck.logic.dto.Vocabulary;
 
 import java.io.IOException;
 import java.nio.file.Files;

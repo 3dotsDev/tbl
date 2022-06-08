@@ -19,13 +19,11 @@ import java.util.Optional;
 public class CheckSession {
 
     private SessionState currentState = SessionState.STOPPED;
-    private Path dataFilePath;
+    private final Path dataFilePath;
     private Instant start;
-    private List<Vocab> vocabulary;
+    private final List<Vocab> vocabulary;
     private Instant end = null;
-
     private int hardeningCount = 0;
-
     private Vocab currentVocab;
     private int currentVocabIndex;
 

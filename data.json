@@ -21,8 +21,8 @@
     "lang" : "en",
     "text" : "Car"
   } ],
-  "checkcounter" : 6,
-  "correctnesCounter" : 6,
+  "checkcounter" : 8,
+  "correctnesCounter" : 8,
   "id" : 2
 }, {
   "suggestions" : [ {
@@ -42,8 +42,8 @@
     "lang" : "en",
     "text" : "Truck"
   } ],
-  "checkcounter" : 7,
-  "correctnesCounter" : 6,
+  "checkcounter" : 8,
+  "correctnesCounter" : 7,
   "id" : 3
 }, {
   "suggestions" : [ {
@@ -63,8 +63,8 @@
     "lang" : "en",
     "text" : "Vocable"
   } ],
-  "checkcounter" : 6,
-  "correctnesCounter" : 5,
+  "checkcounter" : 7,
+  "correctnesCounter" : 6,
   "id" : 4
 }, {
   "suggestions" : [ {
