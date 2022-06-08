@@ -13,9 +13,9 @@ public class ValueHelper {
         if(size > 1)
         {
             Random rand = new Random();
-            int found =rand.nextInt(size -1); // -1 weil index bei 0 anfaengt
+            int found =rand.nextInt(0,size -1); // -1 weil index bei 0 anfaengt
             while (found == currentIndex){
-                found = rand.nextInt(size -1 ); // -1 weil index bei 0 anfaengt
+                found = rand.nextInt(0,size -1 ); // -1 weil index bei 0 anfaengt
             }
 
             lottery = found;

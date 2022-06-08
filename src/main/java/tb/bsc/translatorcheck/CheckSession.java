@@ -4,9 +4,7 @@ import tb.bsc.translatorcheck.Exception.TranslatorException;
 import tb.bsc.translatorcheck.logic.ValueHelper;
 import tb.bsc.translatorcheck.logic.ValueLoader;
 import tb.bsc.translatorcheck.logic.ValueWriter;
-import tb.bsc.translatorcheck.logic.dto.Suggestions;
 import tb.bsc.translatorcheck.logic.dto.Vocab;
-import tb.bsc.translatorcheck.logic.dto.Vocabulary;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -14,16 +12,19 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.time.Duration;
 import java.time.Instant;
+import java.util.Comparator;
 import java.util.List;
-import java.util.Random;
+import java.util.Optional;
 
-public class CheckSession implements AutoCloseable {
+public class CheckSession {
 
     private SessionState currentState = SessionState.STOPPED;
     private Path dataFilePath;
     private Instant start;
     private List<Vocab> vocabulary;
     private Instant end = null;
+
+    private int hardeningCount = 0;
 
     private Vocab currentVocab;
     private int currentVocabIndex;
@@ -58,6 +59,7 @@ public class CheckSession implements AutoCloseable {
     public void resetSession() {
         start = null;
         end = null;
+        hardeningCount = 0;
         this.currentState = SessionState.STOPPED;
     }
 
@@ -68,11 +70,43 @@ public class CheckSession implements AutoCloseable {
     }
 
     private void getRandomVocab() {
-        currentVocabIndex = ValueHelper.getLottery(vocabulary.size(), currentVocabIndex);
+        if (hardeningCount % 4 != 0) { // modulo -> nur beim 3 durchlauf wird nicht auf die lottery zugegriffen sondern auf die werte welche am schlechtesten bewertet sind
+            doHardening();
+        } else {
+            currentVocabIndex = ValueHelper.getLottery(vocabulary.size(), currentVocabIndex);
+            hardeningCount = hardeningCount + 1;
+        }
         currentVocab = vocabulary.get(currentVocabIndex);
     }
 
+    /**
+     * Dieser Teil wird genutzt und fehlerhafte und wenig genutzte vokabeln nach vorne zu schieben und die Lottery zu umgehen
+     */
+    private void doHardening() {
+        if (hardeningCount % 2 == 0) {
+            Optional<Vocab> vocab = vocabulary.stream().max(Comparator.comparing(c -> c.getCheckcounter() - c.getCorrectnesCounter())); // anzahl pruefungen - anzahl korrekte Antworten = falsche Antworten sortiert
+            getIndexAndCheckLastUse(vocab);
+        } else {
+            Optional<Vocab> vocab = vocabulary.stream().min(Comparator.comparing(Vocab::getCheckcounter)); // anzahl pruefungen --> sonst gehen die neuen sachen unter
+            getIndexAndCheckLastUse(vocab);
+        }
+    }
+
+    private void getIndexAndCheckLastUse(Optional<Vocab> vocab) {
+        if (vocab.isPresent()) { // wenn etwas gfunden wurde
+            if (vocabulary.indexOf(vocab) == currentVocabIndex) { // wenns das selbe ist wie eben schon geprueft machts keinen sinn -> lottery
+                currentVocabIndex = ValueHelper.getLottery(vocabulary.size(), currentVocabIndex);
+                //Hardening wird absichtlich nicht hochgezaehlt da der sinn der sache nicht erfuellt wurde
+            } else {
+                currentVocabIndex = vocabulary.indexOf(vocab); // der schlechteste wird geprueft
+                hardeningCount = hardeningCount + 1;
+            }
+        }
+    }
+
     public void stopSession() {
+        ValueWriter valueWriter = new ValueWriter();
+        valueWriter.writeData(vocabulary, this.dataFilePath);
         end = Instant.now();
         this.currentState = SessionState.STOPPED;
     }
@@ -105,11 +139,5 @@ public class CheckSession implements AutoCloseable {
 
     public void setNextVocab() {
         getRandomVocab();
-    }
-
-    @Override
-    public void close() throws Exception {
-        ValueWriter valueWriter = new ValueWriter();
-        valueWriter.writeData(vocabulary,this.dataFilePath);
     }
 }

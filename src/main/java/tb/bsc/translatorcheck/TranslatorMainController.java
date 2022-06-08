@@ -95,15 +95,17 @@ public class TranslatorMainController {
                 txtEN.setDisable(false);
                 txtEN.setText("");
                 btnChange.setDisable(false);
+                btnAdmin.setDisable(true);
                 failCount.setValue(0);
                 okCount.setValue(0);
                 tm.schedule(new UiTimer(), 1000, 1000);
+                txtEN.requestFocus();
             } else if (session.getCurrentState() == SessionState.RUNNING) {
                 btnChange.setDisable(!btnChange.isDisable());
                 txtDE.setDisable(true);
                 txtEN.setDisable(true);
+                btnAdmin.setDisable(false);
                 session.stopSession();
-                session.close();
                 uiTimeGetter();
                 btnChange.setDisable(true);
                 btnSession.setText("Start");
