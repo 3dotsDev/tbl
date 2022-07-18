@@ -43,7 +43,9 @@
                                                    AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
                                                    AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                             <columns>
-                                                <TableColumn fx:id="tcId" prefWidth="75.0" text="Id" />
+                                                <TableColumn fx:id="tcId" prefWidth="75.0" text="Id"/>
+                                                <TableColumn fx:id="tcValueDE" prefWidth="75.0" text="tcValueDE"/>
+                                                <TableColumn fx:id="tcValueEn" prefWidth="75.0" text="tcValueEn"/>
                                                 <TableColumn fx:id="tcFailCount" prefWidth="75.0" text="FailCount"/>
                                                 <TableColumn fx:id="tcCheckCount" prefWidth="75.0" text="CheckCount"/>
                                                 <TableColumn fx:id="tcCorectnessCount" prefWidth="75.0"

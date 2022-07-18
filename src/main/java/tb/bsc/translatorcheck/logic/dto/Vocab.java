@@ -10,11 +10,12 @@ import java.util.List;
  */
 public class Vocab {
 
-    private List<Suggestions> suggestions = new ArrayList<>();
     private Integer checkcounter;
     private Integer correctnesCounter;
     private Integer id;
     private Integer calculatedFailCount;
+    private String valueEn;
+    private String valueDe;
 
     public Vocab() {
     }
@@ -50,17 +51,23 @@ public class Vocab {
         this.checkcounter = checkcounter;
     }
 
-
-    public List<Suggestions> getSuggestions() {
-        return suggestions;
-    }
-
-    public void setSuggestions(List<Suggestions> suggestions) {
-        this.suggestions = suggestions;
-    }
-
     public Integer getCalculatedFailCount() {
         return this.checkcounter - this.correctnesCounter;
     }
 
+    public String getValueEn() {
+        return valueEn;
+    }
+
+    public void setValueEn(String valueEn) {
+        this.valueEn = valueEn;
+    }
+
+    public String getValueDe() {
+        return valueDe;
+    }
+
+    public void setValueDe(String valueDe) {
+        this.valueDe = valueDe;
+    }
 }

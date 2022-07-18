@@ -1,8 +1,6 @@
 package tb.bsc.translatorcheck.logic.helper;
 
-import tb.bsc.translatorcheck.logic.dto.Suggestions;
 
-import java.util.List;
 import java.util.Random;
 
 public class ValueHelper {

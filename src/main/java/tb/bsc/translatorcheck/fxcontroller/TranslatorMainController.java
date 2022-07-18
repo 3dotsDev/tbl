@@ -15,16 +15,13 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import tb.bsc.translatorcheck.Exception.TranslatorException;
-import tb.bsc.translatorcheck.logic.SessionState;
 import tb.bsc.translatorcheck.TranslatorApplication;
 import tb.bsc.translatorcheck.logic.CheckSession;
-import tb.bsc.translatorcheck.logic.helper.ValueHelper;
-import tb.bsc.translatorcheck.logic.dto.Suggestions;
+import tb.bsc.translatorcheck.logic.SessionState;
 import tb.bsc.translatorcheck.logic.dto.Vocab;
 
 import java.io.IOException;
 import java.nio.file.Path;
-import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.concurrent.TimeUnit;
@@ -107,7 +104,7 @@ public class TranslatorMainController {
                 session.startSession();
                 btnSession.setText("Stopp");
                 txtDE.setDisable(true);
-                txtDE.setText(getSuggestionRand("de"));
+                txtDE.setText(session.getCurrentVocab().getValueDe());
                 txtEN.setDisable(false);
                 txtEN.setText("");
                 btnChange.setDisable(false);
@@ -140,24 +137,16 @@ public class TranslatorMainController {
         lblTimer.setText("Minutes: " + minutes + " : " + seconds);
     }
 
-    private String getSuggestionRand(String lang) {
-        Vocab currentVocab = session.getCurrentVocab();
-        List<Suggestions> currentSuggestions = currentVocab.getSuggestions().stream().filter(c -> c.getLang().equalsIgnoreCase(lang)).toList();
-        currentSuggestionIndex = ValueHelper.getLottery(currentSuggestions.size(), currentSuggestionIndex);
-        Suggestions suggestion = currentSuggestions.get(currentSuggestionIndex);
-        return suggestion.getText();
-    }
-
     @FXML
     void btnChangeOnKlick(ActionEvent event) {
         session.setNextVocab();
         if (txtEN.isDisable()) {
             txtEN.setText("");
             txtEN.setDisable(false);
-            txtDE.setText(getSuggestionRand("de"));
+            txtDE.setText(session.getCurrentVocab().getValueDe());
             txtDE.setDisable(true);
         } else {
-            txtEN.setText(getSuggestionRand("en"));
+            txtEN.setText(session.getCurrentVocab().getValueEn());
             txtEN.setDisable(true);
             txtDE.setText("");
             txtDE.setDisable(false);
@@ -173,7 +162,7 @@ public class TranslatorMainController {
                 txtDE.setStyle("-fx-text-box-border: #54b222; -fx-text-box-background: #54b222; -fx-focus-color: #54b222;");
             }
             session.setNextVocab();
-            txtEN.setText(getSuggestionRand("en"));
+            txtEN.setText(session.getCurrentVocab().getValueEn());
             txtDE.setText("");
             txtDE.requestFocus();
         }
@@ -188,7 +177,7 @@ public class TranslatorMainController {
                 txtEN.setStyle("-fx-text-box-border: #54b222; -fx-text-box-background: #54b222; -fx-focus-color: #54b222;");
             }
             session.setNextVocab();
-            txtDE.setText(getSuggestionRand("de"));
+            txtDE.setText(session.getCurrentVocab().getValueDe());
             txtEN.setText("");
             txtEN.requestFocus();
         }
@@ -197,12 +186,18 @@ public class TranslatorMainController {
     private boolean validateCurrentCheckInput(String value, String lang) {
         Vocab currentVocab = session.getCurrentVocab();
         currentVocab.setCheckcounter(currentVocab.getCheckcounter() + 1);
-        List<Suggestions> currentSuggestions = currentVocab.getSuggestions().stream().filter(c -> c.getLang().equalsIgnoreCase(lang)).toList();
-        if (currentSuggestions.stream().anyMatch(c -> c.getText().equalsIgnoreCase(value))) {
-            currentVocab.setCorrectnesCounter(currentVocab.getCorrectnesCounter() + 1);
-            okCount.set(okCount.getValue() + 1);
-            return true;
+        if (lang.equalsIgnoreCase("de")) {
+            if (value.equalsIgnoreCase(session.getCurrentVocab().getValueDe())) {
+                okCount.set(okCount.getValue() + 1);
+                return true;
+            }
+        } else {
+            if (value.equalsIgnoreCase(session.getCurrentVocab().getValueEn())) {
+                okCount.set(okCount.getValue() + 1);
+                return true;
+            }
         }
+
         failCount.set(failCount.getValue() + 1);
         return false;
     }
