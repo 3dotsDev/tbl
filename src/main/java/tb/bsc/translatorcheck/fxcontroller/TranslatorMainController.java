@@ -1,4 +1,4 @@
-package tb.bsc.translatorcheck;
+package tb.bsc.translatorcheck.fxcontroller;
 
 import javafx.application.Platform;
 import javafx.beans.property.SimpleIntegerProperty;
@@ -15,6 +15,9 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import tb.bsc.translatorcheck.Exception.TranslatorException;
+import tb.bsc.translatorcheck.logic.SessionState;
+import tb.bsc.translatorcheck.TranslatorApplication;
+import tb.bsc.translatorcheck.logic.CheckSession;
 import tb.bsc.translatorcheck.logic.ValueHelper;
 import tb.bsc.translatorcheck.logic.dto.Suggestions;
 import tb.bsc.translatorcheck.logic.dto.Vocab;

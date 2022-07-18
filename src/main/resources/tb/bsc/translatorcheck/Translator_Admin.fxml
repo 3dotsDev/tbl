@@ -10,7 +10,7 @@
 
 <AnchorPane fx:id="paneAdmin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
             prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="tb.bsc.translatorcheck.TranslatorAdminController">
+            fx:controller="tb.bsc.translatorcheck.fxcontroller.TranslatorAdminController">
     <children>
         <SplitPane dividerPositions="0.29396984924623115" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0"
                    AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"

@@ -1,6 +1,5 @@
-package tb.bsc.translatorcheck;
+package tb.bsc.translatorcheck.fxcontroller;
 
-import javafx.beans.property.SimpleListProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -9,6 +8,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import tb.bsc.translatorcheck.Exception.TranslatorException;
+import tb.bsc.translatorcheck.logic.CheckSession;
 import tb.bsc.translatorcheck.logic.dto.Suggestions;
 import tb.bsc.translatorcheck.logic.dto.Vocab;
 

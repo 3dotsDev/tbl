@@ -1,9 +1,6 @@
-package tb.bsc.translatorcheck;
+package tb.bsc.translatorcheck.logic;
 
 import tb.bsc.translatorcheck.Exception.TranslatorException;
-import tb.bsc.translatorcheck.logic.ValueHelper;
-import tb.bsc.translatorcheck.logic.ValueLoader;
-import tb.bsc.translatorcheck.logic.ValueWriter;
 import tb.bsc.translatorcheck.logic.dto.Vocab;
 
 import java.io.File;

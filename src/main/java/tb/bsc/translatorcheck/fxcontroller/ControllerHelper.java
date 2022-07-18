@@ -1,4 +1,4 @@
-package tb.bsc.translatorcheck;
+package tb.bsc.translatorcheck.fxcontroller;
 
 import javafx.scene.control.Alert;
 
