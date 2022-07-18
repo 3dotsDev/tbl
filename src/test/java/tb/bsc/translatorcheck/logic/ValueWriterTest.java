@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import tb.bsc.translatorcheck.TranslatorApplication;
 import tb.bsc.translatorcheck.logic.dto.Suggestions;
 import tb.bsc.translatorcheck.logic.dto.Vocab;
+import tb.bsc.translatorcheck.logic.helper.ValueWriter;
 
 import java.io.File;
 import java.net.URISyntaxException;

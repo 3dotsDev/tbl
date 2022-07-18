@@ -21,4 +21,6 @@ module tb.bsc.translatorcheck {
     opens tb.bsc.translatorcheck.logic to javafx.base, javafx.fxml;
     exports tb.bsc.translatorcheck.fxcontroller;
     opens tb.bsc.translatorcheck.fxcontroller to javafx.base, javafx.fxml;
+    exports tb.bsc.translatorcheck.logic.helper;
+    opens tb.bsc.translatorcheck.logic.helper to javafx.base, javafx.fxml;
 }

@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 import tb.bsc.translatorcheck.TranslatorApplication;
 import tb.bsc.translatorcheck.logic.dto.Vocab;
+import tb.bsc.translatorcheck.logic.helper.ValueLoader;
 
 import java.io.File;
 import java.io.IOException;

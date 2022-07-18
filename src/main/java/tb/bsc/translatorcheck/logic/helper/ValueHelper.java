@@ -1,4 +1,4 @@
-package tb.bsc.translatorcheck.logic;
+package tb.bsc.translatorcheck.logic.helper;
 
 import tb.bsc.translatorcheck.logic.dto.Suggestions;
 
