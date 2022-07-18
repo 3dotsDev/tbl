@@ -14,6 +14,7 @@ public class Vocab {
     private Integer checkcounter;
     private Integer correctnesCounter;
     private Integer id;
+    private Integer calculatedFailCount;
 
     public Vocab() {
     }
@@ -57,4 +58,9 @@ public class Vocab {
     public void setSuggestions(List<Suggestions> suggestions) {
         this.suggestions = suggestions;
     }
+
+    public Integer getCalculatedFailCount() {
+        return this.checkcounter - this.correctnesCounter;
+    }
+
 }

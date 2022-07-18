@@ -8,9 +8,10 @@
     "lang" : "en",
     "text" : "Blue"
   } ],
-  "checkcounter" : 16,
-  "correctnesCounter" : 16,
-  "id" : 1
+  "checkcounter" : 20,
+  "correctnesCounter" : 20,
+  "id" : 1,
+  "calculatedFailCount" : 0
 }, {
   "suggestions" : [ {
     "id" : 1,
@@ -21,9 +22,10 @@
     "lang" : "en",
     "text" : "Car"
   } ],
-  "checkcounter" : 8,
-  "correctnesCounter" : 8,
-  "id" : 2
+  "checkcounter" : 10,
+  "correctnesCounter" : 10,
+  "id" : 2,
+  "calculatedFailCount" : 0
 }, {
   "suggestions" : [ {
     "id" : 1,
@@ -42,9 +44,10 @@
     "lang" : "en",
     "text" : "Truck"
   } ],
-  "checkcounter" : 8,
-  "correctnesCounter" : 7,
-  "id" : 3
+  "checkcounter" : 10,
+  "correctnesCounter" : 8,
+  "id" : 3,
+  "calculatedFailCount" : 2
 }, {
   "suggestions" : [ {
     "id" : 1,
@@ -63,9 +66,10 @@
     "lang" : "en",
     "text" : "Vocable"
   } ],
-  "checkcounter" : 7,
-  "correctnesCounter" : 6,
-  "id" : 4
+  "checkcounter" : 10,
+  "correctnesCounter" : 8,
+  "id" : 4,
+  "calculatedFailCount" : 2
 }, {
   "suggestions" : [ {
     "id" : 1,
@@ -76,7 +80,8 @@
     "lang" : "en",
     "text" : "Tree"
   } ],
-  "checkcounter" : 6,
-  "correctnesCounter" : 6,
-  "id" : 5
+  "checkcounter" : 9,
+  "correctnesCounter" : 9,
+  "id" : 5,
+  "calculatedFailCount" : 0
 } ]

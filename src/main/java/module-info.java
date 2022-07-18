@@ -14,7 +14,7 @@ module tb.bsc.translatorcheck {
 
 
 
-    opens tb.bsc.translatorcheck.logic.dto to com.fasterxml.jackson.databind;
-    opens tb.bsc.translatorcheck to javafx.fxml;
+    opens tb.bsc.translatorcheck.logic.dto to com.fasterxml.jackson.databind, javafx.base;
+    opens tb.bsc.translatorcheck to javafx.base, javafx.fxml;
     exports tb.bsc.translatorcheck;
 }
