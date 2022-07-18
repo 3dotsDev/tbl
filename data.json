@@ -22,8 +22,8 @@
     "lang" : "en",
     "text" : "Car"
   } ],
-  "checkcounter" : 10,
-  "correctnesCounter" : 10,
+  "checkcounter" : 12,
+  "correctnesCounter" : 12,
   "id" : 2,
   "calculatedFailCount" : 0
 }, {
@@ -44,8 +44,8 @@
     "lang" : "en",
     "text" : "Truck"
   } ],
-  "checkcounter" : 10,
-  "correctnesCounter" : 8,
+  "checkcounter" : 11,
+  "correctnesCounter" : 9,
   "id" : 3,
   "calculatedFailCount" : 2
 }, {
@@ -80,8 +80,8 @@
     "lang" : "en",
     "text" : "Tree"
   } ],
-  "checkcounter" : 9,
+  "checkcounter" : 10,
   "correctnesCounter" : 9,
   "id" : 5,
-  "calculatedFailCount" : 0
+  "calculatedFailCount" : 1
 } ]

@@ -26,6 +26,9 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * GUI Logik für den Translater_Main.fxml
+ */
 public class TranslatorMainController {
 
     private CheckSession session = null;
@@ -55,6 +58,10 @@ public class TranslatorMainController {
     @FXML
     private Label lblFailCount;
 
+    /**
+     * Einstiegspunkt der Logik
+     * Setzt Standartwerte und bindet controls an ihre Werteträger
+     */
     public void initialize() {
         lblFailCount.textProperty().bind(failCount.asString());
         lblOkCount.textProperty().bind(okCount.asString());
@@ -66,6 +73,12 @@ public class TranslatorMainController {
         btnSession.setDisable(false);
     }
 
+    /**
+     * Logik für das Öffnen des Administration GUI's
+     * Läd neue JAVAFX Komponente Translater_Admin.fxml und öffnet diesen als modalen Dialog
+     *
+     * @param event
+     */
     @FXML
     void btnAdminOnClick(ActionEvent event) {
         try {
