@@ -14,7 +14,7 @@ import java.util.List;
 class ValueWriterTest {
 
     @Test
-    void loadData() throws URISyntaxException {
+    void loadData() throws Exception {
         ValueWriter vloader = new ValueWriter();
 
         List<Vocab> vList = new ArrayList<>();

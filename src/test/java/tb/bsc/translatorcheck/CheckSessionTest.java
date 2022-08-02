@@ -31,7 +31,7 @@ public class CheckSessionTest {
     }
 
     @Test
-    public void checkSessionEnd() throws InterruptedException, TranslatorException {
+    public void checkSessionEnd() throws Exception {
         CheckSession session = new CheckSession(testFilePath);
         Thread.sleep(10); // take time to get sure the timelaps expand
         session.stopSession();

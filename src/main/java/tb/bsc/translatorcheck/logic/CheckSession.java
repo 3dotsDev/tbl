@@ -43,14 +43,14 @@ public class CheckSession {
                 }
             } catch (IOException ex) {
                 System.out.println(ex.getMessage());
-                throw new TranslatorException("Beim erstellen des Datenfiles ist etwas schief gelaufen");
+                throw new TranslatorException("Beim erstellen des Datenfiles ist etwas schief gelaufen" + ex.getMessage());
             }
         }
 
         try {
             vocabulary = new ValueLoader().loadData(dataFilePath);
         } catch (Exception e) {
-            throw new TranslatorException("Das Datenfile kann nicht gelesen werden");
+            throw new TranslatorException("Das Datenfile kann nicht gelesen werden " + e.getMessage());
         }
     }
 
@@ -111,7 +111,7 @@ public class CheckSession {
         }
     }
 
-    public void stopSession() {
+    public void stopSession() throws TranslatorException, IOException {
         ValueWriter valueWriter = new ValueWriter();
         valueWriter.writeData(vocabulary, this.dataFilePath);
         end = Instant.now();

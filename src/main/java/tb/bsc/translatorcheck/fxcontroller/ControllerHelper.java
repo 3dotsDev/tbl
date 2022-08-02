@@ -11,4 +11,12 @@ public class ControllerHelper {
         errorAlert.setContentText(content);
         return errorAlert;
     }
+
+    public  static Alert getSolutionInfo(String content){
+        Alert errorAlert = new Alert(Alert.AlertType.INFORMATION);
+        errorAlert.setTitle("Lösung");
+        errorAlert.setHeaderText("Korrekte Antwort:");
+        errorAlert.setContentText(content);
+        return errorAlert;
+    }
 }

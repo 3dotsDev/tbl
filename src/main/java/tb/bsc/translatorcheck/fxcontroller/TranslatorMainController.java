@@ -6,6 +6,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -31,13 +32,11 @@ import java.util.concurrent.TimeUnit;
  */
 public class TranslatorMainController {
 
+    Timer tm = new java.util.Timer();
     private CheckSession session = null;
     private int currentSuggestionIndex = 0;
     private SimpleIntegerProperty failCount = new SimpleIntegerProperty(0);
     private SimpleIntegerProperty okCount = new SimpleIntegerProperty(0);
-
-    Timer tm = new java.util.Timer();
-
     @FXML
     private Button btnSession;
     @FXML
@@ -155,7 +154,7 @@ public class TranslatorMainController {
 
     @FXML
     void txtDETabKeyPressed(KeyEvent event) {
-        if (event.getCode() == KeyCode.TAB) {
+        if (event.getCode() == KeyCode.TAB || event.getCode() == KeyCode.ENTER) {
             if (!validateCurrentCheckInput(txtDE.getText(), "de")) {
                 txtDE.setStyle("-fx-text-box-border: #B22222; -fx-text-box-background: #B22222; -fx-focus-color: #B22222;");
             } else {
@@ -170,7 +169,7 @@ public class TranslatorMainController {
 
     @FXML
     void txtENTabKeyPressed(KeyEvent event) {
-        if (event.getCode() == KeyCode.TAB) {
+        if (event.getCode() == KeyCode.TAB || event.getCode() == KeyCode.ENTER) {
             if (!validateCurrentCheckInput(txtEN.getText(), "en")) {
                 txtEN.setStyle("-fx-text-box-border: #B22222; -fx-text-box-background: #B22222; -fx-focus-color: #B22222;");
             } else {
@@ -189,17 +188,26 @@ public class TranslatorMainController {
         if (lang.equalsIgnoreCase("de")) {
             if (value.equalsIgnoreCase(session.getCurrentVocab().getValueDe())) {
                 okCount.set(okCount.getValue() + 1);
+                currentVocab.setCorrectnesCounter(currentVocab.getCorrectnesCounter() + 1);
                 return true;
+            } else {
+                failCount.set(failCount.getValue() + 1);
+                Alert solutionInfo = ControllerHelper.getSolutionInfo(session.getCurrentVocab().getValueDe());
+                solutionInfo.show();
+                return false;
             }
         } else {
             if (value.equalsIgnoreCase(session.getCurrentVocab().getValueEn())) {
                 okCount.set(okCount.getValue() + 1);
+                currentVocab.setCorrectnesCounter(currentVocab.getCorrectnesCounter() + 1);
                 return true;
+            } else {
+                failCount.set(failCount.getValue() + 1);
+                Alert solutionInfo = ControllerHelper.getSolutionInfo(session.getCurrentVocab().getValueEn());
+                solutionInfo.show();
+                return false;
             }
         }
-
-        failCount.set(failCount.getValue() + 1);
-        return false;
     }
 
     private class UiTimer extends TimerTask {
