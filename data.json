@@ -20,6 +20,18 @@
   "checkcounter" : 0,
   "correctnesCounter" : 0,
   "id" : 4,
-  "valueEn" : "Tobler",
-  "valueDe" : "Tobler"
+  "valueEn" : "Schoggi",
+  "valueDe" : "Toblerone"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 5,
+  "valueEn" : "Hello23",
+  "valueDe" : "Hallo23"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 6,
+  "valueEn" : "house2",
+  "valueDe" : "haus2"
 } ]

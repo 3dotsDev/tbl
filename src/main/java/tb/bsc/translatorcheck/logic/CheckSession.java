@@ -99,6 +99,19 @@ public class CheckSession {
         return vocabulary;
     }
 
+    public ArrayList<Vocab> updateCurrentItem(Integer id, String valueDe,String valueEn) {
+        Optional<Vocab> first = vocabulary.stream().filter(c -> c.getId().equals(id)).findFirst();
+        if(first.isPresent()){
+            first.get().setValueEn(valueEn).setValueDe(valueDe);
+        }
+        try {
+            writeDataBack();
+        } catch (TranslatorException | IOException e) {
+            ControllerHelper.createErrorAlert(e.getMessage());
+        }
+        return vocabulary;
+    }
+
     private void getRandomVocab() {
         if (hardeningCount % 3 != 0) { // modulo -> nur beim 3 durchlauf wird nicht auf die lottery zugegriffen sondern auf die werte welche am schlechtesten bewertet sind
             doHardening();

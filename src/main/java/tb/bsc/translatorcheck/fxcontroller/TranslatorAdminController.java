@@ -21,6 +21,8 @@ import java.util.ArrayList;
 public class TranslatorAdminController {
 
     private CheckSession session;
+    private ControllerMode mode;
+    private Integer idHelper;
 
     @FXML
     private StackedBarChart<?, ?> chartData;
@@ -46,15 +48,27 @@ public class TranslatorAdminController {
     @FXML
     private TextField txtAddEn;
 
+    @FXML
+    private Button btnSave;
+
+    @FXML
+    private Button btnAdd;
+
     private ObservableList<Vocab> viewData = FXCollections.observableArrayList();
 
     public void initialize() {
         try {
+            btnSave.setDisable(true);
+            btnAdd.setDisable(true);
+            txtAddEn.setDisable(true);
+            txtAddDe.setDisable(true);
             defineColumne();
             loadData();
+            mode = ControllerMode.CREATE;
         } catch (TranslatorException e) {
             ControllerHelper.createErrorAlert(e.getMessage());
         }
+        btnAdd.setDisable(false);
     }
 
     private void loadData() throws TranslatorException {
@@ -70,18 +84,8 @@ public class TranslatorAdminController {
         tcFailCount.setCellValueFactory(new PropertyValueFactory<>("calculatedFailCount"));
         tcValueDE.setCellValueFactory(new PropertyValueFactory<>("valueDe"));
         tcValueEn.setCellValueFactory(new PropertyValueFactory<>("valueEn"));
-        editableColumns();
-    }
-
-    private void editableColumns() {
-        tcValueDE.setCellFactory(TextFieldTableCell.forTableColumn());
-        tcValueDE.setOnEditCommit(e -> e.getTableView().getItems().get(e.getTablePosition().getRow()).setId(0));
-
-        tcValueEn.setCellFactory(TextFieldTableCell.forTableColumn());
-        tcValueEn.setOnEditCommit(e -> e.getTableView().getItems().get(e.getTablePosition().getRow()).setId(0));
 
         createRowFactory();
-        tblData.setEditable(true);
     }
 
     /**
@@ -92,6 +96,15 @@ public class TranslatorAdminController {
                 param -> {
                     final TableRow<Vocab> row = new TableRow<>();
                     final ContextMenu rowMenu = new ContextMenu();
+                    MenuItem updateItem = new MenuItem("update");
+                    updateItem.setOnAction(event -> {
+                        Vocab item = row.getItem();
+                        txtAddEn.setText(item.getValueEn());
+                        txtAddDe.setText(item.getValueDe());
+                        idHelper = item.getId();
+                        tblData.setDisable(true);
+                        mode = ControllerMode.UPDATE;
+                    });
                     MenuItem resetDataItem = new MenuItem("reset Values");
                     resetDataItem.setOnAction(event -> {
                         ArrayList<Vocab> vocabs = session.clearCurrentItemStatistics(row.getItem());
@@ -111,7 +124,7 @@ public class TranslatorAdminController {
                         ArrayList<Vocab> vocabs = session.getVocabulary();
                         reloadData(vocabs);
                     });
-                    rowMenu.getItems().addAll(resetDataItem, deleteItem,refreshItem);
+                    rowMenu.getItems().addAll(resetDataItem, deleteItem, refreshItem, updateItem);
                     row.contextMenuProperty().bind(
                             Bindings.when(Bindings.isNotNull(row.itemProperty()))
                                     .then(rowMenu)
@@ -126,21 +139,32 @@ public class TranslatorAdminController {
         viewData.addAll(vocabs);
     }
 
-    public void btnNewClick(ActionEvent actionEvent) {
+    public void btnSaveClick(ActionEvent actionEvent) {
         if (txtAddDe.getText().length() > 1 && txtAddEn.getText().length() > 1) {
-            Vocab vocab = new Vocab();
-            vocab.setValueDe(txtAddDe.getText());
-            vocab.setValueEn(txtAddEn.getText());
-            vocab.setId(session.getLastMaxId() + 1);
-            vocab.setCheckcounter(0);
-            vocab.setCorrectnesCounter(0);
+            if (mode == ControllerMode.CREATE) {
+                Vocab vocab = new Vocab();
+                vocab.setValueDe(txtAddDe.getText());
+                vocab.setValueEn(txtAddEn.getText());
+                vocab.setId(session.getLastMaxId() + 1);
+                vocab.setCheckcounter(0);
+                vocab.setCorrectnesCounter(0);
 
-            ArrayList<Vocab> vocabs = session.addCurrentItem(vocab);
-            reloadData(vocabs);
-            txtAddDe.requestFocus();
+                ArrayList<Vocab> vocabs = session.addCurrentItem(vocab);
+                reloadData(vocabs);
+                txtAddDe.clear();
+                txtAddEn.clear();
+                txtAddDe.requestFocus();
+            } else if (mode == ControllerMode.UPDATE) {
+                ArrayList<Vocab> vocabs = session.updateCurrentItem(idHelper, txtAddDe.getText(), txtAddEn.getText());
+                reloadData(vocabs);
+                txtAddDe.clear();
+                txtAddEn.clear();
+            }
         } else {
             ControllerHelper.getCustomerInfo("Werte fuer DE und EN muessen erfasst werden");
         }
+        mode = ControllerMode.CREATE;
+        tblData.setDisable(false);
     }
 
     public void shutdown() {
@@ -149,6 +173,14 @@ public class TranslatorAdminController {
         } catch (TranslatorException | IOException e) {
             ControllerHelper.createErrorAlert(e.getMessage());
         }
+    }
+
+    public void btnAddClick(ActionEvent actionEvent) {
+        tblData.setDisable(true);
+        txtAddDe.setDisable(false);
+        txtAddEn.setDisable(false);
+        btnSave.setDisable(false);
+        btnAdd.setDisable(true);
     }
 }
 
