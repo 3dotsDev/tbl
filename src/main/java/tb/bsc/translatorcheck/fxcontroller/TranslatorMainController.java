@@ -82,12 +82,14 @@ public class TranslatorMainController {
     void btnAdminOnClick(ActionEvent event) {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(TranslatorApplication.class.getResource("Translator_Admin.fxml"));
-            Scene scene = new Scene(fxmlLoader.load(), 900, 500);
+            Scene scene = new Scene(fxmlLoader.load(), 1100, 500);
+            TranslatorAdminController controller = fxmlLoader.getController();
             Stage stage = new Stage();
             stage.initModality(Modality.APPLICATION_MODAL);
             stage.initStyle(StageStyle.DECORATED);
             stage.setTitle("Administration");
             stage.setScene(scene);
+            stage.setOnHidden( e -> controller.shutdown());
             stage.show();
         } catch (IOException e) {
             ControllerHelper.createErrorAlert(e.getMessage());

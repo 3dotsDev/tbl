@@ -19,4 +19,12 @@ public class ControllerHelper {
         errorAlert.setContentText(content);
         return errorAlert;
     }
+
+    public  static Alert getCustomerInfo(String content){
+        Alert errorAlert = new Alert(Alert.AlertType.WARNING);
+        errorAlert.setTitle("Achtung");
+        errorAlert.setHeaderText("Bitte korrigieren");
+        errorAlert.setContentText(content);
+        return errorAlert;
+    }
 }

@@ -1,6 +1,7 @@
 package tb.bsc.translatorcheck.logic;
 
 import tb.bsc.translatorcheck.Exception.TranslatorException;
+import tb.bsc.translatorcheck.fxcontroller.ControllerHelper;
 import tb.bsc.translatorcheck.logic.dto.Vocab;
 import tb.bsc.translatorcheck.logic.helper.ValueHelper;
 import tb.bsc.translatorcheck.logic.helper.ValueLoader;
@@ -12,16 +13,17 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.time.Duration;
 import java.time.Instant;
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
 public class CheckSession {
 
-    private SessionState currentState = SessionState.STOPPED;
     private final Path dataFilePath;
+    private final ArrayList<Vocab> vocabulary;
+    private SessionState currentState = SessionState.STOPPED;
     private Instant start;
-    private final List<Vocab> vocabulary;
     private Instant end = null;
     private int hardeningCount = 0;
     private Vocab currentVocab;
@@ -67,6 +69,36 @@ public class CheckSession {
         this.currentState = SessionState.RUNNING;
     }
 
+    public ArrayList<Vocab> clearCurrentItemStatistics(Vocab item) {
+        item.setCorrectnesCounter(0).setCheckcounter(0);
+        try {
+            writeDataBack();
+        } catch (TranslatorException | IOException e) {
+            ControllerHelper.createErrorAlert(e.getMessage());
+        }
+        return vocabulary;
+    }
+
+    public ArrayList<Vocab> deleteCurrentItem(Vocab item) {
+        vocabulary.remove(item);
+        try {
+            writeDataBack();
+        } catch (TranslatorException | IOException e) {
+            ControllerHelper.createErrorAlert(e.getMessage());
+        }
+        return vocabulary;
+    }
+
+    public ArrayList<Vocab> addCurrentItem(Vocab item) {
+        vocabulary.add(item);
+        try {
+            writeDataBack();
+        } catch (TranslatorException | IOException e) {
+            ControllerHelper.createErrorAlert(e.getMessage());
+        }
+        return vocabulary;
+    }
+
     private void getRandomVocab() {
         if (hardeningCount % 3 != 0) { // modulo -> nur beim 3 durchlauf wird nicht auf die lottery zugegriffen sondern auf die werte welche am schlechtesten bewertet sind
             doHardening();
@@ -75,9 +107,9 @@ public class CheckSession {
             currentVocabIndex = ValueHelper.getLottery(vocabulary.size(), currentVocabIndex);
             hardeningCount = hardeningCount + 1;
         }
-        System.out.println("Current Vocab Index" + currentVocabIndex );
+        System.out.println("Current Vocab Index" + currentVocabIndex);
         currentVocab = vocabulary.get(currentVocabIndex);
-        System.out.println("Current Vocab ID Value" + currentVocab.getId() );
+        System.out.println("Current Vocab ID Value" + currentVocab.getId());
     }
 
     /**
@@ -106,16 +138,28 @@ public class CheckSession {
                 System.out.println("Hardening");
                 hardeningCount = hardeningCount + 1;
             }
-        }else{ // im Fehlerfall und vocab NICHT present ist
+        } else { // im Fehlerfall und vocab NICHT present ist
             currentVocabIndex = ValueHelper.getLottery(vocabulary.size(), currentVocabIndex);
         }
     }
 
+    public int getLastMaxId(){
+        Optional<Vocab> max = vocabulary.stream().max(Comparator.comparing(Vocab::getId));
+        if(max.isPresent()){
+            return max.get().getId();
+        }
+        return 0;
+    }
+
     public void stopSession() throws TranslatorException, IOException {
-        ValueWriter valueWriter = new ValueWriter();
-        valueWriter.writeData(vocabulary, this.dataFilePath);
+        writeDataBack();
         end = Instant.now();
         this.currentState = SessionState.STOPPED;
+    }
+
+    private void writeDataBack() throws TranslatorException, IOException {
+        ValueWriter valueWriter = new ValueWriter();
+        valueWriter.writeData(vocabulary, this.dataFilePath);
     }
 
     /**
@@ -132,7 +176,7 @@ public class CheckSession {
         return Duration.between(start, end).toMillis();
     }
 
-    public List<Vocab> getVocabulary() {
+    public ArrayList<Vocab> getVocabulary() {
         return vocabulary;
     }
 

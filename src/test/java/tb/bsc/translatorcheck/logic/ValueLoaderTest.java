@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.List;
 
 class ValueLoaderTest {
@@ -20,7 +21,7 @@ class ValueLoaderTest {
 
         URL url = TranslatorApplication.class.getResource("data.json");
         File file = new File(url.toURI());
-        List<Vocab> data = vloader.loadData(file.toPath());
+        ArrayList<Vocab> data = vloader.loadData(file.toPath());
 
         Assertions.assertEquals(2, data.stream().count());
 

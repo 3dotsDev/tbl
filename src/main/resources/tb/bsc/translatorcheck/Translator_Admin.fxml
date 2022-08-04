@@ -3,56 +3,61 @@
 <?import javafx.scene.chart.CategoryAxis?>
 <?import javafx.scene.chart.NumberAxis?>
 <?import javafx.scene.chart.StackedBarChart?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="paneAdmin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-            prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="tb.bsc.translatorcheck.fxcontroller.TranslatorAdminController">
+<AnchorPane fx:id="paneAdmin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="1068.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tb.bsc.translatorcheck.fxcontroller.TranslatorAdminController">
     <children>
-        <SplitPane dividerPositions="0.29396984924623115" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0"
-                   AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
-                   AnchorPane.topAnchor="0.0">
+        <SplitPane orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <items>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0"/>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                     <children>
-                        <SplitPane dividerPositions="0.4866220735785953" prefHeight="400.0" prefWidth="600.0"
-                                   AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
-                                   AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <SplitPane dividerPositions="0.4866220735785953" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                             <items>
                                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
                                     <children>
-                                        <StackedBarChart fx:id="chartData" layoutX="-127.0" layoutY="-10.0"
-                                                         AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
-                                                         AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                        <StackedBarChart fx:id="chartData" layoutX="-127.0" layoutY="-10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                             <xAxis>
-                                                <CategoryAxis side="BOTTOM"/>
+                                                <CategoryAxis side="BOTTOM" />
                                             </xAxis>
                                             <yAxis>
-                                                <NumberAxis side="LEFT"/>
+                                                <NumberAxis side="LEFT" />
                                             </yAxis>
                                         </StackedBarChart>
                                     </children>
                                 </AnchorPane>
                                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
-                                    <children>
-                                        <TableView fx:id="tblData" layoutX="7.0" prefHeight="392.0" prefWidth="288.0"
-                                                   AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
-                                                   AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                                            <columns>
-                                                <TableColumn fx:id="tcId" prefWidth="75.0" text="Id"/>
-                                                <TableColumn fx:id="tcValueDE" prefWidth="75.0" text="tcValueDE"/>
-                                                <TableColumn fx:id="tcValueEn" prefWidth="75.0" text="tcValueEn"/>
-                                                <TableColumn fx:id="tcFailCount" prefWidth="75.0" text="FailCount"/>
-                                                <TableColumn fx:id="tcCheckCount" prefWidth="75.0" text="CheckCount"/>
-                                                <TableColumn fx:id="tcCorectnessCount" prefWidth="75.0"
-                                                             text="CorrectnesCount"/>
-                                            </columns>
-                                        </TableView>
-                                    </children>
+                           <children>
+                              <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="433.0" prefWidth="498.0">
+                                       <children>
+                                                    <TableView fx:id="tblData" prefHeight="392.0" prefWidth="288.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                        <columns>
+                                                            <TableColumn fx:id="tcId" editable="false" prefWidth="39.0" text="Id" />
+                                                            <TableColumn fx:id="tcValueDE" prefWidth="180.0" text="Text DE" />
+                                                            <TableColumn fx:id="tcValueEn" prefWidth="180.0" text="Text EN" />
+                                                            <TableColumn fx:id="tcFailCount" editable="false" prefWidth="39.0" text="Fehler" />
+                                                            <TableColumn fx:id="tcCorectnessCount" editable="false" prefWidth="39.0" text="OK" />
+                                                            <TableColumn fx:id="tcCheckCount" editable="false" prefWidth="39.0" text="Total" />
+                                                        </columns>
+                                                    </TableView>
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane maxHeight="60.0" minHeight="60.0" minWidth="0.0" prefHeight="60.0" prefWidth="160.0">
+                                       <children>
+                                          <Button fx:id="bntNew" layoutX="400.0" layoutY="18.0" mnemonicParsing="false" onAction="#btnNewClick" text="Hinzufuegen" AnchorPane.bottomAnchor="17.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="18.0" />
+                                          <TextField fx:id="txtAddDe" layoutX="30.0" layoutY="18.0" promptText="Text DE" AnchorPane.bottomAnchor="17.0" AnchorPane.rightAnchor="319.0" AnchorPane.topAnchor="18.0" />
+                                          <TextField fx:id="txtAddEn" layoutX="217.0" layoutY="18.0" promptText="Text EN" AnchorPane.bottomAnchor="17.0" AnchorPane.rightAnchor="132.0" AnchorPane.topAnchor="18.0" />
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
                                 </AnchorPane>
                             </items>
                         </SplitPane>

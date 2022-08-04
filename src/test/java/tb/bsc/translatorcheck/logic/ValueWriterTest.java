@@ -17,7 +17,7 @@ class ValueWriterTest {
     void loadData() throws Exception {
         ValueWriter vloader = new ValueWriter();
 
-        List<Vocab> vList = new ArrayList<>();
+        ArrayList<Vocab> vList = new ArrayList<>();
         Vocab v2_1 = new Vocab();
        v2_1.setValueDe("Gaga");
        v2_1.setValueEn("Test");

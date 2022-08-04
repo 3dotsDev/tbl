@@ -1,19 +1,25 @@
 [ {
-  "checkcounter" : 1,
-  "correctnesCounter" : 1,
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
   "id" : 1,
   "valueEn" : "Car",
   "valueDe" : "Auto"
 }, {
-  "checkcounter" : 3,
-  "correctnesCounter" : 1,
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
   "id" : 2,
-  "valueEn" : "Blue",
-  "valueDe" : "Blau"
+  "valueEn" : "Gaga",
+  "valueDe" : "Gaga"
 }, {
-  "checkcounter" : 1,
+  "checkcounter" : 0,
   "correctnesCounter" : 0,
   "id" : 3,
-  "valueEn" : "Test",
-  "valueDe" : "Test"
+  "valueEn" : "Ever",
+  "valueDe" : "What"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 4,
+  "valueEn" : "Tobler",
+  "valueDe" : "Tobler"
 } ]

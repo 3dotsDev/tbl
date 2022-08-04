@@ -20,24 +20,27 @@ public class Vocab {
         return id;
     }
 
-    public void setId(Integer id) {
+    public Vocab setId(Integer id) {
         this.id = id;
+        return this;
     }
 
     public Integer getCorrectnesCounter() {
         return correctnesCounter;
     }
 
-    public void setCorrectnesCounter(Integer correctnesCounter) {
+    public Vocab setCorrectnesCounter(Integer correctnesCounter) {
         this.correctnesCounter = correctnesCounter;
+        return this;
     }
 
     public Integer getCheckcounter() {
         return checkcounter;
     }
 
-    public void setCheckcounter(Integer checkcounter) {
+    public Vocab setCheckcounter(Integer checkcounter) {
         this.checkcounter = checkcounter;
+        return this;
     }
 
     @JsonIgnore
@@ -49,15 +52,17 @@ public class Vocab {
         return valueEn;
     }
 
-    public void setValueEn(String valueEn) {
+    public Vocab setValueEn(String valueEn) {
         this.valueEn = valueEn;
+        return this;
     }
 
     public String getValueDe() {
         return valueDe;
     }
 
-    public void setValueDe(String valueDe) {
+    public Vocab setValueDe(String valueDe) {
         this.valueDe = valueDe;
+        return this;
     }
 }

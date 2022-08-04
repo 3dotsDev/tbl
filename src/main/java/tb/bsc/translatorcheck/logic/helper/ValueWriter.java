@@ -8,10 +8,11 @@ import tb.bsc.translatorcheck.logic.dto.Vocab;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
+import java.util.ArrayList;
 import java.util.List;
 
 public class ValueWriter {
-    public void writeData(List<Vocab> data, Path dataFilePath) throws TranslatorException, IOException {
+    public void writeData(ArrayList<Vocab> data, Path dataFilePath) throws TranslatorException, IOException {
         File currentDataFile = null;
         currentDataFile = new File(String.valueOf(dataFilePath));
         if (!currentDataFile.exists()) {
