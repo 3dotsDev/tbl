@@ -69,10 +69,6 @@ public class TranslatorAdminController {
     private ObservableList<Vocab> viewData = FXCollections.observableArrayList();
 
     public void initialize() {
-        series2 = new XYChart.Series<>();
-        series2.setName("fehler");
-        series3 = new XYChart.Series<>();
-        series3.setName("ok");
         try {
             btnSave.setDisable(true);
             btnAdd.setDisable(true);
@@ -160,12 +156,22 @@ public class TranslatorAdminController {
     private void reloadData(ArrayList<Vocab> vocabs) {
         viewData.clear();
         viewData.addAll(vocabs);
+        chartData.getData().clear();
+        dataReload(vocabs);
     }
 
     /**
      * https://www.tutorialspoint.com/javafx/stacked_bar_chart.htm
      */
     private void buildChart() {
+        if (series2 == null) {
+            series2 = new XYChart.Series<>();
+        }
+        if (series3 == null) {
+            series3 = new XYChart.Series<>();
+        }
+        series2.setName("fehler");
+        series3.setName("ok");
         ArrayList<Vocab> vocabs = session.getVocabulary();
         List<String> xLabels = vocabs.stream().map(Vocab::getValueDe).toList();
         xAxis.setCategories(FXCollections.observableArrayList(xLabels));
@@ -173,10 +179,18 @@ public class TranslatorAdminController {
         yAxis.setLabel("Quote");
         chartData.setTitle("Statistik");
 
+        dataReload(vocabs);
+    }
+
+    private void dataReload(ArrayList<Vocab> vocabs) {
+        series2.getData().clear();
+        series3.getData().clear();
         for (Vocab vocab : vocabs) {
             series2.getData().add(new XYChart.Data<>(vocab.getValueDe(), vocab.getCalculatedFailCount()));
             series3.getData().add(new XYChart.Data<>(vocab.getValueDe(), vocab.getCorrectnesCounter()));
-            chartData.getData().addAll(series2, series3);
+            if (chartData.getData().size() == 0) {
+                chartData.getData().addAll(series2, series3);
+            }
         }
     }
 
