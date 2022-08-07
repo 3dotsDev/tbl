@@ -29,6 +29,8 @@ public class TranslatorAdminController {
     private CheckSession session;
     private ControllerMode mode;
     private Integer idHelper;
+    private XYChart.Series<String, Number> series2;
+    private XYChart.Series<String, Number> series3;
     @FXML
     private CategoryAxis xAxis;
     @FXML
@@ -67,6 +69,10 @@ public class TranslatorAdminController {
     private ObservableList<Vocab> viewData = FXCollections.observableArrayList();
 
     public void initialize() {
+        series2 = new XYChart.Series<>();
+        series2.setName("fehler");
+        series3 = new XYChart.Series<>();
+        series3.setName("ok");
         try {
             btnSave.setDisable(true);
             btnAdd.setDisable(true);
@@ -154,7 +160,6 @@ public class TranslatorAdminController {
     private void reloadData(ArrayList<Vocab> vocabs) {
         viewData.clear();
         viewData.addAll(vocabs);
-
     }
 
     /**
@@ -167,15 +172,11 @@ public class TranslatorAdminController {
         xAxis.setLabel("Werte");
         yAxis.setLabel("Quote");
         chartData.setTitle("Statistik");
-        XYChart.Series<String, Number> series2 = new XYChart.Series<>();
-        series2.setName("fehler");
-        XYChart.Series<String, Number> series3 = new XYChart.Series<>();
-        series3.setName("ok");
 
         for (Vocab vocab : vocabs) {
             series2.getData().add(new XYChart.Data<>(vocab.getValueDe(), vocab.getCalculatedFailCount()));
             series3.getData().add(new XYChart.Data<>(vocab.getValueDe(), vocab.getCorrectnesCounter()));
-            chartData.getData().addAll(series2,series3);
+            chartData.getData().addAll(series2, series3);
         }
     }
 
