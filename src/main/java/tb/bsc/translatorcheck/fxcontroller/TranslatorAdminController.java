@@ -96,8 +96,14 @@ public class TranslatorAdminController {
                 param -> {
                     final TableRow<Vocab> row = new TableRow<>();
                     final ContextMenu rowMenu = new ContextMenu();
-                    MenuItem updateItem = new MenuItem("update");
+                    MenuItem updateItem = new MenuItem("Eintrag anpassen");
                     updateItem.setOnAction(event -> {
+
+                        tblData.setDisable(true);
+                        btnSave.setDisable(false);
+                        btnAdd.setDisable(true);
+                        txtAddEn.setDisable(false);
+                        txtAddDe.setDisable(false);
                         Vocab item = row.getItem();
                         txtAddEn.setText(item.getValueEn());
                         txtAddDe.setText(item.getValueDe());
@@ -105,12 +111,12 @@ public class TranslatorAdminController {
                         tblData.setDisable(true);
                         mode = ControllerMode.UPDATE;
                     });
-                    MenuItem resetDataItem = new MenuItem("reset Values");
+                    MenuItem resetDataItem = new MenuItem("Statistik löschen");
                     resetDataItem.setOnAction(event -> {
                         ArrayList<Vocab> vocabs = session.clearCurrentItemStatistics(row.getItem());
                         reloadData(vocabs);
                     });
-                    MenuItem deleteItem = new MenuItem("delete");
+                    MenuItem deleteItem = new MenuItem("Eintrag Löschen");
                     deleteItem.setOnAction(new EventHandler<ActionEvent>() {
                         @Override
                         public void handle(ActionEvent event) {
@@ -119,12 +125,12 @@ public class TranslatorAdminController {
                             reloadData(vocabs);
                         }
                     });
-                    MenuItem refreshItem = new MenuItem("refresh");
+                    MenuItem refreshItem = new MenuItem("Grid neu Laden");
                     refreshItem.setOnAction(event -> {
                         ArrayList<Vocab> vocabs = session.getVocabulary();
                         reloadData(vocabs);
                     });
-                    rowMenu.getItems().addAll(resetDataItem, deleteItem, refreshItem, updateItem);
+                    rowMenu.getItems().addAll(updateItem,resetDataItem, deleteItem, refreshItem);
                     row.contextMenuProperty().bind(
                             Bindings.when(Bindings.isNotNull(row.itemProperty()))
                                     .then(rowMenu)
@@ -165,6 +171,10 @@ public class TranslatorAdminController {
         }
         mode = ControllerMode.CREATE;
         tblData.setDisable(false);
+        btnSave.setDisable(true);
+        btnAdd.setDisable(false);
+        txtAddEn.setDisable(true);
+        txtAddDe.setDisable(true);
     }
 
     public void shutdown() {

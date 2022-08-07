@@ -1,37 +1,31 @@
 [ {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
+  "checkcounter" : 6,
+  "correctnesCounter" : 6,
   "id" : 1,
   "valueEn" : "Car",
   "valueDe" : "Auto"
 }, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
-  "id" : 2,
-  "valueEn" : "Gaga",
-  "valueDe" : "Gaga"
-}, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
-  "id" : 3,
-  "valueEn" : "Ever",
-  "valueDe" : "What"
-}, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
+  "checkcounter" : 3,
+  "correctnesCounter" : 3,
   "id" : 4,
   "valueEn" : "Schoggi",
   "valueDe" : "Toblerone"
 }, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
-  "id" : 5,
-  "valueEn" : "Hello23",
-  "valueDe" : "Hallo23"
+  "checkcounter" : 5,
+  "correctnesCounter" : 4,
+  "id" : 7,
+  "valueEn" : "Tree",
+  "valueDe" : "Baum"
 }, {
   "checkcounter" : 0,
   "correctnesCounter" : 0,
-  "id" : 6,
-  "valueEn" : "house2",
-  "valueDe" : "haus2"
+  "id" : 8,
+  "valueEn" : "Game",
+  "valueDe" : "Spiel"
+}, {
+  "checkcounter" : 3,
+  "correctnesCounter" : 2,
+  "id" : 9,
+  "valueEn" : "House",
+  "valueDe" : "Haus"
 } ]
