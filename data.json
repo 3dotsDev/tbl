@@ -1,6 +1,6 @@
 [ {
-  "checkcounter" : 6,
-  "correctnesCounter" : 6,
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
   "id" : 1,
   "valueEn" : "Car",
   "valueDe" : "Auto"

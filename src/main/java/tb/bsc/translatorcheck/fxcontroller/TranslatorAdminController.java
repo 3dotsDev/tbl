@@ -13,6 +13,7 @@ import javafx.scene.chart.XYChart;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
+import javafx.util.StringConverter;
 import tb.bsc.translatorcheck.Exception.TranslatorException;
 import tb.bsc.translatorcheck.logic.CheckSession;
 import tb.bsc.translatorcheck.logic.dto.Vocab;
@@ -29,15 +30,15 @@ public class TranslatorAdminController {
     private CheckSession session;
     private ControllerMode mode;
     private Integer idHelper;
-    private XYChart.Series<String, Number> series2;
-    private XYChart.Series<String, Number> series3;
+    private XYChart.Series<String, Integer> series2;
+    private XYChart.Series<String, Integer> series3;
     @FXML
     private CategoryAxis xAxis;
     @FXML
     private NumberAxis yAxis;
 
     @FXML
-    private StackedBarChart<String, Number> chartData;
+    private StackedBarChart<String, Integer> chartData;
 
     @FXML
     private TableView<Vocab> tblData;
@@ -69,6 +70,8 @@ public class TranslatorAdminController {
     private ObservableList<Vocab> viewData = FXCollections.observableArrayList();
 
     public void initialize() {
+        series2 = new XYChart.Series<>();
+        series3 = new XYChart.Series<>();
         try {
             btnSave.setDisable(true);
             btnAdd.setDisable(true);
@@ -164,12 +167,6 @@ public class TranslatorAdminController {
      * https://www.tutorialspoint.com/javafx/stacked_bar_chart.htm
      */
     private void buildChart() {
-        if (series2 == null) {
-            series2 = new XYChart.Series<>();
-        }
-        if (series3 == null) {
-            series3 = new XYChart.Series<>();
-        }
         series2.setName("fehler");
         series3.setName("ok");
         ArrayList<Vocab> vocabs = session.getVocabulary();
@@ -178,7 +175,7 @@ public class TranslatorAdminController {
         xAxis.setLabel("Werte");
         yAxis.setLabel("Quote");
         chartData.setTitle("Statistik");
-
+        chartData.setAnimated(false);
         dataReload(vocabs);
     }
 
@@ -188,10 +185,9 @@ public class TranslatorAdminController {
         for (Vocab vocab : vocabs) {
             series2.getData().add(new XYChart.Data<>(vocab.getValueDe(), vocab.getCalculatedFailCount()));
             series3.getData().add(new XYChart.Data<>(vocab.getValueDe(), vocab.getCorrectnesCounter()));
-            if (chartData.getData().size() == 0) {
-                chartData.getData().addAll(series2, series3);
-            }
         }
+        chartData.getData().clear();
+        chartData.setData(FXCollections.observableArrayList(series2,series3));
     }
 
     public void btnSaveClick(ActionEvent actionEvent) {
