@@ -15,7 +15,6 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.List;
 import java.util.Optional;
 
 public class CheckSession {
@@ -99,9 +98,9 @@ public class CheckSession {
         return vocabulary;
     }
 
-    public ArrayList<Vocab> updateCurrentItem(Integer id, String valueDe,String valueEn) {
+    public ArrayList<Vocab> updateCurrentItem(Integer id, String valueDe, String valueEn) {
         Optional<Vocab> first = vocabulary.stream().filter(c -> c.getId().equals(id)).findFirst();
-        if(first.isPresent()){
+        if (first.isPresent()) {
             first.get().setValueEn(valueEn).setValueDe(valueDe);
         }
         try {
@@ -113,7 +112,7 @@ public class CheckSession {
     }
 
     private void getRandomVocab() {
-        if (hardeningCount % 5 != 0) { // modulo -> nur beim 3 durchlauf wird nicht auf die lottery zugegriffen sondern auf die werte welche am schlechtesten bewertet sind
+        if (hardeningCount % 10 != 0) { // modulo -> nur beim 10 durchlauf wird nicht auf die lottery zugegriffen sondern auf die werte welche am schlechtesten bewertet sind
             doHardening();
         } else {
             System.out.println("Hardening % 5");
@@ -156,9 +155,9 @@ public class CheckSession {
         }
     }
 
-    public int getLastMaxId(){
+    public int getLastMaxId() {
         Optional<Vocab> max = vocabulary.stream().max(Comparator.comparing(Vocab::getId));
-        if(max.isPresent()){
+        if (max.isPresent()) {
             return max.get().getId();
         }
         return 0;

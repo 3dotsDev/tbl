@@ -1,23 +1,5 @@
 [ {
   "checkcounter" : 3,
-  "correctnesCounter" : 3,
-  "id" : 1,
-  "valueEn" : "Car",
-  "valueDe" : "Auto"
-}, {
-  "checkcounter" : 6,
-  "correctnesCounter" : 5,
-  "id" : 7,
-  "valueEn" : "Tree",
-  "valueDe" : "Baum"
-}, {
-  "checkcounter" : 4,
-  "correctnesCounter" : 4,
-  "id" : 8,
-  "valueEn" : "Game",
-  "valueDe" : "Spiel"
-}, {
-  "checkcounter" : 3,
   "correctnesCounter" : 2,
   "id" : 10,
   "valueEn" : "Company",
@@ -59,14 +41,14 @@
   "valueEn" : "job rotation",
   "valueDe" : "Arbeitsplatzrotation"
 }, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
+  "checkcounter" : 2,
+  "correctnesCounter" : 2,
   "id" : 17,
   "valueEn" : "market research",
   "valueDe" : "Marktforschung"
 }, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
+  "checkcounter" : 6,
+  "correctnesCounter" : 2,
   "id" : 18,
   "valueEn" : "secondary data",
   "valueDe" : "Sekundärdaten"
@@ -77,50 +59,50 @@
   "valueEn" : "trade association",
   "valueDe" : "Gewerbeverband"
 }, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
+  "checkcounter" : 4,
+  "correctnesCounter" : 3,
   "id" : 20,
   "valueEn" : "product-led",
   "valueDe" : "produktorientiert"
 }, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
+  "checkcounter" : 7,
+  "correctnesCounter" : 7,
   "id" : 21,
   "valueEn" : "customer-led",
   "valueDe" : "kundenorientiert"
 }, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
+  "checkcounter" : 2,
+  "correctnesCounter" : 1,
   "id" : 22,
   "valueEn" : "luxury goods",
   "valueDe" : "Luxusgüter"
 }, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
+  "checkcounter" : 10,
+  "correctnesCounter" : 1,
   "id" : 23,
   "valueEn" : "opinion",
   "valueDe" : "Meinung"
 }, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
+  "checkcounter" : 2,
+  "correctnesCounter" : 2,
   "id" : 24,
   "valueEn" : "skill",
   "valueDe" : "Fähigkeit"
 }, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
+  "checkcounter" : 8,
+  "correctnesCounter" : 8,
   "id" : 25,
   "valueEn" : "craftsman",
   "valueDe" : "Handwerker"
 }, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
+  "checkcounter" : 7,
+  "correctnesCounter" : 7,
   "id" : 26,
   "valueEn" : "supplier",
   "valueDe" : "Lieferant"
 }, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
+  "checkcounter" : 8,
+  "correctnesCounter" : 2,
   "id" : 27,
   "valueEn" : "to inspect",
   "valueDe" : "inspizieren"
@@ -131,20 +113,20 @@
   "valueEn" : "competitiveness",
   "valueDe" : "Wettbewerbsfähigkeit"
 }, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
+  "checkcounter" : 10,
+  "correctnesCounter" : 2,
   "id" : 29,
   "valueEn" : "outsourcing",
   "valueDe" : "Auslagerung "
 }, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
+  "checkcounter" : 7,
+  "correctnesCounter" : 1,
   "id" : 30,
   "valueEn" : "advantage",
   "valueDe" : "Vorteil"
 }, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
+  "checkcounter" : 7,
+  "correctnesCounter" : 6,
   "id" : 31,
   "valueEn" : "cheap labour",
   "valueDe" : "billige Arbeitskräfte"

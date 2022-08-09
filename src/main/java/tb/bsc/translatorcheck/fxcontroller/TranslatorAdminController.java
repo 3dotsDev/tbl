@@ -169,11 +169,11 @@ public class TranslatorAdminController {
         series3.setName("ok");
 
         ArrayList<Vocab> vocabs = session.getVocabulary();
-        List<Vocab> dataList = vocabs.stream().filter(c -> c.getCheckcounter() > 0).sorted(Comparator.comparing(Vocab::getCalculatedFailCount)).toList();
+        List<Vocab> dataList = vocabs.stream().filter(c -> c.getCalculatedFailCount() > 0).sorted(Comparator.comparing(Vocab::getCalculatedFailCount).reversed()).toList();
 
         int maxCount = 10;
 
-        if (dataList.size() < maxCount - 1) {
+        if (dataList.size() <= maxCount) {
             maxCount = dataList.size() ;
         }
 
@@ -182,7 +182,7 @@ public class TranslatorAdminController {
         xAxis.setCategories(FXCollections.observableArrayList(xLabels));
         xAxis.setLabel("Werte");
         yAxis.setLabel("Quote");
-        chartData.setTitle("Statistik max top 10");
+        chartData.setTitle("Statistik schlechtesten 10");
         chartData.setAnimated(false);
         dataReload(subList);
     }
