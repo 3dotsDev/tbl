@@ -14,7 +14,7 @@ public class TranslatorApplication extends Application {
 
         FXMLLoader fxmlLoader = new FXMLLoader(TranslatorApplication.class.getResource("Translator_Main.fxml"));
 
-        // Ladet das Fenster innherlab vom GUI mit der Auflösung von 600x400 pixel
+        // Läd das Fenster innerhalb vom GUI mit der Auflösung von 600x400 pixel
 
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         stage.setScene(scene);

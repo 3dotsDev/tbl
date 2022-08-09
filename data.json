@@ -1,31 +1,67 @@
 [ {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
+  "checkcounter" : 3,
+  "correctnesCounter" : 3,
   "id" : 1,
   "valueEn" : "Car",
   "valueDe" : "Auto"
 }, {
-  "checkcounter" : 3,
-  "correctnesCounter" : 3,
-  "id" : 4,
-  "valueEn" : "Schoggi",
-  "valueDe" : "Toblerone"
-}, {
-  "checkcounter" : 5,
-  "correctnesCounter" : 4,
+  "checkcounter" : 6,
+  "correctnesCounter" : 5,
   "id" : 7,
   "valueEn" : "Tree",
   "valueDe" : "Baum"
 }, {
-  "checkcounter" : 0,
-  "correctnesCounter" : 0,
+  "checkcounter" : 4,
+  "correctnesCounter" : 4,
   "id" : 8,
   "valueEn" : "Game",
   "valueDe" : "Spiel"
 }, {
-  "checkcounter" : 3,
-  "correctnesCounter" : 2,
+  "checkcounter" : 8,
+  "correctnesCounter" : 6,
   "id" : 9,
   "valueEn" : "House",
   "valueDe" : "Haus"
+}, {
+  "checkcounter" : 3,
+  "correctnesCounter" : 2,
+  "id" : 10,
+  "valueEn" : "Company",
+  "valueDe" : "Firma"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 11,
+  "valueEn" : "default risk",
+  "valueDe" : "Ausfallrisiko"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 12,
+  "valueEn" : "bin",
+  "valueDe" : "Abfalleimer"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 13,
+  "valueEn" : "to headhunt",
+  "valueDe" : "abwerben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 14,
+  "valueEn" : "stock options",
+  "valueDe" : "Aktienanteile"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 15,
+  "valueEn" : "equity",
+  "valueDe" : "Aktienkapital"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 16,
+  "valueEn" : "job rotation",
+  "valueDe" : "Arbeitsplatzrotation"
 } ]
