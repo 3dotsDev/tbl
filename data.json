@@ -1,151 +1,6469 @@
 [ {
-  "checkcounter" : 3,
-  "correctnesCounter" : 2,
-  "id" : 10,
-  "valueEn" : "Company",
-  "valueDe" : "Firma"
-}, {
   "checkcounter" : 0,
   "correctnesCounter" : 0,
-  "id" : 11,
+  "id" : 1,
   "valueEn" : "default risk",
   "valueDe" : "Ausfallrisiko"
 }, {
   "checkcounter" : 0,
   "correctnesCounter" : 0,
-  "id" : 12,
+  "id" : 2,
+  "valueEn" : "stocks and shares",
+  "valueDe" : "Wertpapiere"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 3,
+  "valueEn" : "to drive up",
+  "valueDe" : "Preis hochtreiben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 4,
+  "valueEn" : "plant",
+  "valueDe" : "Fabrikanlage"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 5,
+  "valueEn" : "tender",
+  "valueDe" : "Kostenvoranschlag"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 6,
+  "valueEn" : "however",
+  "valueDe" : "aber"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 7,
+  "valueEn" : "however",
+  "valueDe" : "jedoch"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 8,
   "valueEn" : "bin",
   "valueDe" : "Abfalleimer"
 }, {
   "checkcounter" : 0,
   "correctnesCounter" : 0,
+  "id" : 9,
+  "valueEn" : "redundancy pay",
+  "valueDe" : "Abfindung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 10,
+  "valueEn" : "to depend on",
+  "valueDe" : "abhängen von"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 11,
+  "valueEn" : "abbreviation",
+  "valueDe" : "Abkürzung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 12,
+  "valueEn" : "to reject",
+  "valueDe" : "ablehnen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
   "id" : 13,
+  "valueEn" : "to decrease",
+  "valueDe" : "abnehmen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 14,
+  "valueEn" : "fiscal period",
+  "valueDe" : "Abrechnungszeitraum"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 15,
+  "valueEn" : "downturn",
+  "valueDe" : "Abschwung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 16,
+  "valueEn" : "to back",
+  "valueDe" : "absichern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 17,
+  "valueEn" : "to crash",
+  "valueDe" : "abstürzen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 18,
+  "valueEn" : "to deviate",
+  "valueDe" : "abweichen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 19,
   "valueEn" : "to headhunt",
   "valueDe" : "abwerben"
 }, {
   "checkcounter" : 0,
   "correctnesCounter" : 0,
-  "id" : 14,
-  "valueEn" : "stock options",
+  "id" : 20,
+  "valueEn" : "to deduct",
+  "valueDe" : "abziehen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 21,
+  "valueEn" : "accessories",
+  "valueDe" : "Zubehör"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 22,
+  "valueEn" : "acquisition",
+  "valueDe" : "Akquisition, Erwerb"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 23,
+  "valueEn" : "stock options / share options",
   "valueDe" : "Aktienanteile"
 }, {
   "checkcounter" : 0,
   "correctnesCounter" : 0,
-  "id" : 15,
+  "id" : 24,
+  "valueEn" : "share-option",
+  "valueDe" : "Aktienbezugsrecht"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 25,
+  "valueEn" : "public limited liability compan",
+  "valueDe" : "Aktiengesellschaft"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 26,
+  "valueEn" : "shareholder",
+  "valueDe" : "Aktieninhaber"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 27,
   "valueEn" : "equity",
   "valueDe" : "Aktienkapital"
 }, {
   "checkcounter" : 0,
   "correctnesCounter" : 0,
-  "id" : 16,
+  "id" : 28,
+  "valueEn" : "share price",
+  "valueDe" : "Aktienkurs"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 29,
+  "valueEn" : "equity market",
+  "valueDe" : "Aktienmarkt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 30,
+  "valueEn" : "stock market",
+  "valueDe" : "Aktienmarkt, Wertpapierbörse"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 31,
+  "valueEn" : "currently",
+  "valueDe" : "aktuell"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 32,
+  "valueEn" : "to record all the details",
+  "valueDe" : "alle Details aufschreiben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 33,
+  "valueEn" : "age discrimination",
+  "valueDe" : "Altersdiskriminierung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 34,
+  "valueEn" : "to certify",
+  "valueDe" : "amtlich beglaubigen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 35,
+  "valueEn" : "to peg to the dollar",
+  "valueDe" : "an den Dollar klammern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 36,
+  "valueEn" : "at the leading edge of design",
+  "valueDe" : "an der Spitze im Design"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 37,
+  "valueEn" : "grower",
+  "valueDe" : "Anbauer"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 38,
+  "valueEn" : "to modify",
+  "valueDe" : "ändern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 39,
+  "valueEn" : "approval",
+  "valueDe" : "Anerkennung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 40,
+  "valueEn" : "initial",
+  "valueDe" : "anfänglich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 41,
+  "valueEn" : "initially",
+  "valueDe" : "anfänglich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 42,
+  "valueEn" : "early stage",
+  "valueDe" : "Anfangsphase"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 43,
+  "valueEn" : "to suit needs",
+  "valueDe" : "Anforderungen entsprechen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 44,
+  "valueEn" : "inherent",
+  "valueDe" : "angeboren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 45,
+  "valueEn" : "semi-skilled",
+  "valueDe" : "angelernt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 46,
+  "valueEn" : "adequate",
+  "valueDe" : "angemessen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 47,
+  "valueEn" : "in the face of",
+  "valueDe" : "angesichts"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 48,
+  "valueEn" : "tense",
+  "valueDe" : "angespannt, verkrampft"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 49,
+  "valueEn" : "employee",
+  "valueDe" : "Angestellter"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 50,
+  "valueEn" : "to file charges against",
+  "valueDe" : "Anklage erheben gegen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 51,
+  "valueEn" : "to spur",
+  "valueDe" : "ankurbeln"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 52,
+  "valueEn" : "to boost",
+  "valueDe" : "ankurbeln"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 53,
+  "valueEn" : "facilities",
+  "valueDe" : "Anlagen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 54,
+  "valueEn" : "investor",
+  "valueDe" : "Anleger"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 55,
+  "valueEn" : "bond",
+  "valueDe" : "Anleihe"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 56,
+  "valueEn" : "to assume",
+  "valueDe" : "annehmen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 57,
+  "valueEn" : "incentive",
+  "valueDe" : "Anreiz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 58,
+  "valueEn" : "subsequent",
+  "valueDe" : "anschliessend"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 59,
+  "valueEn" : "allegation",
+  "valueDe" : "Anschuldigung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 60,
+  "valueEn" : "to appeal to",
+  "valueDe" : "ansprechen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 61,
+  "valueEn" : "appealing",
+  "valueDe" : "ansprechend"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 62,
+  "valueEn" : "contact",
+  "valueDe" : "Ansprechpartner"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 63,
+  "valueEn" : "in preference to",
+  "valueDe" : "anstelle von"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 64,
+  "valueEn" : "to hire",
+  "valueDe" : "anstellen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 65,
+  "valueEn" : "to target",
+  "valueDe" : "anvisieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 66,
+  "valueEn" : "application",
+  "valueDe" : "Anwendung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 67,
+  "valueEn" : "attendance",
+  "valueDe" : "Anwesenheit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 68,
+  "valueEn" : "resident",
+  "valueDe" : "Anwohner"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 69,
+  "valueEn" : "to tap into",
+  "valueDe" : "anzapfen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 70,
+  "valueEn" : "employer",
+  "valueDe" : "Arbeitgeber"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 71,
+  "valueEn" : "industrial relations",
+  "valueDe" : "Arbeitgeber-Arbeitnehmer Beziehungen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 72,
+  "valueEn" : "wage",
+  "valueDe" : "Arbeitsentgelt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 73,
+  "valueEn" : "industrial tribunal",
+  "valueDe" : "Arbeitsgericht"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 74,
+  "valueEn" : "industrial action",
+  "valueDe" : "Arbeitskampf"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 75,
+  "valueEn" : "manpower planning",
+  "valueDe" : "Arbeitskräfteplanung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 76,
   "valueEn" : "job rotation",
   "valueDe" : "Arbeitsplatzrotation"
 }, {
-  "checkcounter" : 2,
-  "correctnesCounter" : 2,
-  "id" : 17,
-  "valueEn" : "market research",
-  "valueDe" : "Marktforschung"
-}, {
-  "checkcounter" : 6,
-  "correctnesCounter" : 2,
-  "id" : 18,
-  "valueEn" : "secondary data",
-  "valueDe" : "Sekundärdaten"
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 77,
+  "valueEn" : "to alleviate poverty",
+  "valueDe" : "Armut lindern"
 }, {
   "checkcounter" : 0,
   "correctnesCounter" : 0,
-  "id" : 19,
-  "valueEn" : "trade association",
-  "valueDe" : "Gewerbeverband"
-}, {
-  "checkcounter" : 4,
-  "correctnesCounter" : 3,
-  "id" : 20,
-  "valueEn" : "product-led",
-  "valueDe" : "produktorientiert"
-}, {
-  "checkcounter" : 7,
-  "correctnesCounter" : 7,
-  "id" : 21,
-  "valueEn" : "customer-led",
-  "valueDe" : "kundenorientiert"
-}, {
-  "checkcounter" : 2,
-  "correctnesCounter" : 1,
-  "id" : 22,
-  "valueEn" : "luxury goods",
-  "valueDe" : "Luxusgüter"
-}, {
-  "checkcounter" : 10,
-  "correctnesCounter" : 1,
-  "id" : 23,
-  "valueEn" : "opinion",
-  "valueDe" : "Meinung"
-}, {
-  "checkcounter" : 2,
-  "correctnesCounter" : 2,
-  "id" : 24,
-  "valueEn" : "skill",
-  "valueDe" : "Fähigkeit"
-}, {
-  "checkcounter" : 8,
-  "correctnesCounter" : 8,
-  "id" : 25,
-  "valueEn" : "craftsman",
-  "valueDe" : "Handwerker"
-}, {
-  "checkcounter" : 7,
-  "correctnesCounter" : 7,
-  "id" : 26,
-  "valueEn" : "supplier",
-  "valueDe" : "Lieferant"
-}, {
-  "checkcounter" : 8,
-  "correctnesCounter" : 2,
-  "id" : 27,
-  "valueEn" : "to inspect",
-  "valueDe" : "inspizieren"
+  "id" : 78,
+  "valueEn" : "item",
+  "valueDe" : "Artikel"
 }, {
   "checkcounter" : 0,
   "correctnesCounter" : 0,
-  "id" : 28,
-  "valueEn" : "competitiveness",
-  "valueDe" : "Wettbewerbsfähigkeit"
+  "id" : 79,
+  "valueEn" : "pharmaceuticals",
+  "valueDe" : "Arzneimittel"
 }, {
-  "checkcounter" : 10,
-  "correctnesCounter" : 2,
-  "id" : 29,
-  "valueEn" : "outsourcing",
-  "valueDe" : "Auslagerung "
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 80,
+  "valueEn" : "a staggering 11 per cent",
+  "valueDe" : "atemberaubende 11 Prozent"
 }, {
-  "checkcounter" : 7,
-  "correctnesCounter" : 1,
-  "id" : 30,
-  "valueEn" : "advantage",
-  "valueDe" : "Vorteil"
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 81,
+  "valueEn" : "on order",
+  "valueDe" : "auf Bestellung"
 }, {
-  "checkcounter" : 7,
-  "correctnesCounter" : 6,
-  "id" : 31,
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 82,
+  "valueEn" : "on a commission basis",
+  "valueDe" : "auf Kommission"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 83,
+  "valueEn" : "on credit",
+  "valueDe" : "auf Kredit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 84,
+  "valueEn" : "on request",
+  "valueDe" : "auf Verlangen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 85,
+  "valueEn" : "to synchronize",
+  "valueDe" : "aufeinander abstimmen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 86,
+  "valueEn" : "due to",
+  "valueDe" : "aufgrund"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 87,
+  "valueEn" : "attentive / alert",
+  "valueDe" : "aufmerksam"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 88,
+  "valueEn" : "to maintain",
+  "valueDe" : "aufrechterhalten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 89,
+  "valueEn" : "shakeup",
+  "valueDe" : "Aufrüttelung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 90,
+  "valueEn" : "upturn",
+  "valueDe" : "Aufschwung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 91,
+  "valueEn" : "expenditure",
+  "valueDe" : "Aufwand"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 92,
+  "valueEn" : "to turn around",
+  "valueDe" : "aus der Krise führen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 93,
+  "valueEn" : "sweatshop",
+  "valueDe" : "Ausbeuterbetrieb"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 94,
+  "valueEn" : "exploitative",
+  "valueDe" : "ausbeuterisch"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 95,
+  "valueEn" : "to lend",
+  "valueDe" : "ausborgen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 96,
+  "valueEn" : "expenses",
+  "valueDe" : "Ausgaben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 97,
+  "valueEn" : "flagship",
+  "valueDe" : "Aushängeschild"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 98,
+  "valueEn" : "inward investment",
+  "valueDe" : "ausländische Direktinvestition"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 99,
+  "valueEn" : "to exploit",
+  "valueDe" : "ausnutzen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 100,
+  "valueEn" : "to exploit",
+  "valueDe" : "ausbeuten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 101,
+  "valueEn" : "to rule out",
+  "valueDe" : "ausschliessen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 102,
+  "valueEn" : "physical appearance",
+  "valueDe" : "Aussehen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 103,
+  "valueEn" : "unless",
+  "valueDe" : "ausser"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 104,
+  "valueEn" : "obsessively",
+  "valueDe" : "äusserst"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 105,
+  "valueEn" : "austerity",
+  "valueDe" : "Austerität"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 106,
+  "valueEn" : "automation",
+  "valueDe" : "Automatisierung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 108,
+  "valueEn" : "business-to-business",
+  "valueDe" : "B2B"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 109,
+  "valueEn" : "business-to consumer",
+  "valueDe" : "B2C"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 110,
+  "valueEn" : "bear market",
+  "valueDe" : "Baisse"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 111,
+  "valueEn" : "letter of credit",
+  "valueDe" : "Bankbürgschaft"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 112,
+  "valueEn" : "to go bankrupt",
+  "valueDe" : "Bankrott gehen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 113,
+  "valueEn" : "considerable cost implications",
+  "valueDe" : "bedeutende Kostenfolgen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 114,
+  "valueEn" : "threatened",
+  "valueDe" : "bedroht"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 115,
+  "valueEn" : "to influence",
+  "valueDe" : "beeinflussen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 116,
+  "valueEn" : "to affect",
+  "valueDe" : "beeinflussen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 117,
+  "valueEn" : "to empower",
+  "valueDe" : "befähigen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 118,
+  "valueEn" : "promotion",
+  "valueDe" : "Beförderung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 119,
+  "valueEn" : "temporary",
+  "valueDe" : "befristet"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 120,
+  "valueEn" : "to advocate",
+  "valueDe" : "befürworten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 121,
+  "valueEn" : "advocate of",
+  "valueDe" : "Befürworter von"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 122,
+  "valueEn" : "glowing",
+  "valueDe" : "begeistert"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 123,
+  "valueEn" : "enthusiastic about",
+  "valueDe" : "begeistert über"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 124,
+  "valueEn" : "container",
+  "valueDe" : "Behälter"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 125,
+  "valueEn" : "to treat",
+  "valueDe" : "behandeln"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 126,
+  "valueEn" : "to claim",
+  "valueDe" : "behaupten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 127,
+  "valueEn" : "disabled",
+  "valueDe" : "behindert"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 128,
+  "valueEn" : "disability",
+  "valueDe" : "Behinderung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 129,
+  "valueEn" : "in the latter case",
+  "valueDe" : "bei letzterem Fall"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 130,
+  "valueEn" : "to maintain",
+  "valueDe" : "beibehalten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 131,
+  "valueEn" : "to comprise",
+  "valueDe" : "beinhalten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 132,
+  "valueEn" : "to entail",
+  "valueDe" : "umfassen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 133,
+  "valueEn" : "to contribute to",
+  "valueDe" : "beitragen zu"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 134,
+  "valueEn" : "harassment",
+  "valueDe" : "Belästigung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 135,
+  "valueEn" : "workforce",
+  "valueDe" : "Belegschaft"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 136,
+  "valueEn" : "benchmarking",
+  "valueDe" : "Benchmarking"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 137,
+  "valueEn" : "to require",
+  "valueDe" : "benötigen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 138,
+  "valueEn" : "user licence",
+  "valueDe" : "Benutzerlizenz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 139,
+  "valueEn" : "mining",
+  "valueDe" : "Bergbau"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 140,
+  "valueEn" : "to take into account",
+  "valueDe" : "berücksichtigen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 141,
+  "valueEn" : "career path / career progression",
+  "valueDe" : "beruflicher Weg"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 142,
+  "valueEn" : "job satisfaction",
+  "valueDe" : "Berufszufriedenheit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 143,
+  "valueEn" : "to reassure",
+  "valueDe" : "beruhigen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 144,
+  "valueEn" : "touch-screen",
+  "valueDe" : "Berührungsbildschirm"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 145,
+  "valueEn" : "to raise",
+  "valueDe" : "beschaffen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 146,
+  "valueEn" : "sourcing",
+  "valueDe" : "Beschaffung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 147,
+  "valueEn" : "fund raising",
+  "valueDe" : "Beschaffung von Geldmitteln"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 148,
+  "valueEn" : "grievance procedure",
+  "valueDe" : "Beschwerdeverfahren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 149,
+  "valueEn" : "to uphold",
+  "valueDe" : "bestätigen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 150,
+  "valueEn" : "to consist of",
+  "valueDe" : "bestehen aus"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 151,
+  "valueEn" : "order",
+  "valueDe" : "Bestellung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 152,
+  "valueEn" : "associated company",
+  "valueDe" : "Beteiligungsgesellschaft"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 153,
+  "valueEn" : "working capital",
+  "valueDe" : "Betriebskapital"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 154,
+  "valueEn" : "overheads",
+  "valueDe" : "Betriebskosten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 155,
+  "valueEn" : "works council",
+  "valueDe" : "Betriebsrat"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 156,
+  "valueEn" : "scam",
+  "valueDe" : "Betrug"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 157,
+  "valueEn" : "deceptive",
+  "valueDe" : "betrügerisch"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 158,
+  "valueEn" : "phishing",
+  "valueDe" : "betrügerisches Entlocken sensibler Daten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 159,
+  "valueEn" : "to worry",
+  "valueDe" : "beunruhigen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 160,
+  "valueEn" : "to assess",
+  "valueDe" : "beurteilen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 161,
+  "valueEn" : "appraisal",
+  "valueDe" : "Beurteilung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 162,
+  "valueEn" : "judgement",
+  "valueDe" : "Beurteilung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 163,
+  "valueEn" : "sachet",
+  "valueDe" : "Beutel"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 164,
+  "valueEn" : "to weather",
+  "valueDe" : "bewältigen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 165,
+  "valueEn" : "to irrigate",
+  "valueDe" : "bewässern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 166,
+  "valueEn" : "movement",
+  "valueDe" : "Bewegung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 167,
+  "valueEn" : "application",
+  "valueDe" : "Bewerbung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 168,
+  "valueEn" : "awareness",
+  "valueDe" : "Bewusstsein"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 169,
+  "valueEn" : "sick leave",
+  "valueDe" : "bezahlter Urlaub im Krankheitsfall"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 170,
+  "valueEn" : "rights issue",
+  "valueDe" : "Bezugsrechtsemission"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 171,
+  "valueEn" : "balance sheet",
+  "valueDe" : "Bilanzaufstellung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 172,
+  "valueEn" : "screen",
+  "valueDe" : "Bildschirm"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 173,
   "valueEn" : "cheap labour",
   "valueDe" : "billige Arbeitskräfte"
 }, {
   "checkcounter" : 0,
   "correctnesCounter" : 0,
-  "id" : 32,
-  "valueEn" : "discount",
-  "valueDe" : "Rabatt"
+  "id" : 174,
+  "valueEn" : "domestic market",
+  "valueDe" : "Binnenmarkt"
 }, {
   "checkcounter" : 0,
   "correctnesCounter" : 0,
-  "id" : 33,
+  "id" : 175,
+  "valueEn" : "organic",
+  "valueDe" : "Bio"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 176,
+  "valueEn" : "bubble",
+  "valueDe" : "Blase"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 177,
+  "valueEn" : "to stick with",
+  "valueDe" : "bleiben bei"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 178,
+  "valueEn" : "to thrive",
+  "valueDe" : "blühen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 179,
+  "valueEn" : "credit rating",
+  "valueDe" : "Bonitätsbewertung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 180,
+  "valueEn" : "boom-bust cycle",
+  "valueDe" : "Boom-Bust Zyklus"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 181,
+  "valueEn" : "to borrow from",
+  "valueDe" : "borgen von"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 182,
+  "valueEn" : "stock exchange",
+  "valueDe" : "Börse"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 183,
+  "valueEn" : "flotation",
+  "valueDe" : "Börsengang"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 184,
+  "valueEn" : "branding",
+  "valueDe" : "Branding, Markenpolitik"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 185,
+  "valueEn" : "gross",
+  "valueDe" : "brutto"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 186,
+  "valueEn" : "gross margin",
+  "valueDe" : "Bruttomarge"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 187,
+  "valueEn" : "GDP (gross domestic product)",
+  "valueDe" : "Bruttosozialprodukt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 188,
+  "valueEn" : "accounting / bookkeeping",
+  "valueDe" : "Buchhaltung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 189,
+  "valueEn" : "citizen",
+  "valueDe" : "Bürger"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 190,
+  "valueEn" : "white-collar worker / clerical worker",
+  "valueDe" : "Büroangestellte/r"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 191,
+  "valueEn" : "clerical activity",
+  "valueDe" : "Bürotätigkeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 192,
+  "valueEn" : "business plan",
+  "valueDe" : "Business-Plan, Unternehmenskonzept"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 194,
+  "valueEn" : "computer aided design",
+  "valueDe" : "CAD"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 195,
+  "valueEn" : "cash flow",
+  "valueDe" : "Geldfluss"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 196,
+  "valueEn" : "equal opportunities",
+  "valueDe" : "Chancengleichheit, Chancengerechtigkeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 197,
+  "valueEn" : "change management",
+  "valueDe" : "Change Management, Änderungswesen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 198,
+  "valueEn" : "cloud computing",
+  "valueDe" : "Cloud-Computing (cloud=Datenwolke)"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 199,
+  "valueEn" : "carbon footprint",
+  "valueDe" : "CO2-Fussabdruck"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 200,
+  "valueEn" : "computer worm",
+  "valueDe" : "Computer-Wurm"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 201,
+  "valueEn" : "CV (curriculum vitae) / résumé",
+  "valueDe" : "CV, Lebenslauf"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 203,
+  "valueEn" : "account",
+  "valueDe" : "Darstellung, Bericht"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 204,
+  "valueEn" : "the emergence of a new competitor",
+  "valueDe" : "das Auftreten eines neuen Konkurrenten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 205,
+  "valueEn" : "the nearby reef",
+  "valueDe" : "das nahegelegene Riff"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 206,
+  "valueEn" : "data protection act",
+  "valueDe" : "Datenschutzgesetz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 207,
+  "valueEn" : "to last",
+  "valueDe" : "dauern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 208,
+  "valueEn" : "to assume",
+  "valueDe" : "davon ausgehen dass"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 209,
+  "valueEn" : "accordingly",
+  "valueDe" : "dementsprechend"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 210,
+  "valueEn" : "democratic",
+  "valueDe" : "demokratisch"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 211,
+  "valueEn" : "to dismantle",
+  "valueDe" : "demontieren, auseinandernehmen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 212,
+  "valueEn" : "to peak",
+  "valueDe" : "den Höchststand erreichen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 213,
+  "valueEn" : "to deregulate",
+  "valueDe" : "deregulieren, liberalisieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 214,
+  "valueEn" : "therefore",
+  "valueDe" : "deshalb, folglich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 215,
+  "valueEn" : "desk research",
+  "valueDe" : "Desk-Research, ‘Schreibtischforschung’"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 216,
+  "valueEn" : "autocratic",
+  "valueDe" : "despotisch, autokratisch"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 217,
+  "valueEn" : "retailer",
+  "valueDe" : "Detailhändler, Einzelhändler"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 218,
+  "valueEn" : "to take the sole responsibility",
+  "valueDe" : "die alleinige Verantwortung übernehmen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 219,
+  "valueEn" : "to meet customer needs",
+  "valueDe" : "die Bedürfnisse der Kunden abdecken"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 220,
+  "valueEn" : "to fulfil the legal requirements",
+  "valueDe" : "die gesetzlichen Vorgaben erfüllen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 221,
+  "valueEn" : "to break even",
+  "valueDe" : "die Gewinnschwelle erreichen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 222,
+  "valueEn" : "to lay the foundation for",
+  "valueDe" : "die Grundlage legen für"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 223,
+  "valueEn" : "to increase capacity",
+  "valueDe" : "die Kapazität erhöhen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 224,
+  "valueEn" : "to hand in your notice / to give in your notice",
+  "valueDe" : "die Kündigung einreichen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 225,
+  "valueEn" : "to exceed the limit",
+  "valueDe" : "die Limite überschreiten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 226,
+  "valueEn" : "to question the wisdom",
+  "valueDe" : "die Weisheit in Frage stellen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 227,
+  "valueEn" : "services",
+  "valueDe" : "Dienstleistungen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 228,
+  "valueEn" : "tertiary sector / service sector",
+  "valueDe" : "Dienstleistungsbereich, tertiärer Wirtschaftssektor"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 229,
+  "valueEn" : "line manager",
+  "valueDe" : "direkter Vorgesetzter"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 230,
+  "valueEn" : "distribution channel",
+  "valueDe" : "Distributionsweg, Vertriebskanal"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 231,
+  "valueEn" : "miscellaneous",
+  "valueDe" : "diverse, sonstig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 232,
+  "valueEn" : "diversified",
+  "valueDe" : "diversifiziert, breit gefächert"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 233,
+  "valueEn" : "dividend",
+  "valueDe" : "Dividende, Gewinnanteil"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 234,
+  "valueEn" : "down / unavailable",
+  "valueDe" : "down, nicht erreichbar"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 235,
+  "valueEn" : "wireless",
+  "valueDe" : "drahtlos"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 236,
+  "valueEn" : "to urge",
+  "valueDe" : "drängen, vorantreiben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 237,
+  "valueEn" : "third party",
+  "valueDe" : "Drittpartei, Drittperson"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 238,
+  "valueEn" : "threat",
+  "valueDe" : "Drohung, Bedrohung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 239,
+  "valueEn" : "you express your disapproval",
+  "valueDe" : "du drückst deinen Unmut aus"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 240,
+  "valueEn" : "sick building syndrome",
+  "valueDe" : "durch kontaminierte Gebäude ausgelöste Krankheit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 241,
+  "valueEn" : "to implement",
+  "valueDe" : "durchführen, implementieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 242,
+  "valueEn" : "lead time",
+  "valueDe" : "Durchlaufzeit, Einführungszeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 243,
+  "valueEn" : "average",
+  "valueDe" : "Durchschnitt, durchschnittlich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 245,
+  "valueEn" : "genuine",
+  "valueDe" : "echt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 246,
+  "valueEn" : "efficiency-raising techniques",
+  "valueDe" : "effizienzsteigernde Methoden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 247,
+  "valueEn" : "actually",
+  "valueDe" : "eigentlich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 248,
+  "valueEn" : "property price",
+  "valueDe" : "Eigentum, Besitz, Grundstück"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 249,
+  "valueEn" : "an estimated 77% growth",
+  "valueDe" : "ein auf 77% geschätztes Wachstum"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 250,
+  "valueEn" : "a particular purpose",
+  "valueDe" : "ein besonderer Zweck"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 251,
+  "valueEn" : "to achieve a particular objective",
+  "valueDe" : "ein bestimmtes Ziel zu erreichen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 252,
+  "valueEn" : "to do a diploma",
+  "valueDe" : "ein Diplom erwerben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 253,
+  "valueEn" : "a disappointing lack of",
+  "valueDe" : "ein enttäuschender Mangel an"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 254,
+  "valueEn" : "a hostile takeover bid",
+  "valueDe" : "ein feindliches Übernahmeangebot"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 255,
+  "valueEn" : "to pass a law",
+  "valueDe" : "ein Gesetz verabschieden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 256,
+  "valueEn" : "a credible business model",
+  "valueDe" : "ein glaubwürdiges Geschäftsmodell"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 257,
+  "valueEn" : "a huge impact on",
+  "valueDe" : "ein grosser Einfluss auf"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 258,
+  "valueEn" : "a loaf of bread",
+  "valueDe" : "ein Laib Brot"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 259,
+  "valueEn" : "to rebrand",
+  "valueDe" : "ein neues Image verpassen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 260,
+  "valueEn" : "to obtain a patent",
+  "valueDe" : "ein Patent bekommen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 261,
+  "valueEn" : "to infringe a patent",
+  "valueDe" : "ein Patent verletzen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 262,
+  "valueEn" : "a downmarket product",
+  "valueDe" : "ein Produkt für den Massenmarkt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 263,
+  "valueEn" : "to ban a product",
+  "valueDe" : "ein Produkt verbieten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 264,
+  "valueEn" : "a damaging blow",
+  "valueDe" : "ein Schlag, der Schaden bringt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 265,
+  "valueEn" : "to run a business",
+  "valueDe" : "ein Unternehmen leiten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 266,
+  "valueEn" : "to commit a crime",
+  "valueDe" : "ein Verbrechen begehen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 267,
+  "valueEn" : "induction",
+  "valueDe" : "Einarbeitung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 268,
+  "valueEn" : "an increase in consumer spending",
+  "valueDe" : "eine Erhöhung der Verbraucherausgaben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 269,
+  "valueEn" : "to run a business",
+  "valueDe" : "eine Firma führen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 270,
+  "valueEn" : "to pursue a career",
+  "valueDe" : "eine Karriere verfolgen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 271,
+  "valueEn" : "to settle an invoice or bill",
+  "valueDe" : "eine Rechnung begleichen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 272,
+  "valueEn" : "a huge range",
+  "valueDe" : "eine riesige Auswahl"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 273,
+  "valueEn" : "to carry out a routine check",
+  "valueDe" : "eine Routinekontrolle durchführen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 274,
+  "valueEn" : "to default on a debt",
+  "valueDe" : "eine Schuld nicht bezahlen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 275,
+  "valueEn" : "to adopt a strategy",
+  "valueDe" : "eine Strategie übernehmen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 276,
+  "valueEn" : "to carry out a survey",
+  "valueDe" : "eine Umfrage durchführen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 277,
+  "valueEn" : "to make a profit",
+  "valueDe" : "einen Gewinn erwirtschaften"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 278,
+  "valueEn" : "to take out a loan",
+  "valueDe" : "einen Kredit aufnehmen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 279,
+  "valueEn" : "to launch a product",
+  "valueDe" : "einen neuen Artikel einführen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 280,
+  "valueEn" : "to undercut a price",
+  "valueDe" : "einen Preis unterbieten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 281,
+  "valueEn" : "to charge a price",
+  "valueDe" : "einen Preis verlangen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 282,
+  "valueEn" : "to charge a price",
+  "valueDe" : "einen Preis verlangen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 283,
+  "valueEn" : "to spark a price war",
+  "valueDe" : "einen Preiskrieg auslösen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 284,
+  "valueEn" : "to place an emphasis on",
+  "valueDe" : "einen Schwerpunkt setzen auf"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 285,
+  "valueEn" : "to meet standards",
+  "valueDe" : "einen Standard erreichen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 286,
+  "valueEn" : "to close a sale",
+  "valueDe" : "einen Verkauf abschliessen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 287,
+  "valueEn" : "boundary fence",
+  "valueDe" : "Einfriedungszaun"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 288,
+  "valueEn" : "to freeze",
+  "valueDe" : "einfrieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 289,
+  "valueEn" : "sympathetic(ally)",
+  "valueDe" : "einfühlsam"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 290,
+  "valueEn" : "to implement",
+  "valueDe" : "einführen, realisieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 291,
+  "valueEn" : "built-in",
+  "valueDe" : "eingebaut, integriert"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 292,
+  "valueEn" : "unit",
+  "valueDe" : "Einheit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 293,
+  "valueEn" : "purchasing department",
+  "valueDe" : "Einkaufsabteilung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 294,
+  "valueEn" : "income",
+  "valueDe" : "Einkommen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 295,
+  "valueEn" : "earnings",
+  "valueDe" : "Einkünfte, Ertrag"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 296,
+  "valueEn" : "interference",
+  "valueDe" : "Einmischung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 297,
+  "valueEn" : "memorable",
+  "valueDe" : "einprägsam, unvergesslich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 298,
+  "valueEn" : "restriction",
+  "valueDe" : "Einschränkung, Restriktion"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 299,
+  "valueEn" : "one-off production",
+  "valueDe" : "Einzel-, Sonderanfertigung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 300,
+  "valueEn" : "itemized list",
+  "valueDe" : "Einzelaufstellung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 301,
+  "valueEn" : "sole trader",
+  "valueDe" : "Einzelunternehmer"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 302,
+  "valueEn" : "unique",
+  "valueDe" : "einzigartig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 303,
+  "valueEn" : "PDA (personal digital assistant)",
+  "valueDe" : "elektronischer Organizer"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 304,
+  "valueEn" : "recipient",
+  "valueDe" : "Empfänger"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 305,
+  "valueEn" : "recommendation",
+  "valueDe" : "Empfehlung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 306,
+  "valueEn" : "labour-market shortage",
+  "valueDe" : "Engpass auf dem Arbeitsmarkt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 307,
+  "valueEn" : "to remove",
+  "valueDe" : "entfernen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 308,
+  "valueEn" : "to counteract",
+  "valueDe" : "entgegenwirken"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 309,
+  "valueEn" : "to uncover",
+  "valueDe" : "enthüllen, aufdecken"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 310,
+  "valueEn" : "to make redundant",
+  "valueDe" : "entlassen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 311,
+  "valueEn" : "to get the sack",
+  "valueDe" : "entlassen werden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 312,
+  "valueEn" : "to dismiss / to fire / to sack / to give notice / to give someone the sack",
+  "valueDe" : "entlassen, kündigen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 313,
+  "valueEn" : "to relieve",
+  "valueDe" : "entlasten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 314,
+  "valueEn" : "remuneration",
+  "valueDe" : "Entschädigung, Vergütung, Belohnung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 315,
+  "valueEn" : "decision-making",
+  "valueDe" : "Entscheidungsfindung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 316,
+  "valueEn" : "determination",
+  "valueDe" : "Entschlossenheit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 317,
+  "valueEn" : "developing country",
+  "valueDe" : "Entwicklungsland"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 318,
+  "valueEn" : "developing countries",
+  "valueDe" : "Entwicklungsländer"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 319,
+  "valueEn" : "fierce rivals",
+  "valueDe" : "erbitterte Rivalen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 320,
+  "valueEn" : "invention",
+  "valueDe" : "Erfindung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 321,
+  "valueEn" : "profit and loss account / P&L",
+  "valueDe" : "Erfolgsrechnung, Gewinn- und Verlustrechnung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 322,
+  "valueEn" : "output",
+  "valueDe" : "Ergebnis, Produktionsmenge"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 323,
+  "valueEn" : "to obtain",
+  "valueDe" : "erhalten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 324,
+  "valueEn" : "availability",
+  "valueDe" : "Erhältlichkeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 325,
+  "valueEn" : "recovery",
+  "valueDe" : "Erholung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 326,
+  "valueEn" : "rally",
+  "valueDe" : "Erholung des Marktes"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 327,
+  "valueEn" : "recognition",
+  "valueDe" : "Erkennung, Wiedererkennung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 328,
+  "valueEn" : "to derive",
+  "valueDe" : "erlangen, ableiten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 329,
+  "valueEn" : "to facilitate",
+  "valueDe" : "ermöglichen, erleichtern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 330,
+  "valueEn" : "to encourage",
+  "valueDe" : "ermutigen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 331,
+  "valueEn" : "to encourage",
+  "valueDe" : "ermutigen, motivieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 332,
+  "valueEn" : "dietary",
+  "valueDe" : "Ernährungs-"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 333,
+  "valueEn" : "to appoint",
+  "valueDe" : "ernennen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 334,
+  "valueEn" : "to achieve",
+  "valueDe" : "erreichen, leisten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 335,
+  "valueEn" : "appearance",
+  "valueDe" : "Erscheinungsbild, Aussehen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 336,
+  "valueEn" : "yield",
+  "valueDe" : "Ertrag"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 337,
+  "valueEn" : "proceeds",
+  "valueDe" : "Ertrag, Erlös"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 338,
+  "valueEn" : "diversification",
+  "valueDe" : "Erweiterung, Diversifizierung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 339,
+  "valueEn" : "to make a purchase / to purchase / to buy",
+  "valueDe" : "erwerben, kaufen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 340,
+  "valueEn" : "parental leave",
+  "valueDe" : "Erziehungsurlaub"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 341,
+  "valueEn" : "consensus prevailed that",
+  "valueDe" : "es herrschte Übereinstimmung, dass"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 342,
+  "valueEn" : "it is likely to have",
+  "valueDe" : "es wird wahrscheinlich haben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 343,
+  "valueEn" : "to escalate",
+  "valueDe" : "eskalieren, sich ausweiten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 344,
+  "valueEn" : "ethical",
+  "valueDe" : "ethisch, moralisch"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 345,
+  "valueEn" : "race",
+  "valueDe" : "ethnische Zugehörigkeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 346,
+  "valueEn" : "labelling",
+  "valueDe" : "Etikettierung, Beschriftung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 347,
+  "valueEn" : "to succeed in doing something",
+  "valueDe" : "etwas erfolgreich schaffen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 348,
+  "valueEn" : "to customize something",
+  "valueDe" : "etwas nach Kundenwünschen anfertigen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 349,
+  "valueEn" : "something is set to happen",
+  "valueDe" : "etwas passiert wahrscheinlich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 350,
+  "valueEn" : "to evaluate",
+  "valueDe" : "evaluieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 351,
+  "valueEn" : "upmarket",
+  "valueDe" : "exklusiv, hochwertig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 352,
+  "valueEn" : "to expand",
+  "valueDe" : "expandieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 353,
+  "valueEn" : "to expand",
+  "valueDe" : "expandieren, ausweiten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 354,
+  "valueEn" : "expansion",
+  "valueDe" : "Expansion, Ausdehnung, Erweiterung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 355,
+  "valueEn" : "expansion",
+  "valueDe" : "Expansion, Erweiterung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 356,
+  "valueEn" : "external consultant",
+  "valueDe" : "externer Berater"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 358,
+  "valueEn" : "factory",
+  "valueDe" : "Fabrik"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 359,
+  "valueEn" : "blue-collar worker",
+  "valueDe" : "Fabrikarbeiter, ‚Büezer‘"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 360,
+  "valueEn" : "specialism",
+  "valueDe" : "Fachgebiet"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 361,
+  "valueEn" : "ability / skill",
+  "valueDe" : "Fähigkeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 362,
+  "valueEn" : "skill",
+  "valueDe" : "Fähigkeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 363,
+  "valueEn" : "fair trade",
+  "valueDe" : "fairer Handel"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 364,
+  "valueEn" : "fair trade",
+  "valueDe" : "fairer Handel"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 365,
+  "valueEn" : "slump",
+  "valueDe" : "Fall, Sturz, Einbruch"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 366,
+  "valueEn" : "case study",
+  "valueDe" : "Fallbeispiel, Fallstudie"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 367,
+  "valueEn" : "to decline",
+  "valueDe" : "fallen, abnehmen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 368,
+  "valueEn" : "to slump",
+  "valueDe" : "fallen, zurückgehen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 369,
+  "valueEn" : "fibre",
+  "valueDe" : "Faser"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 370,
+  "valueEn" : "lazy",
+  "valueDe" : "faul, arbeitsscheu"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 371,
+  "valueEn" : "lack of knowledge",
+  "valueDe" : "fehlendes Wissen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 372,
+  "valueEn" : "fault",
+  "valueDe" : "Fehler"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 373,
+  "valueEn" : "field research",
+  "valueDe" : "Feldforschung, Feldstudie"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 374,
+  "valueEn" : "remote(ly)",
+  "valueDe" : "fern, rechnerfern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 375,
+  "valueEn" : "distance learning",
+  "valueDe" : "Fernstudium"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 376,
+  "valueEn" : "production line",
+  "valueDe" : "Fertigungsstrasse, Fliessband"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 377,
+  "valueEn" : "determined",
+  "valueDe" : "fest entschlossen, zielstrebig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 378,
+  "valueEn" : "to cement",
+  "valueDe" : "festigen, zementieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 379,
+  "valueEn" : "fixed costs / direct costs",
+  "valueDe" : "Festkosten, fixe Kosten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 380,
+  "valueEn" : "to set out",
+  "valueDe" : "festlegen, entscheiden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 381,
+  "valueEn" : "hard drive",
+  "valueDe" : "Festplatte"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 382,
+  "valueEn" : "financial sector",
+  "valueDe" : "Finanzsektor, Geldsektor"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 383,
+  "valueEn" : "fiscal measures",
+  "valueDe" : "finanztechnische Massnahmen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 384,
+  "valueEn" : "enterprise / company / firm",
+  "valueDe" : "Firma, Unternehmen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 385,
+  "valueEn" : "corporate",
+  "valueDe" : "Firmen- , Unternehmens-"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 386,
+  "valueEn" : "in-house",
+  "valueDe" : "firmenintern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 387,
+  "valueEn" : "start-up (company)",
+  "valueDe" : "Firmenneugründung, Start-up"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 388,
+  "valueEn" : "gym",
+  "valueDe" : "Fitnessstudio"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 389,
+  "valueEn" : "overheads",
+  "valueDe" : "Fixkosten, Betriebskosten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 390,
+  "valueEn" : "flat",
+  "valueDe" : "flach"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 391,
+  "valueEn" : "floating exchange rate",
+  "valueDe" : "flexibler Wechselkurs"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 392,
+  "valueEn" : "assembly line",
+  "valueDe" : "Fliessband, Montageband"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 393,
+  "valueEn" : "flow-production / mass production",
+  "valueDe" : "Fliessfertigung, Massenproduktion"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 394,
+  "valueEn" : "flow",
+  "valueDe" : "Fluss"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 395,
+  "valueEn" : "focus group",
+  "valueDe" : "Fokusgruppe"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 396,
+  "valueEn" : "to sponsor",
+  "valueDe" : "fördern, sponsern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 397,
+  "valueEn" : "accounts receivable",
+  "valueDe" : "Forderungen, Aussenstände"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 398,
+  "valueEn" : "enterprise zone",
+  "valueDe" : "Förderungsgebiet"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 399,
+  "valueEn" : "forestry",
+  "valueDe" : "Forstwesen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 400,
+  "valueEn" : "progress",
+  "valueDe" : "Fortschritt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 401,
+  "valueEn" : "questionnaire",
+  "valueDe" : "Fragebogen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 402,
+  "valueEn" : "franchise",
+  "valueDe" : "Franchise, Lizenzfirma"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 403,
+  "valueEn" : "free trade",
+  "valueDe" : "Freihandel"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 404,
+  "valueEn" : "freelance",
+  "valueDe" : "freischaffend, Freischaffende/r"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 405,
+  "valueEn" : "foreign currency",
+  "valueDe" : "Fremdwährung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 406,
+  "valueEn" : "previous(ly)",
+  "valueDe" : "früher, einst"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 407,
+  "valueEn" : "leadership",
+  "valueDe" : "Führung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 408,
+  "valueEn" : "merger",
+  "valueDe" : "Fusion"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 409,
+  "valueEn" : "to merge",
+  "valueDe" : "fusionieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 411,
+  "valueEn" : "to safeguard",
+  "valueDe" : "garantieren, bewahren, absichern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 412,
+  "valueEn" : "catering",
+  "valueDe" : "Gastronomie, Catering"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 413,
+  "valueEn" : "to thrive",
+  "valueDe" : "gedeihen, blühen, Erfolg haben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 414,
+  "valueEn" : "patient",
+  "valueDe" : "geduldig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 415,
+  "valueEn" : "hazardous",
+  "valueDe" : "gefährlich, riskant"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 416,
+  "valueEn" : "fake",
+  "valueDe" : "gefälscht, nachgemacht"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 417,
+  "valueEn" : "prison sentence",
+  "valueDe" : "Gefängnisstrafe"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 418,
+  "valueEn" : "to breach copyright",
+  "valueDe" : "gegen das Urheberrecht verstossen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 419,
+  "valueEn" : "to violate a law",
+  "valueDe" : "gegen ein Gesetz verstossen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 420,
+  "valueEn" : "pay",
+  "valueDe" : "Gehalt, Bezahlung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 421,
+  "valueEn" : "payroll",
+  "valueDe" : "Gehaltsabrechnung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 422,
+  "valueEn" : "fringe benefits / perks",
+  "valueDe" : "Gehaltsnebenleistungen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 423,
+  "valueEn" : "to raise money",
+  "valueDe" : "Geld beschaffen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 424,
+  "valueEn" : "to owe money",
+  "valueDe" : "Geld schulden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 425,
+  "valueEn" : "to owe money",
+  "valueDe" : "Geld schulden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 426,
+  "valueEn" : "lump sum",
+  "valueDe" : "Geldbetrag, Einmalzahlung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 427,
+  "valueEn" : "backer",
+  "valueDe" : "Geldgeber, Sponsor"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 428,
+  "valueEn" : "according to",
+  "valueDe" : "gemäss"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 429,
+  "valueEn" : "subject to",
+  "valueDe" : "gemäss, vorbehaltlich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 430,
+  "valueEn" : "community",
+  "valueDe" : "Gemeinschaft, Allgemeinheit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 431,
+  "valueEn" : "collaborative",
+  "valueDe" : "gemeinschaftlich, gemeinsam"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 432,
+  "valueEn" : "accuracy",
+  "valueDe" : "Genauigkeit, Richtigkeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 433,
+  "valueEn" : "co-operative",
+  "valueDe" : "Genossenschaft"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 434,
+  "valueEn" : "device",
+  "valueDe" : "Gerät, Apparat"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 435,
+  "valueEn" : "tribunal",
+  "valueDe" : "Gericht"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 436,
+  "valueEn" : "liquidation",
+  "valueDe" : "Geschäftsauflösung, Liquidation"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 437,
+  "valueEn" : "limited company / Incorporated (Ltd / Inc.)",
+  "valueDe" : "Gesellschaft mit beschränkter Haftung (GmbH)"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 438,
+  "valueEn" : "association",
+  "valueDe" : "Gesellschaft, Vereinigung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 439,
+  "valueEn" : "law",
+  "valueDe" : "Gesetz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 440,
+  "valueEn" : "legislation",
+  "valueDe" : "Gesetzgebung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 441,
+  "valueEn" : "statutory requirement",
+  "valueDe" : "gesetzliche Anforderung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 442,
+  "valueEn" : "laissez-faire",
+  "valueDe" : "Gewährenlassen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 443,
+  "valueEn" : "trade association",
+  "valueDe" : "Gewerbeverband"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 444,
+  "valueEn" : "trade(s) union / labor union",
+  "valueDe" : "Gewerkschaft"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 445,
+  "valueEn" : "mark-up",
+  "valueDe" : "Gewinnaufschlag"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 446,
+  "valueEn" : "profitable",
+  "valueDe" : "gewinnbringend, rentabel"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 447,
+  "valueEn" : "to reinvest profits",
+  "valueDe" : "Gewinne wieder investieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 448,
+  "valueEn" : "profit margin",
+  "valueDe" : "Gewinnmarge"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 449,
+  "valueEn" : "profit maximization",
+  "valueDe" : "Gewinnmaximierung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 450,
+  "valueEn" : "profit forecast",
+  "valueDe" : "Gewinnprognose"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 451,
+  "valueEn" : "profit margin",
+  "valueDe" : "Gewinnspanne, Gewinnmarge"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 452,
+  "valueEn" : "extraction",
+  "valueDe" : "Gewinnung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 453,
+  "valueEn" : "habit",
+  "valueDe" : "Gewohnheit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 454,
+  "valueEn" : "habit",
+  "valueDe" : "Gewohnheit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 455,
+  "valueEn" : "greed",
+  "valueDe" : "Gier, Habgier"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 456,
+  "valueEn" : "peak",
+  "valueDe" : "Gipfel, Höchststand"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 457,
+  "valueEn" : "creditor",
+  "valueDe" : "Gläubiger, Kreditor"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 458,
+  "valueEn" : "flexitime",
+  "valueDe" : "Gleitzeit, flexible Arbeitszeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 459,
+  "valueEn" : "bulk buying",
+  "valueDe" : "Grosseinkauf"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 460,
   "valueEn" : "wholesaler",
-  "valueDe" : "Grosshändler"
+  "valueDe" : "Grosshändler, Grossist"
 }, {
   "checkcounter" : 0,
   "correctnesCounter" : 0,
-  "id" : 34,
+  "id" : 461,
+  "valueEn" : "generous",
+  "valueDe" : "grosszügig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 462,
+  "valueEn" : "core value",
+  "valueDe" : "Grundwert"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 463,
+  "valueEn" : "rubber",
+  "valueDe" : "Gummi"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 464,
+  "valueEn" : "value for money",
+  "valueDe" : "gutes Preis- Leistungsverhältnis"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 466,
+  "valueEn" : "durability",
+  "valueDe" : "Haltbarkeit, Lebensdauer"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 467,
+  "valueEn" : "to go hand in hand with",
+  "valueDe" : "Hand in Hand gehen mit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 468,
+  "valueEn" : "commerce",
+  "valueDe" : "Handel, Kommerz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 469,
+  "valueEn" : "trading relationship",
+  "valueDe" : "Handelsbeziehung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 470,
+  "valueEn" : "trade surplus",
+  "valueDe" : "Handelsbilanzüberschuss"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 471,
+  "valueEn" : "trade deficit",
+  "valueDe" : "Handelsdefizit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 472,
+  "valueEn" : "business law",
+  "valueDe" : "Handelsrecht"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 473,
+  "valueEn" : "commodity",
+  "valueDe" : "Handelsware"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 474,
+  "valueEn" : "commodity",
+  "valueDe" : "Handelsware, Handelsgut"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 475,
+  "valueEn" : "commodity",
+  "valueDe" : "Handelsware, Rohstoff"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 476,
+  "valueEn" : "glove",
+  "valueDe" : "Handschuh"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 477,
+  "valueEn" : "craftsman",
+  "valueDe" : "Handwerker"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 478,
+  "valueEn" : "mobile phone / cell phone",
+  "valueDe" : "Handy"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 479,
+  "valueEn" : "competitive",
+  "valueDe" : "hart umkämpft, konkurrierend"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 480,
+  "valueEn" : "headquarters",
+  "valueDe" : "Hauptsitz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 481,
+  "valueEn" : "core objective / bottom line",
+  "valueDe" : "Hauptziel"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 482,
+  "valueEn" : "door-to-door selling",
+  "valueDe" : "Hausieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 483,
+  "valueEn" : "domestic consignment",
+  "valueDe" : "Hauslieferung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 484,
+  "valueEn" : "own brand / own label",
+  "valueDe" : "Hausmarke"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 485,
+  "valueEn" : "bull market",
+  "valueDe" : "Hausse, Bull Market"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 486,
+  "valueEn" : "headhunter",
+  "valueDe" : "Headhunter, Personalabwerber"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 487,
+  "valueEn" : "hedge funds",
+  "valueDe" : "Hedge-Funds"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 488,
+  "valueEn" : "fierce",
+  "valueDe" : "heftig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 489,
+  "valueEn" : "homeworker / teleworker / telecommuter",
+  "valueDe" : "Heimarbeiter/in"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 490,
+  "valueEn" : "help desk",
+  "valueDe" : "Help Desk"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 491,
+  "valueEn" : "approach to something",
+  "valueDe" : "Herangehen an etwas, Einstellung zu etwas"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 492,
+  "valueEn" : "to understate",
+  "valueDe" : "herunterspielen, zu wenig angeben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 493,
+  "valueEn" : "to distinguish",
+  "valueDe" : "hervorheben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 494,
+  "valueEn" : "nowadays",
+  "valueDe" : "heutzutage"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 495,
+  "valueEn" : "hierarchical",
+  "valueDe" : "hierarchisch"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 496,
+  "valueEn" : "barrier",
+  "valueDe" : "Hindernis, Hemmnis"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 497,
+  "valueEn" : "commitment",
+  "valueDe" : "Hingabe, Engagement"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 498,
+  "valueEn" : "sophisticated",
+  "valueDe" : "hoch entwickelt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 499,
+  "valueEn" : "state-of-the-art",
+  "valueDe" : "hochmodern, auf dem neuesten Stand"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 500,
+  "valueEn" : "graduate",
+  "valueDe" : "Hochschulabgänger"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 501,
+  "valueEn" : "courteous",
+  "valueDe" : "höflich, zuvorkommend"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 502,
+  "valueEn" : "politeness",
+  "valueDe" : "Höflichkeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 503,
+  "valueEn" : "holding company",
+  "valueDe" : "Holdinggesellschaft, Dachgesellschaft"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 504,
+  "valueEn" : "hot-desking",
+  "valueDe" : "Hotdesking (flexible Arbeitsweise an wechselnden Schreibtischen)"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 506,
+  "valueEn" : "he was made redundant",
+  "valueDe" : "ihm wurde gekündigt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 507,
+  "valueEn" : "on behalf of",
+  "valueDe" : "im Namen von"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 508,
+  "valueEn" : "relative to",
+  "valueDe" : "im Verhältnis zu"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 509,
+  "valueEn" : "importers and exporters",
+  "valueDe" : "Importeure und Exporteure"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 510,
+  "valueEn" : "to consider",
+  "valueDe" : "in Betracht ziehen, nachdenken"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 511,
+  "valueEn" : "throughout the world",
+  "valueDe" : "in der ganzen Welt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 512,
+  "valueEn" : "to be shortlisted",
+  "valueDe" : "in die engere Wahl kommen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 513,
+  "valueEn" : "to hack into a system",
+  "valueDe" : "in ein System eindringen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 514,
+  "valueEn" : "recently",
+  "valueDe" : "in letzter Zeit, kürzlich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 515,
+  "valueEn" : "to get into debt",
+  "valueDe" : "in Schulden geraten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 516,
+  "valueEn" : "to go on strike",
+  "valueDe" : "in Streik treten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 517,
+  "valueEn" : "brownfield site",
+  "valueDe" : "Industriebrache, verseuchter Boden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 518,
+  "valueEn" : "processed food",
+  "valueDe" : "industriell verarbeitete Lebensmittel"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 519,
+  "valueEn" : "information (no plural –s!)",
+  "valueDe" : "Information, Informationen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 520,
+  "valueEn" : "to release information",
+  "valueDe" : "Informationen herausgeben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 521,
+  "valueEn" : "to gather / to collect information",
+  "valueDe" : "Informationen sammeln"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 522,
+  "valueEn" : "to gather information",
+  "valueDe" : "Informationen sammeln"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 523,
+  "valueEn" : "content",
+  "valueDe" : "Inhalt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 524,
+  "valueEn" : "amid revelations",
+  "valueDe" : "inmitten von Enthüllungen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 525,
+  "valueEn" : "to pay within 90 days",
+  "valueDe" : "innerhalb von 90 Tagen bezahlen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 526,
+  "valueEn" : "ad / advert / advertisement",
+  "valueDe" : "Inserat"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 527,
+  "valueEn" : "to inspect",
+  "valueDe" : "inspizieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 528,
+  "valueEn" : "to install",
+  "valueDe" : "installieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 529,
+  "valueEn" : "to integrate",
+  "valueDe" : "integrieren, kombinieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 530,
+  "valueEn" : "stakeholder",
+  "valueDe" : "Interessenvertreter"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 531,
+  "valueEn" : "to invest",
+  "valueDe" : "investieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 532,
+  "valueEn" : "investment",
+  "valueDe" : "Investition"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 533,
+  "valueEn" : "business angel",
+  "valueDe" : "Investor (für Start-Ups)"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 534,
+  "valueEn" : "misleading",
+  "valueDe" : "irreführend"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 535,
+  "valueEn" : "status quo",
+  "valueDe" : "Ist-Zustand, gegenwärtiger Stand"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 537,
+  "valueEn" : "though",
+  "valueDe" : "jedoch"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 538,
+  "valueEn" : "though",
+  "valueDe" : "jedoch, aber"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 539,
+  "valueEn" : "referee",
+  "valueDe" : "jemand, der eine Referenz gibt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 540,
+  "valueEn" : "to invoice someone / to bill someone",
+  "valueDe" : "jemandem eine Rechnung ausstellen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 541,
+  "valueEn" : "to report to someone",
+  "valueDe" : "jemandem unterstellt sein"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 542,
+  "valueEn" : "to discriminate against someone",
+  "valueDe" : "jemanden benachteiligen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 543,
+  "valueEn" : "to cause someone to do something",
+  "valueDe" : "jemanden dazu bringen, etwas zu tun"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 544,
+  "valueEn" : "job sharing",
+  "valueDe" : "Jobsharing, Stellenteilung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 545,
+  "valueEn" : "joint venture",
+  "valueDe" : "Joint Venutre, Gemeinschaftsunternehmen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 546,
+  "valueEn" : "just-in-time",
+  "valueDe" : "just-in-time, bedarfsorientiert"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 548,
+  "valueEn" : "limestone",
+  "valueDe" : "Kalkstein"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 549,
+  "valueEn" : "campaign",
+  "valueDe" : "Kampagne, Aktion"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 550,
+  "valueEn" : "channel",
+  "valueDe" : "Kanal"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 551,
+  "valueEn" : "capital account",
+  "valueDe" : "Kapitalbilanz, Vermögensrechnung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 552,
+  "valueEn" : "flight of capital",
+  "valueDe" : "Kapitalflucht"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 553,
+  "valueEn" : "cartel",
+  "valueDe" : "Kartell"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 554,
+  "valueEn" : "cascade",
+  "valueDe" : "Kaskade, Reihe"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 555,
+  "valueEn" : "checkout / counter",
+  "valueDe" : "Kasse"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 556,
+  "valueEn" : "purchase",
+  "valueDe" : "Kauf, Einkauf"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 557,
+  "valueEn" : "core business",
+  "valueDe" : "Kerngeschäft"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 558,
+  "valueEn" : "core market",
+  "valueDe" : "Kernmarkt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 559,
+  "valueEn" : "chain",
+  "valueDe" : "Kette"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 560,
+  "valueEn" : "child labour",
+  "valueDe" : "Kinderarbeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 561,
+  "valueEn" : "legal action",
+  "valueDe" : "Klage vor Gericht"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 562,
+  "valueEn" : "dress code",
+  "valueDe" : "Kleidervorschriften"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 563,
+  "valueEn" : "knowledgable",
+  "valueDe" : "klug, sachkundig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 564,
+  "valueEn" : "chef",
+  "valueDe" : "Koch"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 565,
+  "valueEn" : "commentator",
+  "valueDe" : "Kommentator, Berichterstatter"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 566,
+  "valueEn" : "compatible with",
+  "valueDe" : "kompatibel mit, vereinbar mit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 567,
+  "valueEn" : "competencies",
+  "valueDe" : "Kompetenzen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 568,
+  "valueEn" : "economic downturn",
+  "valueDe" : "Konjunkturschwäche"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 569,
+  "valueEn" : "to compete with",
+  "valueDe" : "konkurrieren mit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 570,
+  "valueEn" : "to file for bankruptcy",
+  "valueDe" : "Konkurs anmelden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 571,
+  "valueEn" : "to consult",
+  "valueDe" : "konsultieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 572,
+  "valueEn" : "consumerism",
+  "valueDe" : "Konsumgesellschaft, Konsumerismus"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 573,
+  "valueEn" : "quota",
+  "valueDe" : "Kontingent, Quote"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 574,
+  "valueEn" : "ledger",
+  "valueDe" : "Konto"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 575,
+  "valueEn" : "overdraft",
+  "valueDe" : "Kontoüberziehung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 576,
+  "valueEn" : "to police",
+  "valueDe" : "kontrollieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 577,
+  "valueEn" : "concern",
+  "valueDe" : "Konzern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 578,
+  "valueEn" : "license / licence",
+  "valueDe" : "Konzession, Bewilligung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 579,
+  "valueEn" : "to incur costs",
+  "valueDe" : "Kosten auf sich ziehen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 580,
+  "valueEn" : "economies of scale",
+  "valueDe" : "Kostenersparnis durch Massenproduktion"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 581,
+  "valueEn" : "cost structure",
+  "valueDe" : "Kostenstruktur"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 582,
+  "valueEn" : "costly",
+  "valueDe" : "kostspielig, teuer"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 583,
+  "valueEn" : "ailing / sick",
+  "valueDe" : "kränkelnd, marode"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 584,
+  "valueEn" : "health insurance",
+  "valueDe" : "Krankenkasse"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 585,
+  "valueEn" : "credit terms",
+  "valueDe" : "Kreditbedingungen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 586,
+  "valueEn" : "lenders",
+  "valueDe" : "Kreditgeber"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 587,
+  "valueEn" : "borrowers",
+  "valueDe" : "Kreditnehmer, Schuldner"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 588,
+  "valueEn" : "credit control",
+  "valueDe" : "Kreditüberwachung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 589,
+  "valueEn" : "crisis management",
+  "valueDe" : "Krisenbewältigung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 590,
+  "valueEn" : "review",
+  "valueDe" : "Kritik, Besprechung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 591,
+  "valueEn" : "critic",
+  "valueDe" : "Kritiker/in"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 592,
+  "valueEn" : "to criticize",
+  "valueDe" : "kritisieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 593,
+  "valueEn" : "pie chart",
+  "valueDe" : "Kuchendiagramm, Kreisdiagramm"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 594,
+  "valueEn" : "cold-storage warehouse",
+  "valueDe" : "Kühlhaus"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 595,
   "valueEn" : "customer rating",
   "valueDe" : "Kundenbewertung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 596,
+  "valueEn" : "customer retention",
+  "valueDe" : "Kundenbindung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 597,
+  "valueEn" : "customer data",
+  "valueDe" : "Kundendaten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 598,
+  "valueEn" : "loyalty card",
+  "valueDe" : "Kundenkarte"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 599,
+  "valueEn" : "customer-led",
+  "valueDe" : "kundenorientiert"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 600,
+  "valueEn" : "customer care / after-sales care",
+  "valueDe" : "Kundenservice"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 601,
+  "valueEn" : "market trend",
+  "valueDe" : "Kursentwicklung, Markttendenz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 602,
+  "valueEn" : "brief",
+  "valueDe" : "kurz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 603,
+  "valueEn" : "short-term",
+  "valueDe" : "kurzfristig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 604,
+  "valueEn" : "recently",
+  "valueDe" : "kürzlich, in letzter Zeit, vor kurzem"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 606,
+  "valueEn" : "lab, laboratory",
+  "valueDe" : "Labor"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 607,
+  "valueEn" : "stocks",
+  "valueDe" : "Lagerbestand, Vorräte"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 608,
+  "valueEn" : "stock control",
+  "valueDe" : "Lagerbestandskontrolle"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 609,
+  "valueEn" : "warehouse",
+  "valueDe" : "Lagerhalle"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 610,
+  "valueEn" : "agriculture",
+  "valueDe" : "Landwirtschaft"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 611,
+  "valueEn" : "long-term",
+  "valueDe" : "langfristig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 612,
+  "valueEn" : "current account",
+  "valueDe" : "laufende Rechnung, Leistungsbilanz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 613,
+  "valueEn" : "apprenticeship",
+  "valueDe" : "Lehre"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 614,
+  "valueEn" : "to teach (taught – taught)",
+  "valueDe" : "lehren, unterrichten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 615,
+  "valueEn" : "apprentice",
+  "valueDe" : "Lehrling"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 616,
+  "valueEn" : "reckless(ly)",
+  "valueDe" : "leichtsinnig, leichtfertig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 617,
+  "valueEn" : "to suffer",
+  "valueDe" : "leiden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 618,
+  "valueEn" : "passionate",
+  "valueDe" : "leidenschaftlich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 619,
+  "valueEn" : "achievement",
+  "valueDe" : "Leistung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 620,
+  "valueEn" : "performance",
+  "valueDe" : "Leistung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 621,
+  "valueEn" : "performance appraisal",
+  "valueDe" : "Leistungsbeurteilung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 622,
+  "valueEn" : "performance-related pay",
+  "valueDe" : "leistungsbezogenes Gehalt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 623,
+  "valueEn" : "mission statement",
+  "valueDe" : "Leitbild"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 624,
+  "valueEn" : "supplier",
+  "valueDe" : "Lieferant"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 625,
+  "valueEn" : "to yield",
+  "valueDe" : "liefern, Gewinn abwerfen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 626,
+  "valueEn" : "delivery",
+  "valueDe" : "Lieferung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 627,
+  "valueEn" : "liquidity",
+  "valueDe" : "Liquidität, Flüssigkeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 628,
+  "valueEn" : "royalty",
+  "valueDe" : "Lizenzgebühr, Nutzungsgebühr"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 629,
+  "valueEn" : "to praise",
+  "valueDe" : "loben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 630,
+  "valueEn" : "loss leader",
+  "valueDe" : "Lockvogelangebot, Lockware"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 631,
+  "valueEn" : "logistics",
+  "valueDe" : "Logistik"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 632,
+  "valueEn" : "salary",
+  "valueDe" : "Lohn"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 633,
+  "valueEn" : "payroll",
+  "valueDe" : "Lohnliste"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 634,
+  "valueEn" : "air freight",
+  "valueDe" : "Luftfracht"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 635,
+  "valueEn" : "luxury goods",
+  "valueDe" : "Luxusgüter"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 637,
+  "valueEn" : "management buyout / MBO",
+  "valueDe" : "Management-Buyout, Übernahme durch bestehendes Management"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 638,
+  "valueEn" : "shortage",
+  "valueDe" : "Mangel"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 639,
+  "valueEn" : "cassava",
+  "valueDe" : "Maniokstrauch, Kassava"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 640,
+  "valueEn" : "margin",
+  "valueDe" : "Marge"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 641,
+  "valueEn" : "brand",
+  "valueDe" : "Marke"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 642,
+  "valueEn" : "brand stretch(ing) / brand extension",
+  "valueDe" : "Markenausweitung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 643,
+  "valueEn" : "brand loyalty",
+  "valueDe" : "Markentreue"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 644,
+  "valueEn" : "trademark / label",
+  "valueDe" : "Markenzeichen, Warenzeichen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 645,
+  "valueEn" : "market share",
+  "valueDe" : "Marktanteil"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 646,
+  "valueEn" : "market research",
+  "valueDe" : "Marktforschung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 647,
+  "valueEn" : "market leader",
+  "valueDe" : "Marktführer"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 648,
+  "valueEn" : "market sector",
+  "valueDe" : "Marktsektor"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 649,
+  "valueEn" : "flow of materials",
+  "valueDe" : "Materialfluss"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 650,
+  "valueEn" : "to maximize",
+  "valueDe" : "maximieren, aufs höchste Mass bringen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 651,
+  "valueEn" : "majority",
+  "valueDe" : "Mehrheit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 652,
+  "valueEn" : "to avoid",
+  "valueDe" : "meiden, vermeiden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 653,
+  "valueEn" : "opinion",
+  "valueDe" : "Meinung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 654,
+  "valueEn" : "opinion",
+  "valueDe" : "Meinung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 655,
+  "valueEn" : "tune",
+  "valueDe" : "Melodie, Lied"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 656,
+  "valueEn" : "quantitative",
+  "valueDe" : "mengenbezogen, quantitativ"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 657,
+  "valueEn" : "human tendency",
+  "valueDe" : "menschliche Tendenz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 658,
+  "valueEn" : "mentor",
+  "valueDe" : "Mentor, Pate"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 659,
+  "valueEn" : "feature",
+  "valueDe" : "Merkmal, Eigenschaft"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 660,
+  "valueEn" : "measurable and achievable",
+  "valueDe" : "messbar und erreichbar"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 661,
+  "valueEn" : "to measure",
+  "valueDe" : "messen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 662,
+  "valueEn" : "dairy products",
+  "valueDe" : "Milchprodukte"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 663,
+  "valueEn" : "minimum wage(s)",
+  "valueDe" : "Mindestlohn"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 664,
+  "valueEn" : "abuse",
+  "valueDe" : "Missbrauch"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 665,
+  "valueEn" : "failure",
+  "valueDe" : "Misserfolg, Scheitern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 666,
+  "valueEn" : "to be fined millions for",
+  "valueDe" : "mit Millionen gebüsst werden wegen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 667,
+  "valueEn" : "colleague",
+  "valueDe" : "Mitarbeiter/in"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 668,
+  "valueEn" : "probationary",
+  "valueDe" : "Mitarbeiter/in auf Probe"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 669,
+  "valueEn" : "monopoly",
+  "valueDe" : "Monopol"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 670,
+  "valueEn" : "to assemble",
+  "valueDe" : "montieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 671,
+  "valueEn" : "to motivate",
+  "valueDe" : "motivieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 672,
+  "valueEn" : "by word of mouth",
+  "valueDe" : "mündlich, Mund-zu-Mund-Werbung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 673,
+  "valueEn" : "pattern",
+  "valueDe" : "Muster"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 674,
+  "valueEn" : "sample (free)",
+  "valueDe" : "Muster (Gratis)"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 676,
+  "valueEn" : "to re-order",
+  "valueDe" : "nachbestellen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 677,
+  "valueEn" : "demand",
+  "valueDe" : "Nachfrage, verlangen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 678,
+  "valueEn" : "sustainable",
+  "valueDe" : "nachhaltig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 679,
+  "valueEn" : "sustainable",
+  "valueDe" : "nachhaltig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 680,
+  "valueEn" : "to chase",
+  "valueDe" : "nachjagen, jagen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 681,
+  "valueEn" : "slug",
+  "valueDe" : "Nacktschnecke"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 682,
+  "valueEn" : "natural habitat",
+  "valueDe" : "natürlicher Lebensraum"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 683,
+  "valueEn" : "net",
+  "valueDe" : "netto"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 684,
+  "valueEn" : "networking",
+  "valueDe" : "Networking, Vernetzung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 685,
+  "valueEn" : "network",
+  "valueDe" : "Netzwerk"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 686,
+  "valueEn" : "to re-evaluate",
+  "valueDe" : "neu bewerten, neu abschätzen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 687,
+  "valueEn" : "new market",
+  "valueDe" : "neue Absatzmöglichkeit, neuer Markt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 688,
+  "valueEn" : "unaccounted",
+  "valueDe" : "nicht belegt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 689,
+  "valueEn" : "must not",
+  "valueDe" : "nicht dürfen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 690,
+  "valueEn" : "hands-off",
+  "valueDe" : "nicht einmischend"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 691,
+  "valueEn" : "non-profit making scheme",
+  "valueDe" : "nichtkommerzielles Vorhaben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 693,
+  "valueEn" : "mandatory",
+  "valueDe" : "obligatorisch"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 694,
+  "valueEn" : "even though / although",
+  "valueDe" : "obschon, obwohl"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 695,
+  "valueEn" : "open source",
+  "valueDe" : "offene Quelle, open-source"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 696,
+  "valueEn" : "obviously",
+  "valueDe" : "offensichtlich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 697,
+  "valueEn" : "public sector / state sector",
+  "valueDe" : "öffentlicher Sektor"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 698,
+  "valueEn" : "public image",
+  "valueDe" : "öffentliches Ansehen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 699,
+  "valueEn" : "public relations / PR",
+  "valueDe" : "Öffentlichkeitsarbeit, PR"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 700,
+  "valueEn" : "office suite",
+  "valueDe" : "Office-Paket"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 701,
+  "valueEn" : "oil drilling",
+  "valueDe" : "Ölborung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 702,
+  "valueEn" : "online retail",
+  "valueDe" : "Online-Handel"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 703,
+  "valueEn" : "LAN (local area network)",
+  "valueDe" : "örtliche Computervernetzung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 704,
+  "valueEn" : "premises",
+  "valueDe" : "Örtlichkeiten, Anwesen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 705,
+  "valueEn" : "outsourcing",
+  "valueDe" : "Outsourcing, Auslagerung der Produktion"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 707,
+  "valueEn" : "partnership",
+  "valueDe" : "Partnerschaft"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 708,
+  "valueEn" : "suitable",
+  "valueDe" : "passend, geeignet"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 709,
+  "valueEn" : "password",
+  "valueDe" : "Passwort"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 710,
+  "valueEn" : "to commute",
+  "valueDe" : "pendeln"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 711,
+  "valueEn" : "to commute",
+  "valueDe" : "pendeln"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 712,
+  "valueEn" : "penetration pricing",
+  "valueDe" : "Penetrationspreis-Strategie"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 713,
+  "valueEn" : "retirement",
+  "valueDe" : "Pensionierung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 714,
+  "valueEn" : "peripheral(s) / accessories",
+  "valueDe" : "Peripheriegerät(e)"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 715,
+  "valueEn" : "staff / personnel",
+  "valueDe" : "Personal, Mitarbeiter, Angestellte"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 716,
+  "valueEn" : "recruitment consultant",
+  "valueDe" : "Personalberater"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 717,
+  "valueEn" : "recruitment consultant",
+  "valueDe" : "Personalberater/in"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 718,
+  "valueEn" : "staff development",
+  "valueDe" : "Personalentwicklung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 719,
+  "valueEn" : "turnover (staff)",
+  "valueDe" : "Personalfluktuation"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 720,
+  "valueEn" : "human resource planning",
+  "valueDe" : "Personalplanung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 721,
+  "valueEn" : "canteen",
+  "valueDe" : "Personalrestaurant"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 722,
+  "valueEn" : "to delegate duties",
+  "valueDe" : "Pflichten delegieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 723,
+  "valueEn" : "pilot scheme / pilot project",
+  "valueDe" : "Pilotprojekt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 724,
+  "valueEn" : "to combat/to fight piracy",
+  "valueDe" : "Piraterie bekämpfen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 725,
+  "valueEn" : "billboard",
+  "valueDe" : "Plakatwand, Reklametafel"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 726,
+  "valueEn" : "to burst",
+  "valueDe" : "platzen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 727,
+  "valueEn" : "to go bust",
+  "valueDe" : "pleite gehen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 728,
+  "valueEn" : "to go out of business / to go under",
+  "valueDe" : "pleite gehen, das Geschäft aufgeben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 729,
+  "valueEn" : "to fail suddenly",
+  "valueDe" : "plötzlich versagen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 730,
+  "valueEn" : "portfolio",
+  "valueDe" : "Portfolio, Wertpapierbestand"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 731,
+  "valueEn" : "positive discrimination / positive action / affirmative action",
+  "valueDe" : "positive Diskriminierung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 732,
+  "valueEn" : "post",
+  "valueDe" : "Posten, Arbeitsstelle"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 733,
+  "valueEn" : "intern",
+  "valueDe" : "Praktikant"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 734,
+  "valueEn" : "price fixing",
+  "valueDe" : "Preisabsprache"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 735,
+  "valueEn" : "price discrimination",
+  "valueDe" : "Preisdifferenzierung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 736,
+  "valueEn" : "predatory pricing",
+  "valueDe" : "Preisdumping"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 737,
+  "valueEn" : "price-sensitive",
+  "valueDe" : "preisempfindlich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 738,
+  "valueEn" : "pricing",
+  "valueDe" : "Preisfestsetzung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 739,
+  "valueEn" : "primary data",
+  "valueDe" : "Primärdaten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 740,
+  "valueEn" : "primary sector",
+  "valueDe" : "primärer Wirtschaftssektor"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 741,
+  "valueEn" : "private sector",
+  "valueDe" : "Privatwirtschaft"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 742,
+  "valueEn" : "per capita",
+  "valueDe" : "pro Kopf"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 743,
+  "valueEn" : "probationary period / trial period",
+  "valueDe" : "Probezeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 744,
+  "valueEn" : "to run into problems",
+  "valueDe" : "Probleme bekommen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 745,
+  "valueEn" : "product development",
+  "valueDe" : "Produktentwicklung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 746,
+  "valueEn" : "manufacturing base",
+  "valueDe" : "Produktionsstandort"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 747,
+  "valueEn" : "productive sector",
+  "valueDe" : "produktiver Sektor"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 748,
+  "valueEn" : "product-led",
+  "valueDe" : "produktorientiert"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 749,
+  "valueEn" : "product range",
+  "valueDe" : "Produktsortiment"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 750,
+  "valueEn" : "protectionism",
+  "valueDe" : "Protektionismus"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 751,
+  "valueEn" : "flash cars",
+  "valueDe" : "protzig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 752,
+  "valueEn" : "suit (law)",
+  "valueDe" : "Prozess"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 754,
+  "valueEn" : "qualitative",
+  "valueDe" : "qualitativ"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 755,
+  "valueEn" : "quality circle",
+  "valueDe" : "Qualitätssicherungsgruppe"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 756,
+  "valueEn" : "source",
+  "valueDe" : "Quelle"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 758,
+  "valueEn" : "R&D (Research and Development)",
+  "valueDe" : "R&D (Forschung und Entwicklung)"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 759,
+  "valueEn" : "discount",
+  "valueDe" : "Rabatt, Preisnachlass"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 760,
+  "valueEn" : "rank",
+  "valueDe" : "Rang, Stellung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 761,
+  "valueEn" : "council",
+  "valueDe" : "Rat, Gremium"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 762,
+  "valueEn" : "to give advice",
+  "valueDe" : "Ratschläge geben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 763,
+  "valueEn" : "invoice / bill",
+  "valueDe" : "Rechnung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 764,
+  "valueEn" : "to justify",
+  "valueDe" : "rechtfertigen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 765,
+  "valueEn" : "reference",
+  "valueDe" : "Referenz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 766,
+  "valueEn" : "government",
+  "valueDe" : "Regierung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 767,
+  "valueEn" : "to log",
+  "valueDe" : "registrieren, protokollieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 768,
+  "valueEn" : "to range from… to …",
+  "valueDe" : "reichen von … bis …"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 769,
+  "valueEn" : "to complain",
+  "valueDe" : "reklamieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 770,
+  "valueEn" : "to make a complaint",
+  "valueDe" : "reklamieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 771,
+  "valueEn" : "recruitment",
+  "valueDe" : "Rekrutierung, Anwerbung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 772,
+  "valueEn" : "return",
+  "valueDe" : "Rendite, Ertrag"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 773,
+  "valueEn" : "profitability",
+  "valueDe" : "Rentabilität"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 774,
+  "valueEn" : "profitability",
+  "valueDe" : "Rentabilität, Wirtschaftlichkeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 775,
+  "valueEn" : "pension",
+  "valueDe" : "Rente"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 776,
+  "valueEn" : "to restructure",
+  "valueDe" : "reorganisieren, umstrukturieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 777,
+  "valueEn" : "to reposition",
+  "valueDe" : "repositionieren, umstellen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 778,
+  "valueEn" : "audit",
+  "valueDe" : "Revision, Bilanzprüfung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 779,
+  "valueEn" : "auditor",
+  "valueDe" : "Revisor"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 780,
+  "valueEn" : "recession",
+  "valueDe" : "Rezession"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 781,
+  "valueEn" : "judge",
+  "valueDe" : "Richter"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 782,
+  "valueEn" : "validity",
+  "valueDe" : "Richtigkeit, Validität"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 783,
+  "valueEn" : "direction",
+  "valueDe" : "Richtung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 784,
+  "valueEn" : "venture capital",
+  "valueDe" : "Risiko- od. Beteiligungskapital"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 785,
+  "valueEn" : "venture capitalist",
+  "valueDe" : "Risikokapital-Anleger"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 786,
+  "valueEn" : "raw material(s)",
+  "valueDe" : "Rohstoff"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 787,
+  "valueEn" : "refund",
+  "valueDe" : "Rückerstattung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 788,
+  "valueEn" : "image / reputation",
+  "valueDe" : "Ruf"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 790,
+  "valueEn" : "bottom line",
+  "valueDe" : "Saldo"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 791,
+  "valueEn" : "plumber",
+  "valueDe" : "Sanitärinstallateur"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 792,
+  "valueEn" : "shabby",
+  "valueDe" : "schäbig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 793,
+  "valueEn" : "to value",
+  "valueDe" : "schätzen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 794,
+  "valueEn" : "to appear / to seem",
+  "valueDe" : "scheinen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 795,
+  "valueEn" : "headline",
+  "valueDe" : "Schlagzeile"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 796,
+  "valueEn" : "lean production / lean manufacturing",
+  "valueDe" : "schlanke Produktion"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 797,
+  "valueEn" : "poor morale among employees",
+  "valueDe" : "schlechte Stimmung unter den Angestellten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 798,
+  "valueEn" : "poor customer service",
+  "valueDe" : "schlechter Kundendienst"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 799,
+  "valueEn" : "arbitration",
+  "valueDe" : "Schlichtung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 800,
+  "valueEn" : "eventually",
+  "valueDe" : "schliesslich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 801,
+  "valueEn" : "eventually",
+  "valueDe" : "schliesslich, letztlich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 802,
+  "valueEn" : "key player",
+  "valueDe" : "Schlüsselspieler, Hauptakteur"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 803,
+  "valueEn" : "rapid promotion",
+  "valueDe" : "schnelle Beförderung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 804,
+  "valueEn" : "footwear",
+  "valueDe" : "Schuhware"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 805,
+  "valueEn" : "debts",
+  "valueDe" : "Schulden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 806,
+  "valueEn" : "out of debt",
+  "valueDe" : "schuldenfrei"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 807,
+  "valueEn" : "mentee",
+  "valueDe" : "Schützling (eines Mentors)"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 808,
+  "valueEn" : "pig farming",
+  "valueDe" : "Schweinezucht"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 809,
+  "valueEn" : "sister company",
+  "valueDe" : "Schwesterfirma"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 810,
+  "valueEn" : "drive",
+  "valueDe" : "Schwung, Tatendrang"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 811,
+  "valueEn" : "vital / essential / crucial / very important",
+  "valueDe" : "sehr wichtig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 812,
+  "valueEn" : "silk",
+  "valueDe" : "Seide"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 813,
+  "valueEn" : "secondary data",
+  "valueDe" : "Sekundärdaten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 814,
+  "valueEn" : "secondary sector / industrial sector",
+  "valueDe" : "sekundärer Wirtschaftssektor"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 815,
+  "valueEn" : "self-regulation",
+  "valueDe" : "Selbstregulierung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 816,
+  "valueEn" : "self-employed",
+  "valueDe" : "selbstständig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 817,
+  "valueEn" : "sensitive data",
+  "valueDe" : "sensible Daten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 818,
+  "valueEn" : "batch production",
+  "valueDe" : "Serienherstellung, Kleinserienherstellung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 819,
+  "valueEn" : "to level off",
+  "valueDe" : "sich abschwächen, sich einpendeln"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 820,
+  "valueEn" : "to obey regulations",
+  "valueDe" : "sich an die Vorschriften halten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 821,
+  "valueEn" : "to adjust",
+  "valueDe" : "sich anpassen, angleichen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 822,
+  "valueEn" : "to apply for",
+  "valueDe" : "sich bewerben um"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 823,
+  "valueEn" : "to refer to",
+  "valueDe" : "sich beziehen auf"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 824,
+  "valueEn" : "to relate to",
+  "valueDe" : "sich beziehen auf"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 825,
+  "valueEn" : "to interfere with",
+  "valueDe" : "sich einmischen in"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 826,
+  "valueEn" : "to apologize",
+  "valueDe" : "sich entschuldigen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 827,
+  "valueEn" : "to recover / to regain ground",
+  "valueDe" : "sich erholen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 828,
+  "valueEn" : "to take the credit for something",
+  "valueDe" : "sich etwas zum Verdienst anrechnen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 829,
+  "valueEn" : "to empathize with someone",
+  "valueDe" : "sich hineinversetzen in jemanden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 830,
+  "valueEn" : "to call in sick",
+  "valueDe" : "sich krank melden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 831,
+  "valueEn" : "to replicate",
+  "valueDe" : "sich reproduzieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 832,
+  "valueEn" : "to look after the staff",
+  "valueDe" : "sich um die Angestellten kümmern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 833,
+  "valueEn" : "to spread",
+  "valueDe" : "sich verbreiten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 834,
+  "valueEn" : "to behave",
+  "valueDe" : "sich verhalten, sich benehmen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 835,
+  "valueEn" : "to rely on",
+  "valueDe" : "sich verlassen auf"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 836,
+  "valueEn" : "to make a commitment",
+  "valueDe" : "sich verpflichten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 837,
+  "valueEn" : "to rally",
+  "valueDe" : "sich wieder fangen, sich verbessern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 838,
+  "valueEn" : "to join forces",
+  "valueDe" : "sich zusammentun"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 839,
+  "valueEn" : "to back up",
+  "valueDe" : "sichern, eine Sicherheitskopie machen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 840,
+  "valueEn" : "they failed to turn up",
+  "valueDe" : "sie erschienen nicht"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 841,
+  "valueEn" : "they intend to invest directly in shares",
+  "valueDe" : "sie haben vor, direkt in Aktien zu investieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 842,
+  "valueEn" : "she’s most likely to do this",
+  "valueDe" : "sie wird es am ehesten tun"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 843,
+  "valueEn" : "to sink / to fall sharply / to plummet",
+  "valueDe" : "sinken, absacken"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 844,
+  "valueEn" : "next to impossible",
+  "valueDe" : "so gut wie unmöglich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 845,
+  "valueEn" : "concern",
+  "valueDe" : "Sorge, Anliegen, Besorgnis"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 846,
+  "valueEn" : "social cost(s)",
+  "valueDe" : "Sozialkosten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 847,
+  "valueEn" : "social responsibility",
+  "valueDe" : "Sozialverantwortung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 848,
+  "valueEn" : "freight forwarding",
+  "valueDe" : "Spedition"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 849,
+  "valueEn" : "storage device",
+  "valueDe" : "Speichergerät"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 850,
+  "valueEn" : "to soar / to rocket",
+  "valueDe" : "sprunghaft ansteigen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 851,
+  "valueEn" : "spyware",
+  "valueDe" : "Spyware, Spionageprogramm"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 852,
+  "valueEn" : "to stabilize / to become stable",
+  "valueDe" : "stabilisieren, stabil werden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 853,
+  "valueEn" : "municipal office",
+  "valueDe" : "Stadtverwaltung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 854,
+  "valueEn" : "steel works",
+  "valueDe" : "Stahlwerke"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 855,
+  "valueEn" : "repeat customer",
+  "valueDe" : "Stammkunde/-kundin"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 856,
+  "valueEn" : "to plummet",
+  "valueDe" : "stark zurückgehen, sinken"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 857,
+  "valueEn" : "to power ahead / to steam ahead",
+  "valueDe" : "stärker werden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 858,
+  "valueEn" : "launch",
+  "valueDe" : "Start, Einführung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 859,
+  "valueEn" : "vacuum cleaner",
+  "valueDe" : "Staubsauger"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 860,
+  "valueEn" : "to increase",
+  "valueDe" : "steigen, erhöhen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 861,
+  "valueEn" : "spike",
+  "valueDe" : "Steigerung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 862,
+  "valueEn" : "increase in profitability",
+  "valueDe" : "Steigerung des Gewinns"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 863,
+  "valueEn" : "taxpayer",
+  "valueDe" : "Steuerzahler"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 864,
+  "valueEn" : "to prosecute",
+  "valueDe" : "strafrechtlich verfolgen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 865,
+  "valueEn" : "offence",
+  "valueDe" : "Straftat, Delikt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 866,
+  "valueEn" : "dispute",
+  "valueDe" : "Streit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 867,
+  "valueEn" : "to argue",
+  "valueDe" : "streiten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 868,
+  "valueEn" : "unit cost",
+  "valueDe" : "Stückkosten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 869,
+  "valueEn" : "sub-contracting",
+  "valueDe" : "Subunternehmentum"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 870,
+  "valueEn" : "subsidy",
+  "valueDe" : "Subvention, Zuschuss"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 871,
+  "valueEn" : "subsidized",
+  "valueDe" : "subventioniert"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 872,
+  "valueEn" : "to seek",
+  "valueDe" : "suchen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 873,
+  "valueEn" : "SWOT-analysis",
+  "valueDe" : "SWOT-Analyse (swot=Streber)"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 874,
+  "valueEn" : "synergy",
+  "valueDe" : "Synergie, Zusammenwirken"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 876,
+  "valueEn" : "spreadsheet",
+  "valueDe" : "Tabelle, Tabellenkalkulation"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 877,
+  "valueEn" : "corner shop",
+  "valueDe" : "Tante-Emma Laden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 878,
+  "valueEn" : "to divide",
+  "valueDe" : "teilen, einteilen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 879,
+  "valueEn" : "participative",
+  "valueDe" : "teilnehmend, partizipativ"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 880,
+  "valueEn" : "part-time",
+  "valueDe" : "Teilzeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 881,
+  "valueEn" : "to tend to",
+  "valueDe" : "tendieren zu"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 882,
+  "valueEn" : "appointment",
+  "valueDe" : "Termin"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 883,
+  "valueEn" : "futures trading",
+  "valueDe" : "Termingeschäft, Terminhandel"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 884,
+  "valueEn" : "word processing",
+  "valueDe" : "Textverarbeitung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 885,
+  "valueEn" : "subject / topic",
+  "valueDe" : "Thema"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 886,
+  "valueEn" : "issue",
+  "valueDe" : "Thema, Problem"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 887,
+  "valueEn" : "subsidiary",
+  "valueDe" : "Tochtergesellschaft, Niederlassung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 888,
+  "valueEn" : "portable",
+  "valueDe" : "tragbar"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 889,
+  "valueEn" : "sluggish",
+  "valueDe" : "träge, schwerfällig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 890,
+  "valueEn" : "loyal",
+  "valueDe" : "treu, loyal"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 891,
+  "valueEn" : "trojan (horse) (malicious software)",
+  "valueDe" : "Trojanisches Pferd, Trojaner"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 892,
+  "valueEn" : "despite",
+  "valueDe" : "trotz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 893,
+  "valueEn" : "despite the recession / in spite of the recession",
+  "valueDe" : "trotz der Rezession"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 894,
+  "valueEn" : "despite the strength of sterling",
+  "valueDe" : "trotz der Stärke des britischen Pfunds"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 895,
+  "valueEn" : "troubleshooting",
+  "valueDe" : "Troubleshooting, Fehlerbehebung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 896,
+  "valueEn" : "turmoil",
+  "valueDe" : "Turbulenzen, Chaos"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 898,
+  "valueEn" : "above the market price",
+  "valueDe" : "über dem Marktpreis"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 899,
+  "valueEn" : "to survive",
+  "valueDe" : "überleben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 900,
+  "valueEn" : "takeover",
+  "valueDe" : "Übernahme"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 901,
+  "valueEn" : "takeover",
+  "valueDe" : "Übernahme"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 902,
+  "valueEn" : "to take over",
+  "valueDe" : "übernehmen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 903,
+  "valueEn" : "review",
+  "valueDe" : "Überprüfung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 904,
+  "valueEn" : "to persuade",
+  "valueDe" : "überreden, überzeugen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 905,
+  "valueEn" : "surplus",
+  "valueDe" : "Überschuss"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 906,
+  "valueEn" : "overseas",
+  "valueDe" : "Übersee-, ausländisch"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 907,
+  "valueEn" : "translator",
+  "valueDe" : "Übersetzer"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 908,
+  "valueEn" : "transferable",
+  "valueDe" : "übertragbar"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 909,
+  "valueEn" : "to supervise",
+  "valueDe" : "überwachen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 910,
+  "valueEn" : "to monitor",
+  "valueDe" : "überwachen, beobachten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 911,
+  "valueEn" : "to monitor",
+  "valueDe" : "überwachen, kontrollieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 912,
+  "valueEn" : "watchdog",
+  "valueDe" : "Überwacher"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 913,
+  "valueEn" : "in order to",
+  "valueDe" : "um zu"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 914,
+  "valueEn" : "rethink",
+  "valueDe" : "Umdenken"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 915,
+  "valueEn" : "comprehensive",
+  "valueDe" : "umfassend, umfangreich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 916,
+  "valueEn" : "TQM (total quality management)",
+  "valueDe" : "umfassendes Qualitätsmanagement"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 917,
+  "valueEn" : "rebranding",
+  "valueDe" : "Umfirmierung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 918,
+  "valueEn" : "prompt(ly) / rapid(ly)",
+  "valueDe" : "umgehend, unverzüglich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 919,
+  "valueEn" : "reverse engineering",
+  "valueDe" : "umgekehrt entwickeln, rekonstruieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 920,
+  "valueEn" : "to retrain",
+  "valueDe" : "umlernen, umschulen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 921,
+  "valueEn" : "turnover",
+  "valueDe" : "Umsatz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 922,
+  "valueEn" : "to implement",
+  "valueDe" : "umsetzen, ausführen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 923,
+  "valueEn" : "restructuring",
+  "valueDe" : "Umstrukturierung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 924,
+  "valueEn" : "environment",
+  "valueDe" : "Umwelt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 925,
+  "valueEn" : "environmental impact",
+  "valueDe" : "Umwelteinfluss"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 926,
+  "valueEn" : "to court",
+  "valueDe" : "umwerben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 927,
+  "valueEn" : "to relocate",
+  "valueDe" : "umziehen, den Standort ändern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 928,
+  "valueEn" : "independent",
+  "valueDe" : "unabhängig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 929,
+  "valueEn" : "independent(ly)",
+  "valueDe" : "unabhängig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 930,
+  "valueEn" : "cold call",
+  "valueDe" : "unangemeldeter Anruf"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 931,
+  "valueEn" : "greenfield site",
+  "valueDe" : "unbebaute Fläche, Rohbauland"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 932,
+  "valueEn" : "absenteeism",
+  "valueDe" : "unbegründetes Fernbleiben am Arbeitsplatz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 933,
+  "valueEn" : "unpaid leave",
+  "valueDe" : "unbezahlter Urlaub"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 934,
+  "valueEn" : "dishonest",
+  "valueDe" : "unehrlich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 935,
+  "valueEn" : "to collude",
+  "valueDe" : "unerlaubt zusammenwirken"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 936,
+  "valueEn" : "undesirable",
+  "valueDe" : "unerwünscht"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 937,
+  "valueEn" : "impatient",
+  "valueDe" : "ungeduldig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 938,
+  "valueEn" : "insufficient",
+  "valueDe" : "ungenügend"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 939,
+  "valueEn" : "unaudited",
+  "valueDe" : "ungeprüft"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 940,
+  "valueEn" : "unfair dismissal",
+  "valueDe" : "ungerechtfertigte Entlassung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 941,
+  "valueEn" : "unmoderated",
+  "valueDe" : "unmässig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 942,
+  "valueEn" : "invisible imports / exports",
+  "valueDe" : "unsichtbare Einfuhren / Ausfuhren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 943,
+  "valueEn" : "to undercut",
+  "valueDe" : "unterbieten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 944,
+  "valueEn" : "to suppress",
+  "valueDe" : "unterdücken, verdrängen"
+}, {
+  "checkcounter" : 8,
+  "correctnesCounter" : 0,
+  "id" : 945,
+  "valueEn" : "maintenance",
+  "valueDe" : "Unterhalt, Instandhaltung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 946,
+  "valueEn" : "corporation",
+  "valueDe" : "Unternehmen, Gesellschaft, Konzern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 947,
+  "valueEn" : "venture",
+  "valueDe" : "Unternehmen, Projekt, Risiko"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 948,
+  "valueEn" : "management consultant",
+  "valueDe" : "Unternehmensberater"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 949,
+  "valueEn" : "consortium",
+  "valueDe" : "Unternehmensgruppe, Konsortium"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 950,
+  "valueEn" : "mission statement",
+  "valueDe" : "Unternehmensleitbild"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 951,
+  "valueEn" : "corporate sector",
+  "valueDe" : "Unternehmenssektor"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 952,
+  "valueEn" : "under-represented",
+  "valueDe" : "unterrepräsentiert"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 953,
+  "valueEn" : "to examine",
+  "valueDe" : "untersuchen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 954,
+  "valueEn" : "list price",
+  "valueDe" : "unverbindliche Preisempfehlung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 955,
+  "valueEn" : "dissatisfaction",
+  "valueDe" : "Unzufriedenheit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 956,
+  "valueEn" : "compassionate leave",
+  "valueDe" : "Urlaub aus dringenden familiären Gründen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 957,
+  "valueEn" : "leave",
+  "valueDe" : "Urlaub, Freistellung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 958,
+  "valueEn" : "leave entitlement",
+  "valueDe" : "Urlaubsanspruch"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 959,
+  "valueEn" : "ERP (enterprise resource planning)",
+  "valueDe" : "URP (Unternehmensressourcenplanung)"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 960,
+  "valueEn" : "USB flash drive",
+  "valueDe" : "USB-Stick"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 961,
+  "valueEn" : "USP (unique selling point/proposition)",
+  "valueDe" : "USP / Wettbewerbsvorteil eines Produktes"
+}, {
+  "checkcounter" : 9,
+  "correctnesCounter" : 0,
+  "id" : 963,
+  "valueEn" : "variable costs / indirect costs",
+  "valueDe" : "variable Kosten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 964,
+  "valueEn" : "to alter",
+  "valueDe" : "verändern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 965,
+  "valueEn" : "to prompt to",
+  "valueDe" : "veranlassen zu"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 966,
+  "valueEn" : "in charge of / responsible for",
+  "valueDe" : "verantwortlich für"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 967,
+  "valueEn" : "responsibility",
+  "valueDe" : "Verantwortung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 968,
+  "valueEn" : "annoyed",
+  "valueDe" : "verärgert"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 969,
+  "valueEn" : "to upgrade",
+  "valueDe" : "verbessern, aufrüsten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 970,
+  "valueEn" : "to improve",
+  "valueDe" : "verbessern, sich verbessern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 971,
+  "valueEn" : "security enhancement",
+  "valueDe" : "Verbesserung in der Sicherheit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 972,
+  "valueEn" : "to prohibit",
+  "valueDe" : "verbieten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 973,
+  "valueEn" : "liability",
+  "valueDe" : "Verbindlichkeit, Passiva"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 974,
+  "valueEn" : "accounts payable",
+  "valueDe" : "Verbindlichkeiten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 975,
+  "valueEn" : "to duplicate",
+  "valueDe" : "verdoppeln, vervielfältigen, kopieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 976,
+  "valueEn" : "to track",
+  "valueDe" : "verfolgen, rückverfolgen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 977,
+  "valueEn" : "to compare",
+  "valueDe" : "vergleichen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 978,
+  "valueEn" : "to negotiate",
+  "valueDe" : "verhandeln"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 979,
+  "valueEn" : "disastrous",
+  "valueDe" : "verheerend, katastrophal"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 980,
+  "valueEn" : "to prevent",
+  "valueDe" : "verhindern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 981,
+  "valueEn" : "salesperson",
+  "valueDe" : "Verkäufer/in"
+}, {
+  "checkcounter" : 4,
+  "correctnesCounter" : 0,
+  "id" : 982,
+  "valueEn" : "point of sale (POS)",
+  "valueDe" : "Verkaufsstelle, Kasse"
+}, {
+  "checkcounter" : 6,
+  "correctnesCounter" : 5,
+  "id" : 983,
+  "valueEn" : "sales turnover",
+  "valueDe" : "Verkaufsumsatz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 984,
+  "valueEn" : "to relocate",
+  "valueDe" : "verlagern, umziehen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 985,
+  "valueEn" : "to breach",
+  "valueDe" : "verletzen"
+}, {
+  "checkcounter" : 6,
+  "correctnesCounter" : 2,
+  "id" : 986,
+  "valueEn" : "to harm",
+  "valueDe" : "verletzen, schaden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 987,
+  "valueEn" : "marketer",
+  "valueDe" : "Vermarkter, Marketingfachmann"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 988,
+  "valueEn" : "merchandising",
+  "valueDe" : "Vermarktung, Merchandising"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 989,
+  "valueEn" : "increasingly",
+  "valueDe" : "vermehrt, zunehmend"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 990,
+  "valueEn" : "assets",
+  "valueDe" : "Vermögen, Aktiva, Eigentum"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 991,
+  "valueEn" : "asset",
+  "valueDe" : "Vermögen, Aktivposten"
+}, {
+  "checkcounter" : 7,
+  "correctnesCounter" : 4,
+  "id" : 992,
+  "valueEn" : "asset",
+  "valueDe" : "Vermögen, Aktivum"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 993,
+  "valueEn" : "negligible",
+  "valueDe" : "vernachlässigbar, geringfügig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 994,
+  "valueEn" : "reasonable / sensible",
+  "valueDe" : "vernünftig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 995,
+  "valueEn" : "packaging",
+  "valueDe" : "Verpackung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 996,
+  "valueEn" : "to be obliged",
+  "valueDe" : "verpflichtet sein"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 997,
+  "valueEn" : "to ship",
+  "valueDe" : "verschicken, versenden"
+}, {
+  "checkcounter" : 7,
+  "correctnesCounter" : 2,
+  "id" : 998,
+  "valueEn" : "to defer a decision",
+  "valueDe" : "verschieben, zurückstellen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 999,
+  "valueEn" : "disparate",
+  "valueDe" : "verschieden, unterschiedlich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1000,
+  "valueEn" : "wastage",
+  "valueDe" : "Verschleiss, Verbrauch"
+}, {
+  "checkcounter" : 5,
+  "correctnesCounter" : 3,
+  "id" : 1001,
+  "valueEn" : "to dump",
+  "valueDe" : "verschleudern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1002,
+  "valueEn" : "to encrypt",
+  "valueDe" : "verschlüsseln, chiffrieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1003,
+  "valueEn" : "pollution",
+  "valueDe" : "Verschmutzung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1004,
+  "valueEn" : "to be in debt",
+  "valueDe" : "verschuldet sein"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1005,
+  "valueEn" : "to despatch",
+  "valueDe" : "versenden, absenden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1006,
+  "valueEn" : "delay",
+  "valueDe" : "Verspätung, Verzögerung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1007,
+  "valueEn" : "attempt",
+  "valueDe" : "Versuch"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1008,
+  "valueEn" : "attempt",
+  "valueDe" : "Versuch"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1009,
+  "valueEn" : "distribution",
+  "valueDe" : "Verteilung, Auslieferung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1010,
+  "valueEn" : "to trust",
+  "valueDe" : "vertrauen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1011,
+  "valueEn" : "confidential",
+  "valueDe" : "vertraulich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1012,
+  "valueEn" : "to become familiar with",
+  "valueDe" : "vertraut werden mit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1013,
+  "valueEn" : "representative / rep",
+  "valueDe" : "Vertreter"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1014,
+  "valueEn" : "to dilute",
+  "valueDe" : "verwässern, schwächen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1015,
+  "valueEn" : "dilution",
+  "valueDe" : "Verwässerung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1016,
+  "valueEn" : "widowed",
+  "valueDe" : "verwitwet"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1017,
+  "valueEn" : "vulnerable",
+  "valueDe" : "verwundbar, verletzlich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1018,
+  "valueEn" : "desperate",
+  "valueDe" : "verzweifelt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1019,
+  "valueEn" : "livestock",
+  "valueDe" : "Vieh, Nutztiere"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1020,
+  "valueEn" : "viral marketing",
+  "valueDe" : "Viralmarketing"
+}, {
+  "checkcounter" : 8,
+  "correctnesCounter" : 8,
+  "id" : 1021,
+  "valueEn" : "to sue for",
+  "valueDe" : "vor Gericht gehen wegen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1022,
+  "valueEn" : "provided that",
+  "valueDe" : "vorausgesetzt dass"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1023,
+  "valueEn" : "prediction",
+  "valueDe" : "Voraussage"
+}, {
+  "checkcounter" : 7,
+  "correctnesCounter" : 6,
+  "id" : 1024,
+  "valueEn" : "incident",
+  "valueDe" : "Vorfall"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1025,
+  "valueEn" : "precaution",
+  "valueDe" : "Vorkehrung, Sicherheitsmassnahme"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1026,
+  "valueEn" : "proposal",
+  "valueDe" : "Vorschlag, Angebot"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1027,
+  "valueEn" : "board meeting",
+  "valueDe" : "Vorstandssitzung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1028,
+  "valueEn" : "advantage",
+  "valueDe" : "Vorteil"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1029,
+  "valueEn" : "benefit",
+  "valueDe" : "Vorteil, Nutzen, Gewinn"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1030,
+  "valueEn" : "VPN (virtual private network)",
+  "valueDe" : "VPN, virtuelles privates Netzwerk"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1032,
+  "valueEn" : "growth",
+  "valueDe" : "Wachstum"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1033,
+  "valueEn" : "to elect",
+  "valueDe" : "wählen"
+}, {
+  "checkcounter" : 8,
+  "correctnesCounter" : 4,
+  "id" : 1034,
+  "valueEn" : "whilst",
+  "valueDe" : "während"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1035,
+  "valueEn" : "perception",
+  "valueDe" : "Wahrnehmung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1036,
+  "valueEn" : "perception",
+  "valueDe" : "Wahrnehmung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1037,
+  "valueEn" : "currency",
+  "valueDe" : "Währung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1038,
+  "valueEn" : "landmark",
+  "valueDe" : "Wahrzeichen, Erkennungszeichen"
+}, {
+  "checkcounter" : 6,
+  "correctnesCounter" : 3,
+  "id" : 1039,
+  "valueEn" : "WAN (wide area network)",
+  "valueDe" : "WAN, Weitverkehrsnetz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1040,
+  "valueEn" : "merchandise",
+  "valueDe" : "Ware, Handelsware"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1041,
+  "valueEn" : "visible exports",
+  "valueDe" : "Warenausfuhr, sichtbare Exporte"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1042,
+  "valueEn" : "visible imports",
+  "valueDe" : "Warenimporte, sichtbare Importe"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1043,
+  "valueEn" : "Trade(s) Descriptions Act",
+  "valueDe" : "Warenkennzeichnungsgesetz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1044,
+  "valueEn" : "launderette",
+  "valueDe" : "Waschsalon"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1045,
+  "valueEn" : "to extend far beyond that",
+  "valueDe" : "weit darüber hinausgehen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1046,
+  "valueEn" : "to refine",
+  "valueDe" : "weiterentwickeln, verfeinern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1047,
+  "valueEn" : "wheat",
+  "valueDe" : "Weizen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1048,
+  "valueEn" : "advertising agency",
+  "valueDe" : "Werbeagentur"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1049,
+  "valueEn" : "promotion",
+  "valueDe" : "Werbung, Promotion, Förderung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1050,
+  "valueEn" : "tool",
+  "valueDe" : "Werkzeug"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1051,
+  "valueEn" : "to make a point of",
+  "valueDe" : "Wert darauf legen, etwas zu tun"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1052,
+  "valueEn" : "stock-market",
+  "valueDe" : "Wertpapierbörse, Aktienmarkt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1053,
+  "valueEn" : "to prevent competition",
+  "valueDe" : "Wettbewerb verhindern"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1054,
+  "valueEn" : "competition",
+  "valueDe" : "Wettbewerb, Konkurrenzkampf"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1055,
+  "valueEn" : "competitive",
+  "valueDe" : "wettbewerbsfähig"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1056,
+  "valueEn" : "competitiveness",
+  "valueDe" : "Wettbewerbsfähigkeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1057,
+  "valueEn" : "competitive edge / competitive advantage",
+  "valueDe" : "Wettbewerbsvorteil, Wettbewerbsvorsprung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1058,
+  "valueEn" : "such as",
+  "valueDe" : "wie zum Beispiel"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1059,
+  "valueEn" : "to revitalise",
+  "valueDe" : "wiederbeleben, revitalisieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1060,
+  "valueEn" : "to replicate",
+  "valueDe" : "wiederholen, nachmachen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1061,
+  "valueEn" : "scientist",
+  "valueDe" : "Wissenschaftler/in"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1062,
+  "valueEn" : "WLAN (wireless local area network)",
+  "valueDe" : "WLAN, drahtloses lokales Netzwerk"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1063,
+  "valueEn" : "whereas",
+  "valueDe" : "wobei, während"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1064,
+  "valueEn" : "welfare",
+  "valueDe" : "Wohlbefinden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1065,
+  "valueEn" : "prosperity",
+  "valueDe" : "Wohlstand"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1066,
+  "valueEn" : "wealth",
+  "valueDe" : "Wohlstand, Reichtum"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1067,
+  "valueEn" : "charity",
+  "valueDe" : "Wohltätigkeitsorganisation"
+}, {
+  "checkcounter" : 9,
+  "correctnesCounter" : 4,
+  "id" : 1069,
+  "valueEn" : "balance of payments",
+  "valueDe" : "Zahlungsbilanz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1070,
+  "valueEn" : "to display",
+  "valueDe" : "zeigen, darstellen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1071,
+  "valueEn" : "to destroy",
+  "valueDe" : "zerstören"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1072,
+  "valueEn" : "goat",
+  "valueDe" : "Ziege"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1073,
+  "valueEn" : "goal, aim, objective, target",
+  "valueDe" : "Ziel"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1074,
+  "valueEn" : "to set objectives",
+  "valueDe" : "Ziele setzen"
+}, {
+  "checkcounter" : 5,
+  "correctnesCounter" : 4,
+  "id" : 1075,
+  "valueEn" : "audience",
+  "valueDe" : "Zielgruppe, Publikum"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1076,
+  "valueEn" : "target market",
+  "valueDe" : "Zielmarkt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1077,
+  "valueEn" : "zinc",
+  "valueDe" : "Zink"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1078,
+  "valueEn" : "interest",
+  "valueDe" : "Zins"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1079,
+  "valueEn" : "interest rate",
+  "valueDe" : "Zinssatz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1080,
+  "valueEn" : "interest rate",
+  "valueDe" : "Zinssatz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1081,
+  "valueEn" : "tariff",
+  "valueDe" : "Zoll, Zolltarif"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1082,
+  "valueEn" : "customs authorities",
+  "valueDe" : "Zollbehörden"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1083,
+  "valueEn" : "customs duty",
+  "valueDe" : "Zollgebühr, Zollabgaben"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1084,
+  "valueEn" : "at a fraction of the price",
+  "valueDe" : "zu einem Bruchteil des Preises"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1085,
+  "valueEn" : "to our detriment",
+  "valueDe" : "zu unserem Nachteil"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1086,
+  "valueEn" : "satisfaction",
+  "valueDe" : "Zufriedenheit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1087,
+  "valueEn" : "prospective",
+  "valueDe" : "zukünftig, zukünftiger Kunde"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1088,
+  "valueEn" : "cash crop",
+  "valueDe" : "zum Verkauf bestimmte Anbaufrucht oder Ernte"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1089,
+  "valueEn" : "to allocate",
+  "valueDe" : "zuordnen, zuteilen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1090,
+  "valueEn" : "hands-on",
+  "valueDe" : "zupackend, aktiv"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1091,
+  "valueEn" : "cluster",
+  "valueDe" : "Zusammenballung, Anhäufung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1092,
+  "valueEn" : "collapse",
+  "valueDe" : "Zusammenbruch"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1093,
+  "valueEn" : "union",
+  "valueDe" : "Zusammenschluss"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1094,
+  "valueEn" : "makeup",
+  "valueDe" : "Zusammensetzung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1095,
+  "valueEn" : "to assign",
+  "valueDe" : "zuteilen, beauftragen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1096,
+  "valueEn" : "allocation",
+  "valueDe" : "Zuteilung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1097,
+  "valueEn" : "confident",
+  "valueDe" : "zuversichtlich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1098,
+  "valueEn" : "confident",
+  "valueDe" : "zuversichtlich"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1099,
+  "valueEn" : "to force",
+  "valueDe" : "zwingen"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1100,
+  "valueEn" : "interim results",
+  "valueDe" : "Zwischenbilanz"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 1101,
+  "valueEn" : "intermediary",
+  "valueDe" : "Zwischenhändler, Vermittler"
 } ]
