@@ -113,7 +113,7 @@ public class CheckSession {
     }
 
     private void getRandomVocab() {
-        if (hardeningCount % 3 != 0) { // modulo -> nur beim 3 durchlauf wird nicht auf die lottery zugegriffen sondern auf die werte welche am schlechtesten bewertet sind
+        if (hardeningCount % 5 != 0) { // modulo -> nur beim 3 durchlauf wird nicht auf die lottery zugegriffen sondern auf die werte welche am schlechtesten bewertet sind
             doHardening();
         } else {
             System.out.println("Hardening % 5");
