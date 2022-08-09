@@ -12,8 +12,6 @@ import javafx.scene.chart.StackedBarChart;
 import javafx.scene.chart.XYChart;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.control.cell.TextFieldTableCell;
-import javafx.util.StringConverter;
 import tb.bsc.translatorcheck.Exception.TranslatorException;
 import tb.bsc.translatorcheck.logic.CheckSession;
 import tb.bsc.translatorcheck.logic.dto.Vocab;
@@ -21,7 +19,7 @@ import tb.bsc.translatorcheck.logic.dto.Vocab;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -169,25 +167,38 @@ public class TranslatorAdminController {
     private void buildChart() {
         series2.setName("fehler");
         series3.setName("ok");
+
         ArrayList<Vocab> vocabs = session.getVocabulary();
-        List<String> xLabels = vocabs.stream().map(Vocab::getValueDe).toList();
+        List<Vocab> dataList = vocabs.stream().filter(c -> c.getCheckcounter() > 0).sorted(Comparator.comparing(Vocab::getCalculatedFailCount)).toList();
+
+        int maxCount = 10;
+
+        if (dataList.size() < maxCount - 1) {
+            maxCount = dataList.size() ;
+        }
+
+        List<Vocab> subList = dataList.subList(0, maxCount);
+        List<String> xLabels = subList.stream().map(Vocab::getValueDe).toList();
         xAxis.setCategories(FXCollections.observableArrayList(xLabels));
         xAxis.setLabel("Werte");
         yAxis.setLabel("Quote");
-        chartData.setTitle("Statistik");
+        chartData.setTitle("Statistik max top 10");
         chartData.setAnimated(false);
-        dataReload(vocabs);
+        dataReload(subList);
     }
 
-    private void dataReload(ArrayList<Vocab> vocabs) {
+    private void dataReload(List<Vocab> vocabs) {
         series2.getData().clear();
         series3.getData().clear();
+
         for (Vocab vocab : vocabs) {
-            series2.getData().add(new XYChart.Data<>(vocab.getValueDe(), vocab.getCalculatedFailCount()));
-            series3.getData().add(new XYChart.Data<>(vocab.getValueDe(), vocab.getCorrectnesCounter()));
+            XYChart.Data<String, Integer> dataErr = new XYChart.Data<>(vocab.getValueDe(), vocab.getCalculatedFailCount());
+            series2.getData().add(dataErr);
+            XYChart.Data<String, Integer> dataOk = new XYChart.Data<>(vocab.getValueDe(), vocab.getCorrectnesCounter());
+            series3.getData().add(dataOk);
         }
         chartData.getData().clear();
-        chartData.setData(FXCollections.observableArrayList(series2,series3));
+        chartData.setData(FXCollections.observableArrayList(series2, series3));
     }
 
     public void btnSaveClick(ActionEvent actionEvent) {
