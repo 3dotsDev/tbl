@@ -17,12 +17,6 @@
   "valueEn" : "Game",
   "valueDe" : "Spiel"
 }, {
-  "checkcounter" : 8,
-  "correctnesCounter" : 6,
-  "id" : 9,
-  "valueEn" : "House",
-  "valueDe" : "Haus"
-}, {
   "checkcounter" : 3,
   "correctnesCounter" : 2,
   "id" : 10,
