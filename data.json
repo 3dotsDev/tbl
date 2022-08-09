@@ -64,4 +64,112 @@
   "id" : 16,
   "valueEn" : "job rotation",
   "valueDe" : "Arbeitsplatzrotation"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 17,
+  "valueEn" : "market research",
+  "valueDe" : "Marktforschung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 18,
+  "valueEn" : "secondary data",
+  "valueDe" : "Sekundärdaten"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 19,
+  "valueEn" : "trade association",
+  "valueDe" : "Gewerbeverband"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 20,
+  "valueEn" : "product-led",
+  "valueDe" : "produktorientiert"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 21,
+  "valueEn" : "customer-led",
+  "valueDe" : "kundenorientiert"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 22,
+  "valueEn" : "luxury goods",
+  "valueDe" : "Luxusgüter"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 23,
+  "valueEn" : "opinion",
+  "valueDe" : "Meinung"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 24,
+  "valueEn" : "skill",
+  "valueDe" : "Fähigkeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 25,
+  "valueEn" : "craftsman",
+  "valueDe" : "Handwerker"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 26,
+  "valueEn" : "supplier",
+  "valueDe" : "Lieferant"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 27,
+  "valueEn" : "to inspect",
+  "valueDe" : "inspizieren"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 28,
+  "valueEn" : "competitiveness",
+  "valueDe" : "Wettbewerbsfähigkeit"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 29,
+  "valueEn" : "outsourcing",
+  "valueDe" : "Auslagerung "
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 30,
+  "valueEn" : "advantage",
+  "valueDe" : "Vorteil"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 31,
+  "valueEn" : "cheap labour",
+  "valueDe" : "billige Arbeitskräfte"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 32,
+  "valueEn" : "discount",
+  "valueDe" : "Rabatt"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 33,
+  "valueEn" : "wholesaler",
+  "valueDe" : "Grosshändler"
+}, {
+  "checkcounter" : 0,
+  "correctnesCounter" : 0,
+  "id" : 34,
+  "valueEn" : "customer rating",
+  "valueDe" : "Kundenbewertung"
 } ]
